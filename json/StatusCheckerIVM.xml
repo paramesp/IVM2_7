@@ -1,0 +1,37 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+   <entry>
+     <id>1</id> 
+     <title>Interactive Visitor Map Cartography</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/wo_nfs_gstc/GSTC_IVMCartography_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>2</id> 
+     <title>Interactive Visitor Map Reference</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/wo_nfs_gstc/GSTC_IVMReference_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>3</id> 
+     <title>Interactive Visitor Map Query</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/wo_nfs_gstc/GSTC_IVMQuery_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>4</id> 
+     <title>Interactive Visitor Map Travel Opportunities</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/wo_nfs_gstc/GSTC_IVMTravelOpportunities_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>5</id> 
+     <title>Interactive Visitor Map Search</title> 
+     <serviceType>agsfeatureserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/wo_nfs_gstc/GSTC_IVMRecRoadTrailSearch_01/FeatureServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+ </feed> 

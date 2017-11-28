@@ -1,0 +1,147 @@
+#layersUC_outer button {
+    float: right;
+    position: relative;
+    top: 10px;
+    border: 0;
+    background: transparent;
+    font-size: 16px;
+}
+
+
+#layersUCHeader > i.tk-caret-left {
+    font-size: 21px;
+    float: right;
+    margin-right: 5px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+div#layersUCHeader h3 {
+    font-size: 18px;
+    font-weight: bold;
+    float: left;
+    margin-top: 10px;
+}
+
+#layersUCFlyout {
+  position: absolute;
+  top: 100px;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  z-index: 100;
+  overflow: hidden;
+//  text-align: center;
+  cursor: pointer; 
+  border: none;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4);
+  z-index: 2;
+  padding: 0;
+    margin: 0;
+}
+#uc_img_featured, #uc_img_fire, #uc_img_weather  {
+    float: left;
+}
+
+i#uc_icon_wildernessPts {
+    color: #2e1e12;
+    font-size: 24px;
+    position: relative;
+    top: -2px;
+    float: left;
+    }
+i#uc_icon_yonder {
+    color: #E34930;
+    background-color: transparent !important;
+    font-size: 24px;
+    float: left;
+}
+/* tk 122315 */
+#uc_icon_twitter {
+    color: #4099FF;
+    background-color: transparent !important;
+    font-size: 24px;
+    float: left;
+}
+
+#uc_text_layers {
+    font-size: 10px;
+    position: relative;
+    top: -4px;
+    font-weight: bold;
+    //left: -1px;
+}
+
+#legendUCFlyout i.tk-layers-1 {
+  font-size: 24px;
+  position: relative;
+  top: 3px; 
+}
+
+#layersUC_outer {
+    position: absolute;
+    top: 100px;
+    width: 220px;
+    background-color: #e9e9e9;
+    z-index: 100;
+    overflow: hidden;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4);
+    max-height: 375px;
+    overflow: hidden;
+    z-index: 2;
+}
+
+#layersUCHeader {
+    width: 100%;
+    float: left;
+    background-color: white;
+    margin-bottom: 15px;
+}
+#layersUCHeader > i.tk-layers-1 {
+    font-size: 22px;
+    float: left;
+    margin-top: 2px;
+    margin-left: 5px;
+    margin-right: 8px;
+}
+
+div.uc_box {
+    overflow: hidden;
+    width: 220px;
+    height: 50px
+}
+
+input#featured, input#yonder, input#twitter, #twitter, #wildernessPts, input#weather, input#fire {
+    position: relative;
+    cursor: pointer;
+    margin-left: 11px;
+    margin-right: 10px;
+    top: 5px;
+    float: left;
+    width: 20px;
+}
+
+span#uc_text_featured, #uc_text_twitter, #uc_text_wildernessPts, span#uc_text_yonder, span#uc_text_weather, span#uc_text_fire  {
+    font-size: 12px;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 15px;
+    text-align: left;
+    /* width: 20px; */
+    overflow: hidden;
+    top: 4px;
+    float: left;
+}
+// fix text positioning because this one is two lines
+span#uc_text_weather {
+    top: 0px;
+}
+
+#layersFooter {
+    margin-top: -10px;
+    text-align: right;
+    text-decoration: underline;
+    font-size: 12px;
+    padding-right: 20px;
+}

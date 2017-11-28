@@ -1,0 +1,52 @@
+<div class="searchform ng-scope">
+	<fieldset>
+    	<legend class="sr-only">Search IVM</legend>
+    	<div class="col-xs-12">
+			<script type="text/ng-template" id="customPlaces.html"> 
+  				<a>
+      				<img ng-src="{{match.model.image}}" width="16">      			
+      				<span ng-bind-html="match.model.text | typeaheadHighlight:query"></span>
+  				</a>
+ 				<div class="dividerT" ng-if="match.model.addViewAllResults"></div>  			
+			</script>        
+        	<div id="genericSearch" >           
+            	<input id="genericSearchInput" type="text" class="search-input" ng-model="navBarData.searchData.inputText" placeholder="Find a Place Name" typeahead="address as address.text for address in  getLocationGeocode($viewValue)" typeahead-on-select="onSelectGeocode($item, $model, $label)" typeahead-template-url="customPlaces.html" typeahead-min-length="navBarData.searchData.geocodeParameters.typeaheadMinLength">           
+            	<button ng-click="clearSearch()" aria-role="button" class="clearInput" title="Clear Search">Clear Search</button>
+        	</div>
+		</div>
+	</fieldset>
+
+	<!-- State-Forest Zoom to Code follows -->
+	<div class="search-or-holder">
+    	<p class="search-or">or</p>
+	</div>
+
+	<div class="form-horizontal stateforest" ng-show="true">	
+		<fieldset>
+        	<legend class="sr-only">Explore States or Forests</legend>
+        	<p class="info-block">Select a state and/or forest and click GO! to zoom map</p>
+		</fieldset>
+
+    	<div class="form-group">
+        	<label class="sr-only" for="selectbasic">State</label>
+        	<div class="col-sm-12">
+          		<select id="ddState" class="form-control" ng_model="stateForestData.selStateValue"  ng-options="stateData.StateCode as stateData.StateName for stateData in stateForestData.stateArray" ></select>            	
+        	</div>
+    	</div>
+
+    	<div class="form-group">
+   			<label class="sr-only" for="selectbasic">Forest</label>
+        	<div class="col-sm-12">
+       			<select id="ddForest" class="form-control" ng_model="stateForestData.selForestValue" ng-options="forestData.Name for forestData in stateForestData.currentForestArray" ></select>                    	
+        	</div>
+    	</div>
+                        
+    	<div class="form-group">
+    		<label class="sr-only" for="singlebutton">Submit Button</label>
+        	<div class="col-xs-12 text-left">
+        		<button type="button" id="singlebutton" name="singlebutton" class="btn-exploreGo" ng-click="zoomToStateForest()">GO!</button>
+        	</div>
+    	</div>			 
+       	
+	</div> 
+</div>

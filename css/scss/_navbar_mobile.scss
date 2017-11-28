@@ -1,0 +1,48 @@
+/* BEGIN NAVBAR */
+
+
+/* mobile portrait */
+@media only screen  and (min-device-width : 320px)  and (max-device-width : 360px)  and (orientation : portrait) {
+    
+    .dropdown, .ivmBranding.btn-ivmMenu:active, .btn-ivmMenu, .ivmBranding, .ivmBranding:hover {
+        width: 25%;
+        //height: 14%;
+    }
+    .ivmBranding, .ivmBranding:hover {
+        border-bottom: solid 2px transparent;
+    }
+    
+    //this makes the navbar stick to the top and fill 100% width
+    .miniNav {
+        width: 100%;
+        z-index: 100; //changed from 10 to 100 to fix issue where zoom buttons overlap on small mobile devices TK 3/21/16
+        top: 0;
+    }
+    //this makes the dropdown full width.  cool huh?
+    .dropdown-menu {
+        width: 100%;
+        left: 0; 
+        border: 0;
+        box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4);
+        top: 0;
+        text-align: center;
+    }
+    //unlike the browser version, all the dropdowns in the nav on portrait mobile will all have the same positioning! Fantastic.
+    .compassDropdown, .exploreDropdown, .searchDropdown, .searchDropdown, .toolsDropdown, .nonMotorizedDropdown, .motorizedDropdown  {
+        left: 0;
+        position: fixed;
+        top: 50px;
+        width:100%;
+    }
+    
+}
+/* mobile  in portrait */
+
+@media only screen  and (min-device-width : 320px)  and (max-device-width : 360px)  and (orientation : landscape) {
+
+
+
+} // end mobile landscape
+
+
+/* END NAVBAR  */

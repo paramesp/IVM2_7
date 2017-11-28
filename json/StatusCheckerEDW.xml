@@ -1,0 +1,555 @@
+<feed xmlns="http://www.w3.org/2005/Atom">
+   <entry>
+     <id>1</id> 
+     <title>Aerial Fire Retardant Avoidance Areas</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_AerialFireRetardantAvoidanceAreas_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>2</id> 
+     <title>Aerial Fire Retardant Hydrographic Avoidance Areas</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_AerialFireRetardantHydrographicAvoidanceAreas_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>3</id> 
+     <title>ALP Status and Encumbrance</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_ALPStatusAndEncumbrance_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>4</id> 
+     <title>Basic Ownership</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_BasicOwnership_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>5</id> 
+     <title>Basic Ownership 2</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_BasicOwnership_02/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>6</id> 
+     <title>Brush Disposal</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_BrushDisposal_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>7</id> 
+     <title>CERCLA Site</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_CERCLASite_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>8</id> 
+     <title>CFLR Project Accomplishments</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_CFLRProjectAccomplishments_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>9</id> 
+     <title>Colorado Roadless Areas 2012</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_ColoradoRoadlessAreas2012_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>10</id> 
+     <title>Congressional Districts</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_CongressionalDistricts_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>11</id> 
+     <title>Congressional Districts 4</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_CongressionalDistricts_04/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>12</id> 
+     <title>Corners and Monuments</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_CornersAndMonuments_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>13</id> 
+     <title>County</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_County_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>14</id> 
+     <title>Data Status</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_DataStatus_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>15</id> 
+     <title>Developed Site</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_DevelopedSite_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>16</id> 
+     <title>Ecomap Sections</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_EcomapSections_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>17</id> 
+     <title>EPA Non Attainment Area Ozone</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_EPANonAttainmentAreaOzone_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>18</id> 
+     <title>EPA Non Attainment Area Particulate Matter 2.5</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_EPANonAttainmentAreaPM25_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>19</id> 
+     <title>Forests on the Edge</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_ForestsOnTheEdge_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>20</id> 
+     <title>Forests to Faucets</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_ForestsToFaucets_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>21</id> 
+     <title>Forest System Boundaries</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_ForestSystemBoundaries_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>22</id> 
+     <title>Geopolitical Unit</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_GeopoliticalUnit_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>23</id> 
+     <title>Hazardous Fuel Treatments</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_HazardousFuelsTreatments_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>24</id> 
+     <title>Healthy Forest Restoration Act</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_HealthyForestRestorationAct_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>25</id> 
+     <title>Historical Woodlands Density</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_HistoricalWoodlandsDensity_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>26</id> 
+     <title>Invasive Species</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_InvasiveSpecies_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>27</id> 
+     <title>Inventoried Roadless Areas 2001</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_InventoriedRoadlessAreas2001_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>28</id> 
+     <title>Inventoried Roadless Areas 2001 With Idaho 2008 and Colorado 2012</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_InventoriedRoadlessAreas2001IdCo_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>29</id> 
+     <title>Inventoried Roadless Areas Idaho 2008</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_InventoriedRoadlessAreas2008Id_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>30</id> 
+     <title>Integrated Resource Restoration</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_IRR_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>31</id> 
+     <title>Land Utilization Project</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_LandUtilizationProject_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>32</id> 
+     <title>Land and Water Conservation Fund</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_LWCF_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>33</id> 
+     <title>Land and Water Conservation Fund Projects</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_LWCFProjects_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>34</id> 
+     <title>Mineral Rights</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_MineralRights_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>35</id> 
+     <title>Monitoring Trends in Burn Severity</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_MTBS_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>36</id> 
+     <title>Motor Vehicle Use Map</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_MVUM_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>37</id> 
+     <title>Motor Vehicle Use Map 2</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_MVUM_02/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>38</id> 
+     <title>National Grassland</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_NationalGrassland_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>39</id> 
+     <title>National Forest System Land Units</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_NFSLandUnit_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>40</id> 
+     <title>Other National Designated Area</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_OtherNationalDesignatedArea_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>41</id> 
+     <title>Other Sub Surface Right</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_OtherSubSurfaceRight_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>42</id> 
+     <title>Other Surface Right</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_OtherSurfaceRight_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>43</id> 
+     <title>Pacific Islands Admin Boundaries</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_PacificIslandsAdminBoundaries_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>44</id> 
+     <title>Periodical Cicada Broods</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_PeriodicalCicadaBroods_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>45</id> 
+     <title>Priority Watersheds</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_PriorityWatersheds_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>46</id> 
+     <title>Proclaimed Forest Boundaries</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_ProclaimedForestBoundaries_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>47</id> 
+     <title>Proclaimed Forest Boundaries and National Grasslands</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_ProclaimedForestsAndGrasslands_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>48</id> 
+     <title>Purchase Units</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_PurchaseUnit_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>49</id> 
+     <title>Ranger Districts</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_RangerDistricts_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>50</id> 
+     <title>Ranger Districts 2</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_RangerDistricts_03/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>51</id> 
+     <title>Recreation Area Activities</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_RecreationAreaActivities_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>52</id> 
+     <title>Recreation Opportunities</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_RecreationOpportunities_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>53</id> 
+     <title>Region Boundaries</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_RegionBoundaries_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>54</id> 
+     <title>Right of Way</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_RightofWay_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>55</id> 
+     <title>Road Basic</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_RoadBasic_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>56</id> 
+     <title>Section</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_Section_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>57</id> 
+     <title>SMA Boundary</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_SMABoundary_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>58</id> 
+     <title>Special Interest Management Area</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_SpecialInterestManagementArea_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>59</id> 
+     <title>Special Status Area</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_SpecialStatusArea_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>60</id> 
+     <title>State</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_State_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>61</id> 
+     <title>Stewardship Contracting</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_StewardshipContracting_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>62</id> 
+     <title>Surface Ownership</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_SurfaceOwnership_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>63</id> 
+     <title>Timber Harvest</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_TimberHarvest_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>64</id> 
+     <title>Township</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_Township_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>65</id> 
+     <title>Tract</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_Tract_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>66</id> 
+     <title>Trails</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_TrailNFSPublish_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>67</id> 
+     <title>Trails With Data Status</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_TrailNFSPublishWithDataStatus_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>68</id> 
+     <title>Tribal Cession Lands</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_TribalCessionLands_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>69</id> 
+     <title>Tribal Indian Lands</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_TribalIndianLands_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>70</id> 
+     <title>Watersheds</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_Watersheds_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>71</id> 
+     <title>Western Bark Beetle Strategy</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_WBBS_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>72</id> 
+     <title>Wilderness 1</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_Wilderness_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>73</id> 
+     <title>Wilderness 2</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_Wilderness_02/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>74</id> 
+     <title>Wilderness Status 1</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_WildernessStatus_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>75</id> 
+     <title>Wilderness Status 2</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_WildernessStatus_02/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>76</id> 
+     <title>Wild and Scenic River</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_WildScenicRiver_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>77</id> 
+     <title>Wild and Scenic River Segments</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_WildScenicRiverSegments_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>78</id> 
+     <title>Wild and Scenic River Status</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_WildScenicRiverStatus_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+   <entry>
+     <id>79</id> 
+     <title>Withdrawal</title> 
+     <serviceType>agsmapserver</serviceType> 
+     <serviceUrl>https://apps.fs.usda.gov/arcx/rest/services/EDW/EDW_Withdrawal_01/MapServer</serviceUrl> 
+     <emailAddress>nrobbins@fs.fed.us</emailAddress>
+   </entry>
+ </feed> 

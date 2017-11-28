@@ -1,0 +1,74 @@
+/* BEGIN MODALS - GENERAL SETTINGS  */
+    
+    .modal-content {
+        background-color: white;
+        width: 360px;
+            margin: 0 auto;
+    }
+
+.modal-identify {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    .modal-identify > .modal-content {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        border-radius: 0;
+    }
+
+//********** BROWSER **********//
+@media(min-width:768px){
+    div.modal-content {
+        background-color: #fefefe;
+        width: 360px;
+        // TK taking out next line to fix modal not closing when clicking above it issue 052716
+        //top: 49px;
+        //overflow-y: hidden;
+        margin: 0 auto;
+        overflow: hidden;
+        position: relative;
+        border-radius: 0;
+    }
+
+
+}
+
+//********** BROWSER END **********//
+
+//********** MOBILE PORTRAIT **********//
+@media only screen  and (min-device-width : 320px)  and (max-device-width : 360px)  and (orientation : portrait) {
+    
+    .modal-content {
+    width: 100%;
+    z-index: 10;
+    top: 0;
+    }
+    
+
+    
+}
+//********** MOBILE PORTRAIT END **********//
+
+//********** MOBILE LANDSCAPE **********//
+
+@media only screen  and (min-device-width : 320px)  and (max-device-width : 767px)  and (orientation : landscape) {
+
+
+
+} 
+
+//********** END MOBILE LANDSCAPE **********//
+
+p.modal-footer-status {
+    margin: 10px 0 0 0;
+}
+/* END MODALS  */

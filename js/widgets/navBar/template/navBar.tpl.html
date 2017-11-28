@@ -1,0 +1,51 @@
+<div id="miniNavContainer" class="text-center">
+	
+  <div class="miniNav">
+    <div class="ivmBranding"> 
+    	<a tabindex="{{navBarData.modalOpenTabIndex}}" href="//www.fs.fed.us" target="_blank" title="Click to visit the Forest Service home page">
+        	<img src="images/FSLOGO.svg" alt="Forest Service Shield">
+        </a>
+    </div>
+        
+    <!-- Loop otherDropdowns Array -->
+    <div class="dropdown pull-left" ng-repeat="ddData in navBarData.otherDropdownArray">
+      <button id="{{ddData.id}}" tabindex="{{navBarData.modalOpenTabIndex}}" class="btn-ivmMenu" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="{{ddData.showing}}" ng-click="toggleNavBarDropdown(ddData.key);setSearchElements(ddData.key, ddData.showing);" title="{{ddData.title}}">  
+      	<span class="{{ddData.headerIcon}}"></span>
+      </button>
+      <div id="{{ddData.dropDownClass}}" class="{{ddData.dropDownClass}} animate-show" ng-show="ddData.showing">
+      	<ul class="dropdown-menu" role="menu">
+        	<header>
+            	<h2 class="h3" aria-label="{{ddData.headerTitle}}">{{ddData.headerTitle}}</h2>           	
+          	</header>      		
+            <button class="navClose" aria-role="button" ng-click="toggleNavBarDropdown();setKeyboardNavigation();" title="Close the {{ddData.headerTitle}} menu">
+	  			<i class="tk-close-1"></i>
+                <span class="sr-only">Close the {{ddData.headerTitle}} menu</span> 
+            </button>
+                 
+            <!-- Explore Dropdown -->
+           	<div explorecontentctrl ng-if="ddData.isExplore"></div>  
+           	     		
+      		<!-- Search Dropdown-->
+          	<div class="searchform" searchcontentctrl ng-if="ddData.isSearch">
+				<!--HTML for this is located in searchContent.tpl.html -->
+           	</div>
+			
+			<!-- Tools-Settings Dropdown -->
+           	<li class="col-xs-4" ng-repeat="toolObj in ddData.queryArray" ng-if="ddData.isTools">
+            	<div class="text-center pad btn-group" data-toggle="buttons" > 
+              		<button class="btn btn-xs" ng-click="openTool(toolObj.key, toolObj.type)" title="{{toolObj.key}}" >                          
+                		<i class="{{toolObj.iconClasses}}" ></i><br />
+                		<span class="tools menuBox" >{{toolObj.name}}</span>
+              		</button>
+            	</div>          		
+           	</li>           	        
+         </ul>      	
+      </div>    	
+    </div>
+	<div class="iayBranding"> 
+    	<a tabindex="{{navBarData.modalOpenTabIndex}}" href="//www.itsallyours.us" target="_blank" title="Click to visit the It's all Yours home page">
+        	<img src="images/iay.svg#2.4" alt="It's all yours logo">
+        </a>
+    </div>
+  </div>
+</div>

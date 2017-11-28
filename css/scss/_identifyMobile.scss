@@ -1,0 +1,310 @@
+/* Scss Document */
+
+/* identify experiment for mobile adaptation  */
+
+// fix for aaron's phone identify close button
+#identifyMobile > div.identify-header > button {
+    width: 50px;
+    height: 50px;
+    top: 0;
+    right: 0;
+}
+
+$mobileWidth: 767px;
+
+/* mobile  in landscape */
+//@media only screen  and (min-device-width : 320px)  and (max-device-width : 767px)  and (orientation : landscape) {
+@media only screen  and (min-device-width : 320px)  and (max-device-width : $mobileWidth)  and (orientation : landscape) {
+    
+    //make identify image look cool
+    #identifyMobile #home1 img {
+        max-width: 50%;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+
+    img.userImage {
+        margin-bottom: 10px !important;
+    }
+
+    #identifyTabs > div.tab-content {
+        height: inherit;
+        position: fixed !important;
+        top: 88px !important;
+        bottom: 0 !important;
+        width: 100% !important;
+    }
+
+    #identifyMobile > br {
+      display: none;
+    }
+
+    .close {
+      color: white;
+       opacity: 1.0;
+    }
+
+    #identifyMobile > div.identify-header {
+        
+        display: -webkit-flexbox;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        justify-content: flex-start;
+
+        background: #2e1e12;
+        color: white;
+        padding: 3px 8px 0;
+        line-height: 1em;
+        height: 50px;
+        border-radius: 0px;
+        font-family: sans-serif;
+        overflow: hidden;
+        font-size: 14px;
+    }
+
+    h4#identifyTitle {
+        font-size: 14px;
+        max-width: 85%;
+        line-height: 1px;
+        float: left;
+        padding-top: 0 !important;
+    }
+    div.modal-content {
+        top: 0 !important;
+    }
+    .scrtabs-tabs-movable-container {
+        /*    height: 500px;
+    */
+        margin: 0;
+        padding: 0;
+    }
+    .scrtabs-tabs-fixed-container {
+        /*  height: 500px;
+    */
+        padding: 0;
+    }
+    .contentPane {
+        position: fixed !important;
+        max-height: none !important;
+        overflow: auto;
+        padding: 10px 6px 6px 10px;
+        background-color: #F7F7F7;
+        color: #333333;
+        top: 35px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .userAvatar {
+        height: 50px !important;
+        width: 50px !important;
+    }
+    .userName {
+        position: absolute !important;
+        top: 10px!important;
+        left: 60px!important;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .userLocation {
+        position: absolute !important;
+        top: 25px!important;
+        left: 60px!important;
+        font-weight: normal;
+        font-size: 12px;
+    }
+    .userContainer {
+        position: relative!important;
+        top: 0!important;
+        left: 0!important;
+        background-color: #e1e1e1!important;
+        width: 100%!important;
+        height: 50px;
+        overflow: hidden;
+    }
+    .userCaption {
+        position: relative;
+        top: 10px;
+        left: 0;
+        width: 95%;
+        font-size: 15px;
+    }
+    div.identify-col {
+        width: 50%;
+        float: left;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    div#identifyWindow, div.esriPopup.esriPopupVisible, div.esriPopupWrapper {
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        font-size: 11px;
+        border: 2px solid $fsbrown;
+        z-index: 100;
+        background-color: $fsbrown;
+    }
+    div#mySliderTabs {
+        width: 100% !important;
+    }
+}
+
+/* mobile in portrait */
+//@media only screen  and (min-device-width : 320px)  and (max-device-width : 767px)  and (orientation : portrait) {
+@media only screen  and (min-device-width : 320px)  and (max-device-width : $mobileWidth)  and (orientation : portrait) {
+    
+    //somehow the respnsive image in mobile disappeared before the move to prodution. This hopefully fixes it.
+    #identifyMobile #home1 img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+
+    #identifyMobile > br {
+      display: none;
+    }
+
+    .close {
+        color: white;
+      opacity: 1.0;
+    }
+
+        #identifyMobile > div.identify-header {
+            
+        display: -webkit-flexbox;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        justify-content: flex-start;
+
+        background: #2e1e12;
+        color: white;
+        padding: 3px 8px 0;
+        line-height: 1em;
+        height: 50px;
+        border-radius: 0px;
+        font-family: sans-serif;
+        overflow: hidden;
+            font-size:14px;
+    }
+
+
+    h4#identifyTitle {
+    	font-size: 14px;
+    //	line-height: 12px;
+    //	float: left;
+      //padding-top: 0 !important;
+       // margin: 0;
+    }
+
+    //trying to target ONLY the identify modal:
+
+        body > div.modal.fade.ng-isolate-scope.in > .modal-dialog .modal-identify > .modal-content {
+        max-height: 767px !important;
+        background-color: green;
+        position: fixed;
+        top: 0 !important;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .scrtabs-tabs-movable-container {
+        /*    height: 556px;
+    */
+        margin: 0;
+        padding: 0;
+    }
+    .scrtabs-tabs-fixed-container {
+        /*  height: 556px;
+    */
+        padding: 0;
+    }
+
+    #identifyTabs > div.tab-content {
+        height: inherit;
+        position: fixed !important;
+        top: 88px !important;
+        bottom: 0 !important;
+        width: 100% !important;
+    }
+    .contentPane {
+        position: fixed !important;
+        max-height: none !important;
+        overflow: hidden !important;
+        padding: 10px 6px 6px 10px;
+        background-color: #F7F7F7;
+        color: #333333;
+        top: 35px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    #tabContent1 > div {
+        overflow-y: auto;
+        position: absolute;
+        bottom: 0;
+        top: 35px;
+        width: 100%;
+        left: 0;
+    }
+    .userAvatar {
+        height: 50px !important;
+        width: 50px !important;
+    }
+    .userName {
+        position: absolute !important;
+        top: 10px!important;
+        left: 60px!important;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    .userLocation {
+        position: absolute !important;
+        top: 25px!important;
+        left: 60px!important;
+        font-weight: normal;
+        font-size: 12px;
+    }
+    .userContainer {
+        position: relative!important;
+        top: 0!important;
+        left: 0!important;
+        background-color: #e1e1e1!important;
+        width: 100%!important;
+        height: 50px;
+        overflow: hidden;
+    }
+    .userCaption {
+        position: relative;
+        top: 10px;
+        left: 0;
+        width: 95%;
+        font-size: 15px;
+    }
+    div#identifyWindow, div.esriPopup.esriPopupVisible, div.esriPopupWrapper {
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100% !important;
+        height: 100% !important;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        font-size: 11px;
+        border: 2px solid $fsbrown;
+        z-index: 100;
+        background-color: $fsbrown;
+    }
+}

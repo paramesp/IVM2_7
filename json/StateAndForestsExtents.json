@@ -1,0 +1,2544 @@
+{
+  "States": [
+    {
+      "StateCode": "",
+      "StateName": "Select a State",
+      "XMin": 0,
+      "YMin": 0,
+      "XMax": 0,
+      "YMax": 0
+    },
+    {
+      "StateCode": "01",
+      "StateName": "Alabama",
+      "XMin": -9848795.1021999996,
+      "YMin": 3528750.9544000002,
+      "XMax": -9449716.6294999998,
+      "YMax": 4164973.0641000001
+    },
+    {
+      "StateCode": "02",
+      "StateName": "Alaska",
+      "XMin": -18220766,
+      "YMin": 7035779,
+      "XMax": -14346326,
+      "YMax": 9396155
+    },
+    {
+      "StateCode": "04",
+      "StateName": "Arizona",
+      "XMin": -12781325.7147,
+      "YMin": 3675972.9238999998,
+      "XMax": -12138854.2039,
+      "YMax": 4439626.8123000003
+    },
+    {
+      "StateCode": "05",
+      "StateName": "Arkansas",
+      "XMin": -10532819.354800001,
+      "YMin": 3895849.7774999999,
+      "XMax": -9979218.3542999998,
+      "YMax": 4369560.2660999997
+    },
+    {
+      "StateCode": "06",
+      "StateName": "California",
+      "XMin": -13849817.147,
+      "YMin": 3833636.4600999998,
+      "XMax": -12705029.487400001,
+      "YMax": 5162406.3342000004
+    },
+    {
+      "StateCode": "08",
+      "StateName": "Colorado",
+      "XMin": -12140527.5734,
+      "YMin": 4438051.6706999997,
+      "XMax": -11359274.393100001,
+      "YMax": 5012850.6215000004
+    },
+    {
+      "StateCode": "09",
+      "StateName": "Connecticut",
+      "XMin": -8207338.3591,
+      "YMin": 5009475.1164999995,
+      "XMax": -7991318.9698999999,
+      "YMax": 5168419.2671999997
+    },
+    {
+      "StateCode": "10",
+      "StateName": "Delaware",
+      "XMin": -8436771.8071999997,
+      "YMin": 4643367.7585000005,
+      "XMax": -8354446.3340999996,
+      "YMax": 4842649.9072000002
+    },
+    {
+      "StateCode": "11",
+      "StateName": "District of Columbia",
+      "XMin": -8584832.5801999997,
+      "YMin": 4693509.4177999999,
+      "XMax": -8561514.7015000004,
+      "YMax": 4721077.5378999999
+    },
+    {
+      "StateCode": "12",
+      "StateName": "Florida",
+      "XMin": -9755467.5826999992,
+      "YMin": 2817034.5183000001,
+      "XMax": -8909050.5966999996,
+      "YMax": 3632838.8229999999
+    },
+    {
+      "StateCode": "13",
+      "StateName": "Georgia",
+      "XMin": -9529523.7199000008,
+      "YMin": 3549362.2555,
+      "XMax": -8999026.7919999994,
+      "YMax": 4163972.0030999999
+    },
+    {
+      "StateCode": "15",
+      "StateName": "Hawaii",
+      "XMin": -19851965.868299998,
+      "YMin": 2144438.5173999998,
+      "XMax": -17233017.133400001,
+      "YMax": 3299772.8772999998
+    },
+    {
+      "StateCode": "16",
+      "StateName": "Idaho",
+      "XMin": -13051418.398800001,
+      "YMin": 5159210.2353999997,
+      "XMax": -12361376.212200001,
+      "YMax": 6275006.0373999998
+    },
+    {
+      "StateCode": "17",
+      "StateName": "Illinois",
+      "XMin": -10187190.087400001,
+      "YMin": 4434968.4795000004,
+      "XMax": -9739956.0995000005,
+      "YMax": 5237455.5713999998
+    },
+    {
+      "StateCode": "18",
+      "StateName": "Indiana",
+      "XMin": -9806998.3859999999,
+      "YMin": 4547229.6341000004,
+      "XMax": -9438254.1429999992,
+      "YMax": 5125141.4793999996
+    },
+    {
+      "StateCode": "19",
+      "StateName": "Iowa",
+      "XMin": -10757859.181399999,
+      "YMin": 4920684.2126000002,
+      "XMax": -10034346.3992,
+      "YMax": 5388474.8947999999
+    },
+    {
+      "StateCode": "20",
+      "StateName": "Kansas",
+      "XMin": -11360349.216600001,
+      "YMin": 4438134.2198000001,
+      "XMax": -10529562.0593,
+      "YMax": 4866390.5475000003
+    },
+    {
+      "StateCode": "21",
+      "StateName": "Kentucky",
+      "XMin": -9971021.3462000005,
+      "YMin": 4369234.0532,
+      "XMax": -9124309.1413000003,
+      "YMax": 4742804.3196999999
+    },
+    {
+      "StateCode": "22",
+      "StateName": "Louisiana",
+      "XMin": -10468815.505999999,
+      "YMin": 3365561.0973,
+      "XMax": -9887522.3484000005,
+      "YMax": 3897856.2056
+    },
+    {
+      "StateCode": "23",
+      "StateName": "Maine",
+      "XMin": -7913026.2185000004,
+      "YMin": 5308577.9512,
+      "XMax": -7452798.2868999997,
+      "YMax": 6017369.2334000003
+    },
+    {
+      "StateCode": "24",
+      "StateName": "Maryland",
+      "XMin": -8848525.0406999998,
+      "YMin": 4567056.2643999998,
+      "XMax": -8354446.3340999996,
+      "YMax": 4825656.0921999998
+    },
+    {
+      "StateCode": "25",
+      "StateName": "Massachusetts",
+      "XMin": -8182889.1249000002,
+      "YMin": 5047666.3585000001,
+      "XMax": -7784372.6551000001,
+      "YMax": 5294731.7016000003
+    },
+    {
+      "StateCode": "26",
+      "StateName": "Michigan",
+      "XMin": -10065330.155300001,
+      "YMin": 5115568.9122000001,
+      "XMax": -9174776.4578000009,
+      "YMax": 6150668.3827999998
+    },
+    {
+      "StateCode": "27",
+      "StateName": "Minnesota",
+      "XMin": -10824582.874600001,
+      "YMin": 5388450.2874999996,
+      "XMax": -9962164.3435999993,
+      "YMax": 6340333.7922999999
+    },
+    {
+      "StateCode": "28",
+      "StateName": "Mississippi",
+      "XMin": -10202880.174699999,
+      "YMin": 3525949.7719999999,
+      "XMax": -9807012.5054000001,
+      "YMax": 4163349.9043000001
+    },
+    {
+      "StateCode": "29",
+      "StateName": "Missouri",
+      "XMin": -10661592.147299999,
+      "YMin": 4300028.2900999999,
+      "XMax": -9918750.2656999994,
+      "YMax": 4955520.6880000001
+    },
+    {
+      "StateCode": "30",
+      "StateName": "Montana",
+      "XMin": -12918529.1438,
+      "YMin": 5521007.8552999999,
+      "XMax": -11581646.9286,
+      "YMax": 6275006.0373999998
+    },
+    {
+      "StateCode": "31",
+      "StateName": "Nebraska",
+      "XMin": -11583155.801100001,
+      "YMin": 4865943.0217000004,
+      "XMax": -10609671.1578,
+      "YMax": 5312061.9489000002
+    },
+    {
+      "StateCode": "32",
+      "StateName": "Nevada",
+      "XMin": -13359060.909399999,
+      "YMin": 4164134.2133999998,
+      "XMax": -12695040.514,
+      "YMax": 5161310.9422000004
+    },
+    {
+      "StateCode": "33",
+      "StateName": "New Hampshire",
+      "XMin": -8077021.051,
+      "YMin": 5265964.9522000002,
+      "XMax": -7860375.0864000004,
+      "YMax": 5669739.0288000004
+    },
+    {
+      "StateCode": "34",
+      "StateName": "New Jersey",
+      "XMin": -8411272.4063000008,
+      "YMin": 4711710.5690000001,
+      "XMax": -8226808.7867999999,
+      "YMax": 5065206.6354
+    },
+    {
+      "StateCode": "35",
+      "StateName": "New Mexico",
+      "XMin": -12139396.5043,
+      "YMin": 3676007.2108,
+      "XMax": -11466153.375,
+      "YMax": 4439127.2686000001
+    },
+    {
+      "StateCode": "36",
+      "StateName": "New York",
+      "XMin": -8879059.7558999993,
+      "YMin": 4938547.3154999996,
+      "XMax": -7998997.2807,
+      "YMax": 5623837.4062000001
+    },
+    {
+      "StateCode": "37",
+      "StateName": "North Carolina",
+      "XMin": -9386667.9683999997,
+      "YMin": 4006586.7343000001,
+      "XMax": -8400163.5318,
+      "YMax": 4381856.4186000004
+    },
+    {
+      "StateCode": "38",
+      "StateName": "North Dakota",
+      "XMin": -11582696.0876,
+      "YMin": 5769979.5185000002,
+      "XMax": -10748388.8364,
+      "YMax": 6274958.1550000003
+    },
+    {
+      "StateCode": "39",
+      "StateName": "Ohio",
+      "XMin": -9442137.0919000003,
+      "YMin": 4636628.2368999999,
+      "XMax": -8963333.5030000005,
+      "YMax": 5157614.7311000004
+    },
+    {
+      "StateCode": "40",
+      "StateName": "Oklahoma",
+      "XMin": -11466179.530200001,
+      "YMin": 3977343.1867999998,
+      "XMax": -10512016.6217,
+      "YMax": 4439429.9380999999
+    },
+    {
+      "StateCode": "41",
+      "StateName": "Oregon",
+      "XMin": -13871133.9922,
+      "YMin": 5159751.5226999996,
+      "XMax": -12964648.494999999,
+      "YMax": 5826956.1147999996
+    },
+    {
+      "StateCode": "42",
+      "StateName": "Pennsylvania",
+      "XMin": -8963381.2875999995,
+      "YMin": 4825493.7556999996,
+      "XMax": -8314576.9983000001,
+      "YMax": 5201408.0710000005
+    },
+    {
+      "StateCode": "72",
+      "StateName": "Puerto Rico",
+      "XMin": -7564617.7543000001,
+      "YMin": 2023674.6176,
+      "XMax": -7260422.9172999999,
+      "YMax": 2097996.7047000001
+    },
+    {
+      "StateCode": "44",
+      "StateName": "Rhode Island",
+      "XMin": -8003073.2880999995,
+      "YMin": 5034142.8466999996,
+      "XMax": -7917104.3229999999,
+      "YMax": 5163797.4045000002
+    },
+    {
+      "StateCode": "45",
+      "StateName": "South Carolina",
+      "XMin": -9278901.9167999998,
+      "YMin": 3768450.3585999999,
+      "XMax": -8743833.0002999995,
+      "YMax": 4193193.091
+    },
+    {
+      "StateCode": "46",
+      "StateName": "South Dakota",
+      "XMin": -11583671.2741,
+      "YMin": 5233110.6623999998,
+      "XMax": -10735259.8769,
+      "YMax": 5771590.2878999999
+    },
+    {
+      "StateCode": "47",
+      "StateName": "Tennessee",
+      "XMin": -10053184.715299999,
+      "YMin": 4161800.0427999999,
+      "XMax": -9088891.7151999995,
+      "YMax": 4394355.0246000001
+    },
+    {
+      "StateCode": "48",
+      "StateName": "Texas",
+      "XMin": -11871721.309599999,
+      "YMin": 2978956.2510000002,
+      "XMax": -10409268.061000001,
+      "YMax": 4369696.5581
+    },
+    {
+      "StateCode": "49",
+      "StateName": "Utah",
+      "XMin": -12696308.380899999,
+      "YMin": 4438781.0049000001,
+      "XMax": -12138564.7862,
+      "YMax": 5161235.3399
+    },
+    {
+      "StateCode": "50",
+      "StateName": "Vermont",
+      "XMin": -8175070.3367999997,
+      "YMin": 5270488.9337999998,
+      "XMax": -7955451.8318999996,
+      "YMax": 5624145.9167999998
+    },
+    {
+      "StateCode": "51",
+      "StateName": "Virginia",
+      "XMin": -9314702.7080000006,
+      "YMin": 4375314.2116,
+      "XMax": -8375914.9517000001,
+      "YMax": 4788646.5992000001
+    },
+    {
+      "StateCode": "53",
+      "StateName": "Washington",
+      "XMin": -13888501.037900001,
+      "YMin": 5707501.8370000003,
+      "XMax": -13015029.8573,
+      "YMax": 6275286.0226999996
+    },
+    {
+      "StateCode": "54",
+      "StateName": "West Virginia",
+      "XMin": -9199948.4247999992,
+      "YMin": 4467237.233,
+      "XMax": -8651697.5463999994,
+      "YMax": 4959211.1632000003
+    },
+    {
+      "StateCode": "55",
+      "StateName": "Wisconsin",
+      "XMin": -10340405.217700001,
+      "YMin": 5234954.2861000001,
+      "XMax": -9658523.4444999993,
+      "YMax": 5955269.2407999998
+    },
+    {
+      "StateCode": "56",
+      "StateName": "Wyoming",
+      "XMin": -12362537.9756,
+      "YMin": 5011578.1211000001,
+      "XMax": -11583131.2291,
+      "YMax": 5622438.0520000001
+    }
+  ],
+  "NationalForests": [
+    {
+      "Name": "Lyndon B. Johnson National Grassland",
+      "Value": "0813",
+      "XMin": -10886558.5813,
+      "YMin": 3924824.4115,
+      "XMax": -10850128.3825,
+      "YMax": 3953463.4875
+    },
+    {
+      "Name": "Caddo National Grassland",
+      "Value": "0813",
+      "XMin": -10705510.2121,
+      "YMin": 3946576.5818,
+      "XMax": -10670521.6235,
+      "YMax": 4002227.8611
+    },
+    {
+      "Name": "Rita Blanca National Grassland",
+      "Value": "0303",
+      "XMin": -11470553.963,
+      "YMin": 4337705.8511,
+      "XMax": -11372707.4324,
+      "YMax": 4381949.0771
+    },
+    {
+      "Name": "Black Kettle National Grassland",
+      "Value": "0303",
+      "XMin": -11154116.6779,
+      "YMin": 4239120.7478,
+      "XMax": -11080196.4984,
+      "YMax": 4285736.135
+    },
+    {
+      "Name": "Kiowa National Grassland",
+      "Value": "0303",
+      "XMin": -11623977.6557,
+      "YMin": 4290027.8571,
+      "XMax": -11466150.6321,
+      "YMax": 4397161.9648
+    },
+    {
+      "Name": "Pawnee National Grassland",
+      "Value": "0210",
+      "XMin": -11665338.2718,
+      "YMin": 4954867.6545,
+      "XMax": -11529718.7763,
+      "YMax": 5012615.8265
+    },
+    {
+      "Name": "Fort Pierre National Grassland",
+      "Value": "0207",
+      "XMin": -11184963.0751,
+      "YMin": 5461943.0981,
+      "XMax": -11139314.041,
+      "YMax": 5509132.6013
+    },
+    {
+      "Name": "Little Missouri National Grassland",
+      "Value": "0118",
+      "XMin": -11582321.2391,
+      "YMin": 5825339.0579,
+      "XMax": -11426279.5598,
+      "YMax": 6128500.754
+    },
+    {
+      "Name": "Thunder Basin National Grassland",
+      "Value": "0206",
+      "XMin": -11764905.8821,
+      "YMin": 5332000.1081,
+      "XMax": -11612257.832,
+      "YMax": 5588109.3102
+    },
+    {
+      "Name": "Buffalo Gap National Grassland",
+      "Value": "0207",
+      "XMin": -11583320.8185,
+      "YMin": 5312069.1744,
+      "XMax": -11301408.1748,
+      "YMax": 5464606.7317
+    },
+    {
+      "Name": "Sheyenne National Grassland",
+      "Value": "0118",
+      "XMin": -10850184.4,
+      "YMin": 5794474.6559,
+      "XMax": -10789991.4711,
+      "YMax": 5874847.3632
+    },
+    {
+      "Name": "Cedar River National Grassland",
+      "Value": "0118",
+      "XMin": -11339422.694,
+      "YMin": 5771406.1844,
+      "XMax": -11268874.9523,
+      "YMax": 5792288.246
+    },
+    {
+      "Name": "Butte Valley National Grassland",
+      "Value": "0505",
+      "XMin": -13588045.7592,
+      "YMin": 5135478.0778,
+      "XMax": -13569764.4474,
+      "YMax": 5153860.5256
+    },
+    {
+      "Name": "McClellan Creek National Grassland",
+      "Value": "0303",
+      "XMin": -11231080.649,
+      "YMin": 4191117.9208,
+      "XMax": -11226730.5106,
+      "YMax": 4194514.5968
+    },
+    {
+      "Name": "Grand River National Grassland",
+      "Value": "0118",
+      "XMin": -11445681.1669,
+      "YMin": 5696003.5852,
+      "XMax": -11336817.9864,
+      "YMax": 5771550.4367
+    },
+    {
+      "Name": "Cimarron National Grassland",
+      "Value": "0212",
+      "XMin": -11359280.1795,
+      "YMin": 4438137.9467,
+      "XMax": -11299092.3188,
+      "YMax": 4481208.5737
+    },
+    {
+      "Name": "Curlew National Grassland",
+      "Value": "0415",
+      "XMin": -12564587.3709,
+      "YMin": 5165340.0393,
+      "XMax": -12525960.5955,
+      "YMax": 5210774.9866
+    },
+    {
+      "Name": "Comanche National Grassland",
+      "Value": "0212",
+      "XMin": -11583819.7186,
+      "YMin": 4438353.7679,
+      "XMax": -11389489.788,
+      "YMax": 4567234.1158
+    },
+    {
+      "Name": "Oglala National Grassland",
+      "Value": "0207",
+      "XMin": -11583146.8639,
+      "YMin": 5272573.5559,
+      "XMax": -11506548.3555,
+      "YMax": 5312243.2218
+    },
+    {
+      "Name": "Crooked River National Grassland",
+      "Value": "0607",
+      "XMin": -13520143.1369,
+      "YMin": 5526037.0225,
+      "XMax": -13466905.152,
+      "YMax": 5580718.7136
+    },
+    {
+      "Name": "Francis Marion and Sumter National Forests",
+      "Value": "0812",
+      "XMin": -9278860.4568,
+      "YMin": 3883071.4909,
+      "XMax": -8832878.4898,
+      "YMax": 4171492.5369
+    },
+    {
+      "Name": "Ozark-St. Francis National Forest",
+      "Value": "0810",
+      "XMin": -10518915.9257,
+      "YMin": 4105441.8098,
+      "XMax": -10083412.4799,
+      "YMax": 4332378.1096
+    },
+    {
+      "Name": "Chattahoochee-Oconee National Forests",
+      "Value": "0803",
+      "XMin": -9503699.1091,
+      "YMin": 3897157.2788,
+      "XMax": -9250463.0127,
+      "YMax": 4163972.5344
+    },
+    {
+      "Name": "Lake Tahoe Basin Management Unit",
+      "Value": "0519",
+      "XMin": -13386424.1972,
+      "YMin": 4679387.9414,
+      "XMax": -13341990.4512,
+      "YMax": 4768311.9962
+    },
+    {
+      "Name": "Columbia River Gorge National Scenic Area",
+      "Value": "0622",
+      "XMin": -13625890.3586,
+      "YMin": 5702255.9281,
+      "XMax": -13455273.5062,
+      "YMax": 5749110.3606
+    },
+    {
+      "Name": "Mt. Hood National Forest",
+      "Value": "0606",
+      "XMin": -13624791.0725,
+      "YMin": 5584502.9277,
+      "XMax": -13483588.9502,
+      "YMax": 5728724.514
+    },
+    {
+      "Name": "Gifford Pinchot National Forest",
+      "Value": "0603",
+      "XMin": -13635633.4667,
+      "YMin": 5720995.4671,
+      "XMax": -13491832.1655,
+      "YMax": 5915194.8645
+    },
+    {
+      "Name": "Malheur National Forest",
+      "Value": "0604",
+      "XMin": -13340263.3847,
+      "YMin": 5397025.0806,
+      "XMax": -13156637.5982,
+      "YMax": 5591443.3117
+    },
+    {
+      "Name": "Siuslaw National Forest",
+      "Value": "0612",
+      "XMin": -13835467.5127,
+      "YMin": 5378807.2236,
+      "XMax": -13714145.8357,
+      "YMax": 5676457.6449
+    },
+    {
+      "Name": "Willamette National Forest",
+      "Value": "0618",
+      "XMin": -13663906.1876,
+      "YMin": 5366315.8214,
+      "XMax": -13555154.399,
+      "YMax": 5605784.5569
+    },
+    {
+      "Name": "Wallowa-Whitman National Forest",
+      "Value": "0616",
+      "XMin": -13217779.6269,
+      "YMin": 5506284.7261,
+      "XMax": -12955200.8176,
+      "YMax": 5779821.7527
+    },
+    {
+      "Name": "Colville National Forest",
+      "Value": "0621",
+      "XMin": -13232529.2427,
+      "YMin": 6132623.0366,
+      "XMax": -13027982.2628,
+      "YMax": 6274851.0307
+    },
+    {
+      "Name": "Okanogan-Wenatchee National Forest",
+      "Value": "0617",
+      "XMin": -13527837.3334,
+      "YMin": 5853562.2797,
+      "XMax": -13228836.722,
+      "YMax": 6274963.991
+    },
+    {
+      "Name": "Umatilla National Forest",
+      "Value": "0614",
+      "XMin": -13352786.1064,
+      "YMin": 5575326.7857,
+      "XMax": -13052022.5981,
+      "YMax": 5856887.9572
+    },
+    {
+      "Name": "Rogue River-Siskiyou National Forest",
+      "Value": "0610",
+      "XMin": -13850794.0705,
+      "YMin": 5143113.5141,
+      "XMax": -13599475.5303,
+      "YMax": 5332264.8391
+    },
+    {
+      "Name": "Mt. Baker-Snoqualmie National Forest",
+      "Value": "0605",
+      "XMin": -13602553.8421,
+      "YMin": 5912817.5033,
+      "XMax": -13459269.857,
+      "YMax": 6274914.6602
+    },
+    {
+      "Name": "Olympic National Forest",
+      "Value": "0609",
+      "XMin": -13842872.1214,
+      "YMin": 5934070.0213,
+      "XMax": -13679047.3137,
+      "YMax": 6134416.8652
+    },
+    {
+      "Name": "Black Hills National Forest",
+      "Value": "0203",
+      "XMin": -11657353.5278,
+      "YMin": 5353898.2978,
+      "XMax": -11493993.7711,
+      "YMax": 5589387.8873
+    },
+    {
+      "Name": "Chugach National Forest",
+      "Value": "1004",
+      "XMin": -16698780.0922,
+      "YMin": 8347076.4468,
+      "XMax": -15996076.3599,
+      "YMax": 8745977.6482
+    },
+    {
+      "Name": "Midewin National Tallgrass Prairie",
+      "Value": "0915",
+      "XMin": -9821711.5758,
+      "YMin": 5060858.0557,
+      "XMax": -9796485.7849,
+      "YMax": 5076984.1168
+    },
+    {
+      "Name": "Mark Twain National Forest",
+      "Value": "0905",
+      "XMin": -10453652.7289,
+      "YMin": 4369309.4738,
+      "XMax": -10028988.4909,
+      "YMax": 4712073.8034
+    },
+    {
+      "Name": "Hiawatha National Forest",
+      "Value": "0910",
+      "XMin": -9709392.4956,
+      "YMin": 5706150.7856,
+      "XMax": -9360033.8054,
+      "YMax": 5870727.1153
+    },
+    {
+      "Name": "Chequamegon-Nicolet National Forest",
+      "Value": "0913",
+      "XMin": -10185081.3095,
+      "YMin": 5639455.6218,
+      "XMax": -9829580.6337,
+      "YMax": 5942590.9132
+    },
+    {
+      "Name": "Wayne National Forest",
+      "Value": "0914",
+      "XMin": -9216739.7795,
+      "YMin": 4657821.0813,
+      "XMax": -9010094.514,
+      "YMax": 4836032.3517
+    },
+    {
+      "Name": "Hoosier National Forest",
+      "Value": "0912",
+      "XMin": -9668225.6836,
+      "YMin": 4561790.951,
+      "XMax": -9578795.2153,
+      "YMax": 4737216.0813
+    },
+    {
+      "Name": "Huron-Manistee National Forest",
+      "Value": "0904",
+      "XMin": -9633644.3306,
+      "YMin": 5234399.8954,
+      "XMax": -9272161.7864,
+      "YMax": 5615435.2575
+    },
+    {
+      "Name": "Superior National Forest",
+      "Value": "0909",
+      "XMin": -10392024.1878,
+      "YMin": 5907515.4049,
+      "XMax": -10003951.4703,
+      "YMax": 6214262.0829
+    },
+    {
+      "Name": "Shawnee National Forest",
+      "Value": "0908",
+      "XMin": -9982210.6105,
+      "YMin": 4455102.8218,
+      "XMax": -9803992.2792,
+      "YMax": 4561679.8189
+    },
+    {
+      "Name": "Allegheny National Forest",
+      "Value": "0919",
+      "XMin": -8849200.7267,
+      "YMin": 5060399.5819,
+      "XMax": -8754719.0968,
+      "YMax": 5160829.2829
+    },
+    {
+      "Name": "Chippewa National Forest",
+      "Value": "0903",
+      "XMin": -10539318.9545,
+      "YMin": 5938105.4212,
+      "XMax": -10402684.8752,
+      "YMax": 6081558.0499
+    },
+    {
+      "Name": "White Mountain National Forest",
+      "Value": "0922",
+      "XMin": -8046238.3736,
+      "YMin": 5375658.3746,
+      "XMax": -7859109.0652,
+      "YMax": 5562431.0509
+    },
+    {
+      "Name": "Monongahela National Forest",
+      "Value": "0921",
+      "XMin": -8976876.1834,
+      "YMin": 4548856.9654,
+      "XMax": -8807704.6187,
+      "YMax": 4765640.7191
+    },
+    {
+      "Name": "Green Mountain and Finger Lakes National Forests",
+      "Value": "0920",
+      "XMin": -8558506.1674,
+      "YMin": 5225819.8468,
+      "XMax": -7978797.001,
+      "YMax": 5554882.1837
+    },
+    {
+      "Name": "Ottawa National Forest",
+      "Value": "0907",
+      "XMin": -10065336.6295,
+      "YMin": 5782890.1053,
+      "XMax": -9788786.6356,
+      "YMax": 5919022.7178
+    },
+    {
+      "Name": "Tongass National Forest",
+      "Value": "1005",
+      "XMin": -15569491.8612,
+      "YMin": 7296570.5957,
+      "XMax": -14470863.2488,
+      "YMax": 8399672.6176
+    },
+    {
+      "Name": "Lewis and Clark National Forest",
+      "Value": "0115",
+      "XMin": -12618814.2218,
+      "YMin": 5805082.7673,
+      "XMax": -12134890.8118,
+      "YMax": 6175815.5117
+    },
+    {
+      "Name": "Helena National Forest",
+      "Value": "0112",
+      "XMin": -12570455.3367,
+      "YMin": 5799880.676,
+      "XMax": -12360080.5465,
+      "YMax": 5981014.7883
+    },
+    {
+      "Name": "Custer Gallatin National Forest",
+      "Value": "0111",
+      "XMin": -12425400.254,
+      "YMin": 5541061.0578,
+      "XMax": -11466900.2043,
+      "YMax": 5827346.5385
+    },
+    {
+      "Name": "Bitterroot National Forest",
+      "Value": "0103",
+      "XMin": -12804488.9394,
+      "YMin": 5683076.5634,
+      "XMax": -12636477.9306,
+      "YMax": 5895557.5179
+    },
+    {
+      "Name": "Idaho Panhandle National Forests",
+      "Value": "0104",
+      "XMin": -13045601.3192,
+      "YMin": 5917240.3102,
+      "XMax": -12809470.8914,
+      "YMax": 6275021.5919
+    },
+    {
+      "Name": "Nez Perce-Clearwater National Forest",
+      "Value": "0117",
+      "XMin": -13024566.6404,
+      "YMin": 5663772.6188,
+      "XMax": -12726079.9512,
+      "YMax": 5964197.4847
+    },
+    {
+      "Name": "Flathead National Forest",
+      "Value": "0110",
+      "XMin": -12793330.418,
+      "YMin": 5979374.0789,
+      "XMax": -12565585.2066,
+      "YMax": 6275046.8796
+    },
+    {
+      "Name": "Beaverhead-Deerlodge National Forest",
+      "Value": "0102",
+      "XMin": -12683531.2555,
+      "YMin": 5520990.7475,
+      "XMax": -12397602.9842,
+      "YMax": 5892608.6367
+    },
+    {
+      "Name": "White River National Forest",
+      "Value": "0215",
+      "XMin": -12040115.8373,
+      "YMin": 4718477.3223,
+      "XMax": -11774911.7734,
+      "YMax": 4902393.3599
+    },
+    {
+      "Name": "Grand Mesa, Uncompahgre and Gunnison National Forests",
+      "Value": "0204",
+      "XMin": -12120212.8891,
+      "YMin": 4547487.0589,
+      "XMax": -11826279.3698,
+      "YMax": 4776412.8098
+    },
+    {
+      "Name": "Shoshone National Forest",
+      "Value": "0214",
+      "XMin": -12264327.7884,
+      "YMin": 5234920.7042,
+      "XMax": -12100261.8393,
+      "YMax": 5622373.8579
+    },
+    {
+      "Name": "San Juan National Forest",
+      "Value": "0213",
+      "XMin": -12112131.8706,
+      "YMin": 4445744.4778,
+      "XMax": -11869060.8161,
+      "YMax": 4566070.0038
+    },
+    {
+      "Name": "Bighorn National Forest",
+      "Value": "0202",
+      "XMin": -12028424.5182,
+      "YMin": 5468522.4344,
+      "XMax": -11877943.2036,
+      "YMax": 5621733.6255
+    },
+    {
+      "Name": "Rio Grande National Forest",
+      "Value": "0209",
+      "XMin": -11973446.7916,
+      "YMin": 4438245.1719,
+      "XMax": -11741595.9489,
+      "YMax": 4644354.7014
+    },
+    {
+      "Name": "Coconino National Forest",
+      "Value": "0304",
+      "XMin": -12476514.7185,
+      "YMin": 4069950.3083,
+      "XMax": -12351920.9776,
+      "YMax": 4243714.3925
+    },
+    {
+      "Name": "Tonto National Forest",
+      "Value": "0312",
+      "XMin": -12475049.8199,
+      "YMin": 3918916.1122,
+      "XMax": -12303824.0769,
+      "YMax": 4089845.4874
+    },
+    {
+      "Name": "Carson National Forest",
+      "Value": "0302",
+      "XMin": -11954700.4222,
+      "YMin": 4296845.3879,
+      "XMax": -11689916.3059,
+      "YMax": 4439128.6387
+    },
+    {
+      "Name": "Coronado National Forest",
+      "Value": "0305",
+      "XMin": -12406661.6806,
+      "YMin": 3675986.9938,
+      "XMax": -12124989.2049,
+      "YMax": 3896164.6347
+    },
+    {
+      "Name": "Lincoln National Forest",
+      "Value": "0308",
+      "XMin": -11791935.8359,
+      "YMin": 3762981.837,
+      "XMax": -11645539.7519,
+      "YMax": 4022702.8102
+    },
+    {
+      "Name": "Kaibab National Forest",
+      "Value": "0307",
+      "XMin": -12542567.1356,
+      "YMin": 4162333.1534,
+      "XMax": -12433631.986,
+      "YMax": 4431064.8361
+    },
+    {
+      "Name": "Gila National Forest",
+      "Value": "0306",
+      "XMin": -12139119.9539,
+      "YMin": 3815874.5729,
+      "XMax": -11981450.5141,
+      "YMax": 4075369.2579
+    },
+    {
+      "Name": "Prescott National Forest",
+      "Value": "0309",
+      "XMin": -12585587.4933,
+      "YMin": 4046055.4835,
+      "XMax": -12439266.6707,
+      "YMax": 4185263.6129
+    },
+    {
+      "Name": "Apache-Sitgreaves National Forests",
+      "Value": "0301",
+      "XMin": -12367144.171,
+      "YMin": 3892188.0533,
+      "XMax": -12139005.8192,
+      "YMax": 4129892.7394
+    },
+    {
+      "Name": "Santa Fe National Forest",
+      "Value": "0310",
+      "XMin": -11914325.784,
+      "YMin": 4195283.2119,
+      "XMax": -11706500.7812,
+      "YMax": 4372572.1158
+    },
+    {
+      "Name": "Payette National Forest",
+      "Value": "0412",
+      "XMin": -13028833.0813,
+      "YMin": 5530967.2267,
+      "XMax": -12770567.0329,
+      "YMax": 5711664.5387
+    },
+    {
+      "Name": "Salmon-Challis National Forest",
+      "Value": "0413",
+      "XMin": -12862876.3706,
+      "YMin": 5399193.536,
+      "XMax": -12570471.6959,
+      "YMax": 5733378.1524
+    },
+    {
+      "Name": "Sawtooth National Forest",
+      "Value": "0414",
+      "XMin": -12830500.1783,
+      "YMin": 5135484.9662,
+      "XMax": -12566509.5292,
+      "YMax": 5519348.8808
+    },
+    {
+      "Name": "Ashley National Forest",
+      "Value": "0401",
+      "XMin": -12360799.5745,
+      "YMin": 4847034.2019,
+      "XMax": -12160649.2871,
+      "YMax": 5085771.1237
+    },
+    {
+      "Name": "Fishlake National Forest",
+      "Value": "0408",
+      "XMin": -12534655.7409,
+      "YMin": 4569519.0632,
+      "XMax": -12377284.3765,
+      "YMax": 4803443.9362
+    },
+    {
+      "Name": "Boise National Forest",
+      "Value": "0402",
+      "XMin": -12949014.9695,
+      "YMin": 5344413.522,
+      "XMax": -12805011.8156,
+      "YMax": 5616874.8306
+    },
+    {
+      "Name": "Humboldt-Toiyabe National Forest",
+      "Value": "0417",
+      "XMin": -13374799.8445,
+      "YMin": 4288402.2153,
+      "XMax": -12699195.6685,
+      "YMax": 5160875.6315
+    },
+    {
+      "Name": "Uinta-Wasatch-Cache National Forest",
+      "Value": "0419",
+      "XMin": -12544256.9771,
+      "YMin": 4825242.5601,
+      "XMax": -12247528.3798,
+      "YMax": 5161044.9947
+    },
+    {
+      "Name": "Manti-La Sal National Forest",
+      "Value": "0410",
+      "XMin": -12454957.2626,
+      "YMin": 4519875.3933,
+      "XMax": -12125384.0726,
+      "YMax": 4863203.1297
+    },
+    {
+      "Name": "Bridger-Teton National Forest",
+      "Value": "0403",
+      "XMin": -12361722.1186,
+      "YMin": 5180004.4456,
+      "XMax": -12120488.3385,
+      "YMax": 5515777.8204
+    },
+    {
+      "Name": "Dixie National Forest",
+      "Value": "0407",
+      "XMin": -12696310.6036,
+      "YMin": 4469325.7615,
+      "XMax": -12395824.7009,
+      "YMax": 4602654.6224
+    },
+    {
+      "Name": "Sierra National Forest",
+      "Value": "0515",
+      "XMin": -13350652.0816,
+      "YMin": 4407183.3208,
+      "XMax": -13209623.5788,
+      "YMax": 4541294.9647
+    },
+    {
+      "Name": "Stanislaus National Forest",
+      "Value": "0516",
+      "XMin": -13412302.226,
+      "YMin": 4529674.1575,
+      "XMax": -13313414.7261,
+      "YMax": 4661967.6675
+    },
+    {
+      "Name": "Mendocino National Forest",
+      "Value": "0508",
+      "XMin": -13719732.6872,
+      "YMin": 4731789.5299,
+      "XMax": -13556185.1643,
+      "YMax": 4892473.3644
+    },
+    {
+      "Name": "Cleveland National Forest",
+      "Value": "0502",
+      "XMin": -13099338.5049,
+      "YMin": 3849429.444,
+      "XMax": -12955051.3978,
+      "YMax": 4010026.9683
+    },
+    {
+      "Name": "Modoc National Forest",
+      "Value": "0509",
+      "XMin": -13545963.4005,
+      "YMin": 4998415.4222,
+      "XMax": -13368739.7504,
+      "YMax": 5160599.6671
+    },
+    {
+      "Name": "Shasta-Trinity National Forest",
+      "Value": "0514",
+      "XMin": -13757496.0781,
+      "YMin": 4876896.8054,
+      "XMax": -13527964.0099,
+      "YMax": 5098748.9677
+    },
+    {
+      "Name": "San Bernardino National Forest",
+      "Value": "0512",
+      "XMin": -13097468.429,
+      "YMin": 3961781.4042,
+      "XMax": -12948565.5806,
+      "YMax": 4080361.7258
+    },
+    {
+      "Name": "Los Padres National Forest",
+      "Value": "0507",
+      "XMin": -13570673.752,
+      "YMin": 4081498.7251,
+      "XMax": -13215004.5855,
+      "YMax": 4356383.1961
+    },
+    {
+      "Name": "Plumas National Forest",
+      "Value": "0511",
+      "XMin": -13546976.2815,
+      "YMin": 4774391.0015,
+      "XMax": -13363075.6493,
+      "YMax": 4912520.5126
+    },
+    {
+      "Name": "Lassen National Forest",
+      "Value": "0506",
+      "XMin": -13614674.3099,
+      "YMin": 4855157.1719,
+      "XMax": -13421557.3704,
+      "YMax": 5064427.6774
+    },
+    {
+      "Name": "Angeles National Forest",
+      "Value": "0501",
+      "XMin": -13228696.416,
+      "YMin": 4047088.2754,
+      "XMax": -13089445.137,
+      "YMax": 4130324.3618
+    },
+    {
+      "Name": "Six Rivers National Forest",
+      "Value": "0510",
+      "XMin": -13814262.4344,
+      "YMin": 4868419.4186,
+      "XMax": -13706383.6502,
+      "YMax": 5160527.2707
+    },
+    {
+      "Name": "Sequoia National Forest",
+      "Value": "0513",
+      "XMin": -13282643.8054,
+      "YMin": 4215258.86,
+      "XMax": -13136791.5867,
+      "YMax": 4425223.5935
+    },
+    {
+      "Name": "Inyo National Forest",
+      "Value": "0504",
+      "XMin": -13283046.8158,
+      "YMin": 4305970.4112,
+      "XMax": -13131809.0925,
+      "YMax": 4599854.6038
+    },
+    {
+      "Name": "Tahoe National Forest",
+      "Value": "0517",
+      "XMin": -13488219.9413,
+      "YMin": 4721108.0223,
+      "XMax": -13358927.9831,
+      "YMax": 4836307.7332
+    },
+    {
+      "Name": "Eldorado National Forest",
+      "Value": "0503",
+      "XMin": -13455950.6358,
+      "YMin": 4642591.4564,
+      "XMax": -13340556.2311,
+      "YMax": 4736014.9575
+    },
+    {
+      "Name": "Lolo National Forest",
+      "Value": "0116",
+      "XMin": -12886292.9592,
+      "YMin": 5829398.4192,
+      "XMax": -12548427.0698,
+      "YMax": 6108276.3008
+    },
+    {
+      "Name": "Kootenai National Forest",
+      "Value": "0114",
+      "XMin": -12935450.9269,
+      "YMin": 6043345.4695,
+      "XMax": -12765172.8058,
+      "YMax": 6275030.1827
+    },
+    {
+      "Name": "Deschutes National Forest",
+      "Value": "0601",
+      "XMin": -13598016.2335,
+      "YMin": 5351153.6505,
+      "XMax": -13442249.3011,
+      "YMax": 5570579.9266
+    },
+    {
+      "Name": "Umpqua National Forest",
+      "Value": "0615",
+      "XMin": -13776781.075,
+      "YMin": 5271626.2378,
+      "XMax": -13578114.124,
+      "YMax": 5434191.5857
+    },
+    {
+      "Name": "Fremont-Winema National Forest",
+      "Value": "0602",
+      "XMin": -13613019.1703,
+      "YMin": 5159910.4435,
+      "XMax": -13367658.757,
+      "YMax": 5381971.8146
+    },
+    {
+      "Name": "Savannah River Site",
+      "Value": "0836",
+      "XMin": -9109405.7287,
+      "YMin": 3914550.9966,
+      "XMax": -9069106.1679,
+      "YMax": 3949036.1879
+    },
+    {
+      "Name": "Land Between the Lakes National Recreation Area",
+      "Value": "0860",
+      "XMin": -9821369.5342,
+      "YMin": 4362357.1907,
+      "XMax": -9782245.7322,
+      "YMax": 4445488.415
+    },
+    {
+      "Name": "Ouachita National Forest",
+      "Value": "0809",
+      "XMin": -10572271.217,
+      "YMin": 3989511.8696,
+      "XMax": -10325409.0305,
+      "YMax": 4174149.6591
+    },
+    {
+      "Name": "Daniel Boone National Forest",
+      "Value": "0802",
+      "XMin": -9448814.7128,
+      "YMin": 4382294.0355,
+      "XMax": -9253099.2134,
+      "YMax": 4635589.4996
+    },
+    {
+      "Name": "El Yunque National Forest",
+      "Value": "0816",
+      "XMin": -7407165.7084,
+      "YMin": 2041497.45,
+      "XMax": -7313653.5922,
+      "YMax": 2084457.4933
+    },
+    {
+      "Name": "Kisatchie National Forest",
+      "Value": "0806",
+      "XMin": -10388799.1241,
+      "YMin": 3622607.0169,
+      "XMax": -10274440.1953,
+      "YMax": 3892118.0158
+    },
+    {
+      "Name": "George Washington and Jefferson National Forests",
+      "Value": "0808",
+      "XMin": -9245438.7911,
+      "YMin": 4381736.2527,
+      "XMax": -8714795.0462,
+      "YMax": 4744415.1405
+    },
+    {
+      "Name": "Cherokee National Forest",
+      "Value": "0804",
+      "XMin": -9432881.5654,
+      "YMin": 4162235.9166,
+      "XMax": -9088864.7703,
+      "YMax": 4385750.6584
+    },
+    {
+      "Name": "Angelina National Forest",
+      "Value": "0813",
+      "XMin": -10552502.3094,
+      "YMin": 3631613.7804,
+      "XMax": -10470603.7584,
+      "YMax": 3700026.13
+    },
+    {
+      "Name": "Apalachicola National Forest",
+      "Value": "0805",
+      "XMin": -9516245.5128,
+      "YMin": 3488100.2127,
+      "XMax": -9378815.0335,
+      "YMax": 3573898.883
+    },
+    {
+      "Name": "Arapaho and Roosevelt National Forests",
+      "Value": "0210",
+      "XMin": -11832681.5594,
+      "YMin": 4798541.2535,
+      "XMax": -11697476.3061,
+      "YMax": 5011992.3514
+    },
+    {
+      "Name": "Bienville National Forest",
+      "Value": "0807",
+      "XMin": -9984946.542,
+      "YMin": 3769510.2302,
+      "XMax": -9931884.5561,
+      "YMax": 3839294.1882
+    },
+    {
+      "Name": "Caribou-Targhee National Forest",
+      "Value": "0415",
+      "XMin": -12610029.4166,
+      "YMin": 5146226.2116,
+      "XMax": -12330771.773,
+      "YMax": 5583036.7409
+    },
+    {
+      "Name": "Cibola National Forest",
+      "Value": "0303",
+      "XMin": -12093311.8342,
+      "YMin": 3952941.3798,
+      "XMax": -11754704.2259,
+      "YMax": 4235598.3911
+    },
+    {
+      "Name": "Conecuh National Forest",
+      "Value": "0801",
+      "XMin": -9668431.0208,
+      "YMin": 3631975.8557,
+      "XMax": -9613785.5481,
+      "YMax": 3659494.3096
+    },
+    {
+      "Name": "Croatan National Forest",
+      "Value": "0811",
+      "XMin": -8598594.075,
+      "YMin": 4120014.4132,
+      "XMax": -8540451.6515,
+      "YMax": 4174269.0163
+    },
+    {
+      "Name": "Davy Crockett National Forest",
+      "Value": "0813",
+      "XMin": -10616540.2218,
+      "YMin": 3636820.3289,
+      "XMax": -10558643.6319,
+      "YMax": 3708957.738
+    },
+    {
+      "Name": "De Soto National Forest",
+      "Value": "0807",
+      "XMin": -9954789.7591,
+      "YMin": 3568109.9301,
+      "XMax": -9863148.1907,
+      "YMax": 3712099.6723
+    },
+    {
+      "Name": "Delta National Forest",
+      "Value": "0807",
+      "XMin": -10116728.6683,
+      "YMin": 3839046.9258,
+      "XMax": -10091738.6595,
+      "YMax": 3888853.3554
+    },
+    {
+      "Name": "Holly Springs National Forest",
+      "Value": "0807",
+      "XMin": -10006671.2602,
+      "YMin": 4012915.0505,
+      "XMax": -9903441.8622,
+      "YMax": 4160590.3041
+    },
+    {
+      "Name": "Homochitto National Forest",
+      "Value": "0807",
+      "XMin": -10169569.6772,
+      "YMin": 3658829.7699,
+      "XMax": -10089191.6911,
+      "YMax": 3735290.6757
+    },
+    {
+      "Name": "Klamath National Forest",
+      "Value": "0505",
+      "XMin": -13770645.2028,
+      "YMin": 5011191.6655,
+      "XMax": -13537002.9261,
+      "YMax": 5173925.8333
+    },
+    {
+      "Name": "Medicine Bow-Routt National Forest",
+      "Value": "0206",
+      "XMin": -11970281.7066,
+      "YMin": 4861219.0123,
+      "XMax": -11714695.7279,
+      "YMax": 5260952.4866
+    },
+    {
+      "Name": "Nantahala National Forest",
+      "Value": "0811",
+      "XMin": -9386178.1787,
+      "YMin": 4162075.8045,
+      "XMax": -9230521.3507,
+      "YMax": 4227386.2499
+    },
+    {
+      "Name": "Nebraska National Forest",
+      "Value": "0207",
+      "XMin": -11537524.4617,
+      "YMin": 5239819.3764,
+      "XMax": -11453661.7749,
+      "YMax": 5286859.5284
+    },
+    {
+      "Name": "Ocala National Forest",
+      "Value": "0805",
+      "XMin": -9135893.2655,
+      "YMin": 3328257.7303,
+      "XMax": -9026934.3105,
+      "YMax": 3482320.4101
+    },
+    {
+      "Name": "Ochoco National Forest",
+      "Value": "0607",
+      "XMin": -13459397.13,
+      "YMin": 5463561.6655,
+      "XMax": -13306785.7718,
+      "YMax": 5552999.1999
+    },
+    {
+      "Name": "Osceola National Forest",
+      "Value": "0805",
+      "XMin": -9254182.4497,
+      "YMin": 3526709.8286,
+      "XMax": -9155625.0262,
+      "YMax": 3580458.9467
+    },
+    {
+      "Name": "Pike and San Isabel National Forests",
+      "Value": "0212",
+      "XMin": -11866638.0301,
+      "YMin": 4469594.023,
+      "XMax": -11645516.2024,
+      "YMax": 4810476.1596
+    },
+    {
+      "Name": "Pisgah National Forest",
+      "Value": "0811",
+      "XMin": -9251905.1998,
+      "YMin": 4167627.7118,
+      "XMax": -9079840.5756,
+      "YMax": 4350592.6163
+    },
+    {
+      "Name": "Sabine National Forest",
+      "Value": "0813",
+      "XMin": -10475610.724,
+      "YMin": 3651537.0069,
+      "XMax": -10418960.2259,
+      "YMax": 3754591.2759
+    },
+    {
+      "Name": "Sam Houston National Forest",
+      "Value": "0813",
+      "XMin": -10665716.0771,
+      "YMin": 3543186.3322,
+      "XMax": -10575375.9697,
+      "YMax": 3601032.6306
+    },
+    {
+      "Name": "Samuel R. McKelvie National Forest",
+      "Value": "0207",
+      "XMin": -11275109.0956,
+      "YMin": 5126964.6298,
+      "XMax": -11152969.787,
+      "YMax": 5279433.2484
+    },
+    {
+      "Name": "Talladega National Forest",
+      "Value": "0801",
+      "XMin": -9743098.7203,
+      "YMin": 3839014.2683,
+      "XMax": -9503900.2504,
+      "YMax": 4026507.0452
+    },
+    {
+      "Name": "Tombigbee National Forest",
+      "Value": "0807",
+      "XMin": -9927300.3097,
+      "YMin": 3915690.0574,
+      "XMax": -9889859.3818,
+      "YMax": 4040814.272
+    },
+    {
+      "Name": "Tuskegee National Forest",
+      "Value": "0801",
+      "XMin": -9537562.0596,
+      "YMin": 3817203.2406,
+      "XMax": -9522407.2706,
+      "YMax": 3830575.6443
+    },
+    {
+      "Name": "Uwharrie National Forest",
+      "Value": "0811",
+      "XMin": -8925929.9537,
+      "YMin": 4190563.1528,
+      "XMax": -8875693.0391,
+      "YMax": 4252820.6699
+    },
+    {
+      "Name": "William B. Bankhead National Forest",
+      "Value": "0801",
+      "XMin": -9754598.4035,
+      "YMin": 4026780.8775,
+      "XMax": -9697032.3091,
+      "YMax": 4091134.7091
+    }
+  ],
+  "StateForests": [
+    {
+      "Value": "0622",
+      "Name": "Columbia River Gorge National Scenic Area",
+      "StateCode": "41"
+    },
+    {
+      "Value": "0622",
+      "Name": "Columbia River Gorge National Scenic Area",
+      "StateCode": "53"
+    },
+    {
+      "Value": "0616",
+      "Name": "Wallowa-Whitman National Forest",
+      "StateCode": "41"
+    },
+    {
+      "Value": "0616",
+      "Name": "Wallowa-Whitman National Forest",
+      "StateCode": "16"
+    },
+    {
+      "Value": "0621",
+      "Name": "Colville National Forest",
+      "StateCode": "53"
+    },
+    {
+      "Value": "0614",
+      "Name": "Umatilla National Forest",
+      "StateCode": "41"
+    },
+    {
+      "Value": "0614",
+      "Name": "Umatilla National Forest",
+      "StateCode": "53"
+    },
+    {
+      "Value": "0607",
+      "Name": "Ochoco National Forest",
+      "StateCode": "41"
+    },
+    {
+      "Value": "0607",
+      "Name": "Crooked River National Grassland",
+      "StateCode": "41"
+    },
+    {
+      "Value": "0612",
+      "Name": "Siuslaw National Forest",
+      "StateCode": "41"
+    },
+    {
+      "Value": "0618",
+      "Name": "Willamette National Forest",
+      "StateCode": "41"
+    },
+    {
+      "Value": "0615",
+      "Name": "Umpqua National Forest",
+      "StateCode": "41"
+    },
+    {
+      "Value": "0602",
+      "Name": "Fremont-Winema National Forest",
+      "StateCode": "41"
+    },
+    {
+      "Value": "0603",
+      "Name": "Gifford Pinchot National Forest",
+      "StateCode": "53"
+    },
+    {
+      "Value": "0836",
+      "Name": "Savannah River Site",
+      "StateCode": "45"
+    },
+    {
+      "Value": "0914",
+      "Name": "Wayne National Forest",
+      "StateCode": "39"
+    },
+    {
+      "Value": "0912",
+      "Name": "Hoosier National Forest",
+      "StateCode": "18"
+    },
+    {
+      "Value": "0908",
+      "Name": "Shawnee National Forest",
+      "StateCode": "29"
+    },
+    {
+      "Value": "0908",
+      "Name": "Shawnee National Forest",
+      "StateCode": "17"
+    },
+    {
+      "Value": "0921",
+      "Name": "Monongahela National Forest",
+      "StateCode": "54"
+    },
+    {
+      "Value": "0907",
+      "Name": "Ottawa National Forest",
+      "StateCode": "26"
+    },
+    {
+      "Value": "0116",
+      "Name": "Lolo National Forest",
+      "StateCode": "30"
+    },
+    {
+      "Value": "0116",
+      "Name": "Lolo National Forest",
+      "StateCode": "16"
+    },
+    {
+      "Value": "0114",
+      "Name": "Kootenai National Forest",
+      "StateCode": "30"
+    },
+    {
+      "Value": "0114",
+      "Name": "Kootenai National Forest",
+      "StateCode": "16"
+    },
+    {
+      "Value": "0860",
+      "Name": "Land Between the Lakes National Recreation Area",
+      "StateCode": "21"
+    },
+    {
+      "Value": "0860",
+      "Name": "Land Between the Lakes National Recreation Area",
+      "StateCode": "47"
+    },
+    {
+      "Value": "0809",
+      "Name": "Ouachita National Forest",
+      "StateCode": "05"
+    },
+    {
+      "Value": "0809",
+      "Name": "Ouachita National Forest",
+      "StateCode": "40"
+    },
+    {
+      "Value": "0802",
+      "Name": "Daniel Boone National Forest",
+      "StateCode": "21"
+    },
+    {
+      "Value": "0816",
+      "Name": "El Yunque National Forest",
+      "StateCode": "72"
+    },
+    {
+      "Value": "0806",
+      "Name": "Kisatchie National Forest",
+      "StateCode": "22"
+    },
+    {
+      "Value": "0808",
+      "Name": "George Washington and Jefferson National Forests",
+      "StateCode": "54"
+    },
+    {
+      "Value": "0808",
+      "Name": "George Washington and Jefferson National Forests",
+      "StateCode": "21"
+    },
+    {
+      "Value": "0808",
+      "Name": "George Washington and Jefferson National Forests",
+      "StateCode": "51"
+    },
+    {
+      "Value": "0804",
+      "Name": "Cherokee National Forest",
+      "StateCode": "47"
+    },
+    {
+      "Value": "0804",
+      "Name": "Cherokee National Forest",
+      "StateCode": "37"
+    },
+    {
+      "Value": "0810",
+      "Name": "Ozark-St. Francis National Forest",
+      "StateCode": "05"
+    },
+    {
+      "Value": "0805",
+      "Name": "Apalachicola National Forest",
+      "StateCode": "12"
+    },
+    {
+      "Value": "0805",
+      "Name": "Ocala National Forest",
+      "StateCode": "12"
+    },
+    {
+      "Value": "0805",
+      "Name": "Osceola National Forest",
+      "StateCode": "12"
+    },
+    {
+      "Value": "0118",
+      "Name": "Little Missouri National Grassland",
+      "StateCode": "38"
+    },
+    {
+      "Value": "0118",
+      "Name": "Cedar River National Grassland",
+      "StateCode": "38"
+    },
+    {
+      "Value": "0118",
+      "Name": "Sheyenne National Grassland",
+      "StateCode": "38"
+    },
+    {
+      "Value": "0118",
+      "Name": "Grand River National Grassland",
+      "StateCode": "46"
+    },
+    {
+      "Value": "0117",
+      "Name": "Nez Perce-Clearwater National Forest",
+      "StateCode": "16"
+    },
+    {
+      "Value": "0915",
+      "Name": "Midewin National Tallgrass Prairie",
+      "StateCode": "17"
+    },
+    {
+      "Value": "0905",
+      "Name": "Mark Twain National Forest",
+      "StateCode": "29"
+    },
+    {
+      "Value": "0910",
+      "Name": "Hiawatha National Forest",
+      "StateCode": "26"
+    },
+    {
+      "Value": "0913",
+      "Name": "Chequamegon-Nicolet National Forest",
+      "StateCode": "55"
+    },
+    {
+      "Value": "0913",
+      "Name": "Chequamegon-Nicolet National Forest",
+      "StateCode": "26"
+    },
+    {
+      "Value": "0904",
+      "Name": "Huron-Manistee National Forest",
+      "StateCode": "26"
+    },
+    {
+      "Value": "0909",
+      "Name": "Superior National Forest",
+      "StateCode": "27"
+    },
+    {
+      "Value": "0919",
+      "Name": "Allegheny National Forest",
+      "StateCode": "42"
+    },
+    {
+      "Value": "0903",
+      "Name": "Chippewa National Forest",
+      "StateCode": "27"
+    },
+    {
+      "Value": "0922",
+      "Name": "White Mountain National Forest",
+      "StateCode": "33"
+    },
+    {
+      "Value": "0922",
+      "Name": "White Mountain National Forest",
+      "StateCode": "23"
+    },
+    {
+      "Value": "0920",
+      "Name": "Green Mountain and Finger Lakes National Forests",
+      "StateCode": "36"
+    },
+    {
+      "Value": "0920",
+      "Name": "Green Mountain and Finger Lakes National Forests",
+      "StateCode": "50"
+    },
+    {
+      "Value": "0813",
+      "Name": "Caddo National Grassland",
+      "StateCode": "48"
+    },
+    {
+      "Value": "0813",
+      "Name": "Lyndon B. Johnson National Grassland",
+      "StateCode": "48"
+    },
+    {
+      "Value": "0813",
+      "Name": "Angelina National Forest",
+      "StateCode": "48"
+    },
+    {
+      "Value": "0813",
+      "Name": "Davy Crockett National Forest",
+      "StateCode": "48"
+    },
+    {
+      "Value": "0813",
+      "Name": "Sabine National Forest",
+      "StateCode": "48"
+    },
+    {
+      "Value": "0813",
+      "Name": "Sam Houston National Forest",
+      "StateCode": "48"
+    },
+    {
+      "Value": "0812",
+      "Name": "Francis Marion and Sumter National Forests",
+      "StateCode": "45"
+    },
+    {
+      "Value": "0811",
+      "Name": "Croatan National Forest",
+      "StateCode": "37"
+    },
+    {
+      "Value": "0811",
+      "Name": "Nantahala National Forest",
+      "StateCode": "37"
+    },
+    {
+      "Value": "0811",
+      "Name": "Pisgah National Forest",
+      "StateCode": "37"
+    },
+    {
+      "Value": "0811",
+      "Name": "Uwharrie National Forest",
+      "StateCode": "37"
+    },
+    {
+      "Value": "0807",
+      "Name": "Bienville National Forest",
+      "StateCode": "28"
+    },
+    {
+      "Value": "0807",
+      "Name": "De Soto National Forest",
+      "StateCode": "28"
+    },
+    {
+      "Value": "0807",
+      "Name": "Delta National Forest",
+      "StateCode": "28"
+    },
+    {
+      "Value": "0807",
+      "Name": "Holly Springs National Forest",
+      "StateCode": "28"
+    },
+    {
+      "Value": "0807",
+      "Name": "Homochitto National Forest",
+      "StateCode": "28"
+    },
+    {
+      "Value": "0807",
+      "Name": "Tombigbee National Forest",
+      "StateCode": "28"
+    },
+    {
+      "Value": "0803",
+      "Name": "Chattahoochee-Oconee National Forests",
+      "StateCode": "13"
+    },
+    {
+      "Value": "0801",
+      "Name": "Conecuh National Forest",
+      "StateCode": "01"
+    },
+    {
+      "Value": "0801",
+      "Name": "Talladega National Forest",
+      "StateCode": "01"
+    },
+    {
+      "Value": "0801",
+      "Name": "Tuskegee National Forest",
+      "StateCode": "01"
+    },
+    {
+      "Value": "0801",
+      "Name": "William B. Bankhead National Forest",
+      "StateCode": "01"
+    },
+    {
+      "Value": "1005",
+      "Name": "Tongass National Forest",
+      "StateCode": "02"
+    },
+    {
+      "Value": "1004",
+      "Name": "Chugach National Forest",
+      "StateCode": "02"
+    },
+    {
+      "Value": "0115",
+      "Name": "Lewis and Clark National Forest",
+      "StateCode": "30"
+    },
+    {
+      "Value": "0112",
+      "Name": "Helena National Forest",
+      "StateCode": "30"
+    },
+    {
+      "Value": "0103",
+      "Name": "Bitterroot National Forest",
+      "StateCode": "30"
+    },
+    {
+      "Value": "0103",
+      "Name": "Bitterroot National Forest",
+      "StateCode": "16"
+    },
+    {
+      "Value": "0104",
+      "Name": "Idaho Panhandle National Forests",
+      "StateCode": "30"
+    },
+    {
+      "Value": "0104",
+      "Name": "Idaho Panhandle National Forests",
+      "StateCode": "53"
+    },
+    {
+      "Value": "0104",
+      "Name": "Idaho Panhandle National Forests",
+      "StateCode": "16"
+    },
+    {
+      "Value": "0110",
+      "Name": "Flathead National Forest",
+      "StateCode": "30"
+    },
+    {
+      "Value": "0111",
+      "Name": "Custer Gallatin National Forest",
+      "StateCode": "30"
+    },
+    {
+      "Value": "0111",
+      "Name": "Custer Gallatin National Forest",
+      "StateCode": "46"
+    },
+    {
+      "Value": "0102",
+      "Name": "Beaverhead-Deerlodge National Forest",
+      "StateCode": "30"
+    },
+    {
+      "Value": "0206",
+      "Name": "Thunder Basin National Grassland",
+      "StateCode": "56"
+    },
+    {
+      "Value": "0206",
+      "Name": "Medicine Bow-Routt National Forest",
+      "StateCode": "56"
+    },
+    {
+      "Value": "0206",
+      "Name": "Medicine Bow-Routt National Forest",
+      "StateCode": "08"
+    },
+    {
+      "Value": "0204",
+      "Name": "Grand Mesa, Uncompahgre and Gunnison National Forests",
+      "StateCode": "08"
+    },
+    {
+      "Value": "0214",
+      "Name": "Shoshone National Forest",
+      "StateCode": "56"
+    },
+    {
+      "Value": "0210",
+      "Name": "Arapaho and Roosevelt National Forests",
+      "StateCode": "08"
+    },
+    {
+      "Value": "0210",
+      "Name": "Pawnee National Grassland",
+      "StateCode": "08"
+    },
+    {
+      "Value": "0207",
+      "Name": "Nebraska National Forest",
+      "StateCode": "31"
+    },
+    {
+      "Value": "0207",
+      "Name": "Oglala National Grassland",
+      "StateCode": "31"
+    },
+    {
+      "Value": "0207",
+      "Name": "Samuel R. McKelvie National Forest",
+      "StateCode": "31"
+    },
+    {
+      "Value": "0207",
+      "Name": "Buffalo Gap National Grassland",
+      "StateCode": "46"
+    },
+    {
+      "Value": "0207",
+      "Name": "Fort Pierre National Grassland",
+      "StateCode": "46"
+    },
+    {
+      "Value": "0213",
+      "Name": "San Juan National Forest",
+      "StateCode": "08"
+    },
+    {
+      "Value": "0203",
+      "Name": "Black Hills National Forest",
+      "StateCode": "56"
+    },
+    {
+      "Value": "0203",
+      "Name": "Black Hills National Forest",
+      "StateCode": "46"
+    },
+    {
+      "Value": "0202",
+      "Name": "Bighorn National Forest",
+      "StateCode": "56"
+    },
+    {
+      "Value": "0209",
+      "Name": "Rio Grande National Forest",
+      "StateCode": "08"
+    },
+    {
+      "Value": "0212",
+      "Name": "Cimarron National Grassland",
+      "StateCode": "20"
+    },
+    {
+      "Value": "0212",
+      "Name": "Comanche National Grassland",
+      "StateCode": "08"
+    },
+    {
+      "Value": "0212",
+      "Name": "Pike and San Isabel National Forests",
+      "StateCode": "08"
+    },
+    {
+      "Value": "0215",
+      "Name": "White River National Forest",
+      "StateCode": "08"
+    },
+    {
+      "Value": "0304",
+      "Name": "Coconino National Forest",
+      "StateCode": "04"
+    },
+    {
+      "Value": "0312",
+      "Name": "Tonto National Forest",
+      "StateCode": "04"
+    },
+    {
+      "Value": "0302",
+      "Name": "Carson National Forest",
+      "StateCode": "35"
+    },
+    {
+      "Value": "0303",
+      "Name": "Cibola National Forest",
+      "StateCode": "35"
+    },
+    {
+      "Value": "0303",
+      "Name": "Black Kettle National Grassland",
+      "StateCode": "40"
+    },
+    {
+      "Value": "0303",
+      "Name": "Black Kettle National Grassland",
+      "StateCode": "48"
+    },
+    {
+      "Value": "0303",
+      "Name": "Kiowa National Grassland",
+      "StateCode": "35"
+    },
+    {
+      "Value": "0303",
+      "Name": "Rita Blanca National Grassland",
+      "StateCode": "40"
+    },
+    {
+      "Value": "0303",
+      "Name": "Rita Blanca National Grassland",
+      "StateCode": "48"
+    },
+    {
+      "Value": "0303",
+      "Name": "McClellan Creek National Grassland",
+      "StateCode": "48"
+    },
+    {
+      "Value": "0305",
+      "Name": "Coronado National Forest",
+      "StateCode": "35"
+    },
+    {
+      "Value": "0305",
+      "Name": "Coronado National Forest",
+      "StateCode": "04"
+    },
+    {
+      "Value": "0308",
+      "Name": "Lincoln National Forest",
+      "StateCode": "35"
+    },
+    {
+      "Value": "0307",
+      "Name": "Kaibab National Forest",
+      "StateCode": "04"
+    },
+    {
+      "Value": "0309",
+      "Name": "Prescott National Forest",
+      "StateCode": "04"
+    },
+    {
+      "Value": "0306",
+      "Name": "Gila National Forest",
+      "StateCode": "35"
+    },
+    {
+      "Value": "0301",
+      "Name": "Apache-Sitgreaves National Forests",
+      "StateCode": "04"
+    },
+    {
+      "Value": "0310",
+      "Name": "Santa Fe National Forest",
+      "StateCode": "35"
+    },
+    {
+      "Value": "0412",
+      "Name": "Payette National Forest",
+      "StateCode": "16"
+    },
+    {
+      "Value": "0413",
+      "Name": "Salmon-Challis National Forest",
+      "StateCode": "30"
+    },
+    {
+      "Value": "0413",
+      "Name": "Salmon-Challis National Forest",
+      "StateCode": "16"
+    },
+    {
+      "Value": "0414",
+      "Name": "Sawtooth National Forest",
+      "StateCode": "49"
+    },
+    {
+      "Value": "0414",
+      "Name": "Sawtooth National Forest",
+      "StateCode": "16"
+    },
+    {
+      "Value": "0401",
+      "Name": "Ashley National Forest",
+      "StateCode": "56"
+    },
+    {
+      "Value": "0401",
+      "Name": "Ashley National Forest",
+      "StateCode": "49"
+    },
+    {
+      "Value": "0408",
+      "Name": "Fishlake National Forest",
+      "StateCode": "49"
+    },
+    {
+      "Value": "0419",
+      "Name": "Uinta-Wasatch-Cache National Forest",
+      "StateCode": "56"
+    },
+    {
+      "Value": "0419",
+      "Name": "Uinta-Wasatch-Cache National Forest",
+      "StateCode": "49"
+    },
+    {
+      "Value": "0403",
+      "Name": "Bridger-Teton National Forest",
+      "StateCode": "56"
+    },
+    {
+      "Value": "0402",
+      "Name": "Boise National Forest",
+      "StateCode": "16"
+    },
+    {
+      "Value": "0417",
+      "Name": "Humboldt-Toiyabe National Forest",
+      "StateCode": "32"
+    },
+    {
+      "Value": "0417",
+      "Name": "Humboldt-Toiyabe National Forest",
+      "StateCode": "06"
+    },
+    {
+      "Value": "0410",
+      "Name": "Manti-La Sal National Forest",
+      "StateCode": "49"
+    },
+    {
+      "Value": "0410",
+      "Name": "Manti-La Sal National Forest",
+      "StateCode": "08"
+    },
+    {
+      "Value": "0407",
+      "Name": "Dixie National Forest",
+      "StateCode": "49"
+    },
+    {
+      "Value": "0415",
+      "Name": "Caribou-Targhee National Forest",
+      "StateCode": "56"
+    },
+    {
+      "Value": "0415",
+      "Name": "Caribou-Targhee National Forest",
+      "StateCode": "49"
+    },
+    {
+      "Value": "0415",
+      "Name": "Caribou-Targhee National Forest",
+      "StateCode": "16"
+    },
+    {
+      "Value": "0415",
+      "Name": "Curlew National Grassland",
+      "StateCode": "16"
+    },
+    {
+      "Value": "0517",
+      "Name": "Tahoe National Forest",
+      "StateCode": "06"
+    },
+    {
+      "Value": "0503",
+      "Name": "Eldorado National Forest",
+      "StateCode": "06"
+    },
+    {
+      "Value": "0515",
+      "Name": "Sierra National Forest",
+      "StateCode": "06"
+    },
+    {
+      "Value": "0508",
+      "Name": "Mendocino National Forest",
+      "StateCode": "06"
+    },
+    {
+      "Value": "0501",
+      "Name": "Angeles National Forest",
+      "StateCode": "06"
+    },
+    {
+      "Value": "0513",
+      "Name": "Sequoia National Forest",
+      "StateCode": "06"
+    },
+    {
+      "Value": "0519",
+      "Name": "Lake Tahoe Basin Management Unit",
+      "StateCode": "32"
+    },
+    {
+      "Value": "0519",
+      "Name": "Lake Tahoe Basin Management Unit",
+      "StateCode": "06"
+    },
+    {
+      "Value": "0516",
+      "Name": "Stanislaus National Forest",
+      "StateCode": "06"
+    },
+    {
+      "Value": "0502",
+      "Name": "Cleveland National Forest",
+      "StateCode": "06"
+    },
+    {
+      "Value": "0509",
+      "Name": "Modoc National Forest",
+      "StateCode": "06"
+    },
+    {
+      "Value": "0514",
+      "Name": "Shasta-Trinity National Forest",
+      "StateCode": "06"
+    },
+    {
+      "Value": "0507",
+      "Name": "Los Padres National Forest",
+      "StateCode": "06"
+    },
+    {
+      "Value": "0511",
+      "Name": "Plumas National Forest",
+      "StateCode": "06"
+    },
+    {
+      "Value": "0506",
+      "Name": "Lassen National Forest",
+      "StateCode": "06"
+    },
+    {
+      "Value": "0510",
+      "Name": "Six Rivers National Forest",
+      "StateCode": "06"
+    },
+    {
+      "Value": "0505",
+      "Name": "Klamath National Forest",
+      "StateCode": "41"
+    },
+    {
+      "Value": "0505",
+      "Name": "Klamath National Forest",
+      "StateCode": "06"
+    },
+    {
+      "Value": "0505",
+      "Name": "Butte Valley National Grassland",
+      "StateCode": "06"
+    },
+    {
+      "Value": "0504",
+      "Name": "Inyo National Forest",
+      "StateCode": "32"
+    },
+    {
+      "Value": "0504",
+      "Name": "Inyo National Forest",
+      "StateCode": "06"
+    },
+    {
+      "Value": "0512",
+      "Name": "San Bernardino National Forest",
+      "StateCode": "06"
+    },
+    {
+      "Value": "0617",
+      "Name": "Okanogan-Wenatchee National Forest",
+      "StateCode": "53"
+    },
+    {
+      "Value": "0604",
+      "Name": "Malheur National Forest",
+      "StateCode": "41"
+    },
+    {
+      "Value": "0606",
+      "Name": "Mt. Hood National Forest",
+      "StateCode": "41"
+    },
+    {
+      "Value": "0610",
+      "Name": "Rogue River-Siskiyou National Forest",
+      "StateCode": "41"
+    },
+    {
+      "Value": "0610",
+      "Name": "Rogue River-Siskiyou National Forest",
+      "StateCode": "06"
+    },
+    {
+      "Value": "0605",
+      "Name": "Mt. Baker-Snoqualmie National Forest",
+      "StateCode": "53"
+    },
+    {
+      "Value": "0609",
+      "Name": "Olympic National Forest",
+      "StateCode": "53"
+    },
+    {
+      "Value": "0601",
+      "Name": "Deschutes National Forest",
+      "StateCode": "41"
+    }
+  ]
+}

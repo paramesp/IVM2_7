@@ -1,0 +1,157 @@
+.btn.active {
+  /* Karen commented this out: display: none; */
+}
+
+/*.btn span:nth-of-type(1)  {            	
+	display: none;
+}
+.btn span:last-child  {            	
+	display: block;		
+}*/
+
+//.btn.active span:nth-of-type(1) {
+//    display: block;
+//}
+//.btn.active span:last-child {
+//    display: none;
+//}
+div.exploreButtons {
+    float: left;
+    left: 15px;
+    margin-bottom: 20px;
+}
+
+/* Karens measly attempt at moving the button the right..  oops */   
+#legendUCHeader > btn {
+  font-size: 21px;
+  float: right;
+  margin-right: 5px;
+  margin-top: 8px;
+  cursor: pointer; 
+}
+
+.fsBranding {
+    position: relative;
+    top: 1px;
+    left: 4px;
+    height: 35px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+#miniNavToggle {
+    top: 6px;
+    //background-color: $fsbrown;
+    float: left;
+    position: relative;
+    color: white;
+}
+.miniNavBurger {
+    background-color: transparent;
+    border: 0;
+    color: white;
+    font-size: 20px;
+}
+#miniNavBurger:focus {
+    border: 0;
+}
+
+.motorizedDropdown {
+    left: -65px;
+    position: relative;
+}
+.nonMotorizedDropdown {
+    left: -115px;
+    position: relative;
+}
+
+img#pdfMenuHeader {
+    width: 280px;
+    margin-bottom: 10px;
+    /*  left: -10px;
+*/
+    position: relative;
+    top: -1px;
+}
+img#basemapeMenuHeader {
+    width: 280px;
+    margin-bottom: 10px;
+    position: relative;
+    top: -1px;
+}
+img#exploreMenuHeader {
+    width: 360px;
+    height:77px;
+    margin-bottom: 10px;
+    left: -10px;
+    position: relative;
+    top: -1px;
+}
+img#searchMenuHeader {
+    width: 280px;
+    margin-bottom: 10px;
+    left: -10px;
+    position: relative;
+    top: -1px;
+}
+
+#miniNavContainer span.tools.menuBox {
+//    top: -10px !important;
+}
+
+.nav-moto {
+    font-size: 70px;
+    position: absolute;
+    top: -14px;
+    left: 0px;
+}
+.nav-nomoto {
+    font-size: 37px;
+    position: absolute;
+    top: 3px;
+    left: 8px;      
+}
+
+//img.miniNavIcons {
+//    position: relative;
+//    top: -1px;
+//    width: 30px;
+//    height: 30px;
+//    margin-right: 10px;
+//}
+//img.miniNavIcons:hover {
+//    position: relative;
+//    top: -1px;
+//    background-color: $fsbrown;
+//}
+
+.dropdown-menu,
+.miniNav,
+ivmShadow {
+    /*	-webkit-box-shadow: 6px 6px 19px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 6px 6px 19px 0px rgba(0,0,0,0.75);
+	box-shadow: 6px 6px 19px 0px rgba(0,0,0,0.75);*/
+    /*	background-color:$fsbrown;
+*/
+}
+button.btn-ivmMenu:hover,
+button.btn-ivmMenu:active {
+//    color: orange !important;
+}
+/* basemaps 081715 */
+
+li.basemapList {
+    cursor: pointer;
+//    color: black;
+//    margin-left: 10px;
+//    margin-right: 10px;
+}
+li.basemapList:hover {
+//    background-color: $fsbrown;
+//    color: white;
+//    margin-left: 10px;
+//    margin-right: 10px;
+}
+div#modal-content-basemaps {
+    overflow-x: hidden;
+}

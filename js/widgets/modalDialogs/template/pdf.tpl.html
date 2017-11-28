@@ -1,0 +1,42 @@
+<!-- Modal PDF/Print -->
+<!-- div class="modal fade" id="pdfModal" tabindex="-1" role="dialog" aria-labelledby="pdfModalLabel" aria-hidden="true"  -->
+        
+<div id="pdfModal" class="text-center ng-scope">
+	<header>
+        <h2 class="h3 text-center" aria-label="Create GEO PDF">Create GEO PDF</h2>       
+	</header>
+    <button class="navClose" aria-role="button" title="Close the Create GEO PDF dialog" ng-click="cancel()">
+        <i class="tk-close-1"></i>
+        <span class="sr-only">Close the Create GEO PDF dialog</span>
+    </button>
+        	
+    <div class="modal-body">
+        <div class="pdf-modal-body">
+            <form ng-submit="ok()">
+            	<input type="text" class="pdf-form-control form-control" placeholder="Title (optional)" ng-model="modalObject.printObject.title">
+            	<textarea class="pdf-form-control form-control" rows="3" placeholder="Notes (optional)" aria-label="Notes (optional)" ng-model="modalObject.printObject.notes"></textarea>
+            </form> 
+        </div>
+            
+        <div class="modal-footer">             
+              <button type="button" class="btn-exploreGo" ng-click="reset()" ng-if="modalObject.printObject.currentStatus.showClear" title="Click the Clear button to cancel PDF generation or reset the PDF form">
+              	<i class="tk-radio-button-minus-filled"></i> Clear 
+              </button>
+              
+              <button type="button" class="{{modalObject.printObject.currentStatus.buttonClass}}" ng-click="ok()" title="{{modalObject.printObject.currentStatus.titleMsg}}" aria-label="{{modalObject.printObject.currentStatus.titleMsg}}">
+              	<i class="{{modalObject.printObject.currentStatus.iconClass}} viewPDF" ng-if="modalObject.printObject.currentStatus.iconClass.length > 0"></i>
+              	<img src="images/sun.svg" class="rotating processing" ng-if="modalObject.printObject.currentStatus.key == 'processing'">
+              	{{modalObject.printObject.currentStatus.text}}
+              </button>
+              
+              <p class="modal-footer-status" ng-if="modalObject.printObject.currentStatus.key == 'processing'">This may take several minutes. You may continue to use the map while the PDF is being generated.</p>
+              <!--TODO: Following should be placed in classes instead of Karen mucking due to anchor -->
+              <p class="modal-footer-status" ng-if="modalObject.printObject.errorMessage.length > 0"></p>
+              <p class="modal-footer-status" ng-if="modalObject.printObject.errorMessage.length > 0" ng-bind-html="toTrusted(modalObject.printObject.errorMessage)"></p> 
+                     
+        </div>
+  </div>
+</div>
+
+<!-- Modal PDF/Print END --> 
+

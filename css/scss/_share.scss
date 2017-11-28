@@ -1,0 +1,98 @@
+//basemaps sass
+
+input#urlNormal, input#urlExtent {
+    font-size: 11px;
+    margin-top: -10px;
+}
+input#urlNormal {
+
+    margin-bottom: 20px;
+}
+
+div.shareInput {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h3.shareHeader {
+    font-weight: bold;
+    font-size: 14px;
+    //padding-top: 10px;
+}
+.share_temp {
+    padding-left:25px;
+}
+#shareModal > div.modal-body {
+    text-align: left;
+}
+
+#shareModal > header {
+    background-image: url(../images/header-share.jpg);
+    background-position: center;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+#shareModal > div.modal-body > ul > li > label > input {
+    visibility: hidden;
+}
+#shareModal {
+    overflow-x:  hidden;
+    padding-bottom: 20px;
+}
+
+#shareModal > input {
+    display: none;
+}
+#shareModal .btn {
+    -ms-touch-action: manipulation;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    left: -19px;
+    position: relative;
+    border: none;
+    background: transparent;
+    overflow:hidden;
+    padding-top: 10px;
+    color:$fsbrown;
+}
+#home6 a {
+    text-decoration: none;
+}
+#home6 .shareHeader {
+    margin-top: 0;
+    font-size: 12px;
+}
+// size down the input to make it all fit in ident without scrolling, yeah cool
+#home6 .form-control {
+    height: 30px;
+}
+//firefox (mac, maybe peecee) needs this or the share modal and share identify is off center to the right. Yeah, I know it is lame.
+#shareModal ul, #home6 ul {
+    padding-left:0;
+    padding-right:0;
+}
+#shareModal span.menuBox, #shareModal span.menuBox:active, #home6 span.menuBox, #home6 span.menuBox:active {
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: -10px;
+}
+
+#shareModal span.menuBox:hover, #shareModal a:hover,
+#home6 span.menuBox:hover, #home6 a:hover{
+    outline: 0;
+    background-image: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: green !important;
+    text-shadow: 0px 0px 8px #FFFF52;
+    border: transparent;
+}
+
+#shareModal .btn-success {
+  color: $fsgreenColor;
+  background-color: transparent;
+  border-color: transparent;
+}

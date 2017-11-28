@@ -1,0 +1,1417 @@
+@charset "UTF-8";
+
+/* CSS Document */
+// start, moved from main.css TK 021916 //
+#map {
+  position: absolute;
+  padding: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+/* Loading Indicator */
+#divLoadingIndicator {
+  top: 0px;
+  left: 0px;
+  background: rgba(250,250,250,0.1);
+  -pie-background: rgba(250,250,250,0.1);
+  position: absolute;
+  z-index: 100001;
+  width: 100%;
+  height: 100%;
+  behavior: url("PIE.htc");
+}
+/* Karens temporary Containers */
+div.basemap-container {
+  position: absolute;
+  display: block;
+  z-index: 2;
+  right: 100px;
+  top: 150px !important;
+  background-color: white;
+}
+
+// end, moved from main.css //
+
+/*
+body {
+    overflow: hidden;
+}
+*/
+a:visited {
+    color: #dd4814;
+}
+a, .esriPopup a {
+    color: #dd4814;
+}
+a:hover {
+  color: $fsbrown;
+  text-decoration: none;
+}
+header {
+    height: 80px;
+}
+/* hack fix for too much white space around multiple yonder results in identify */
+div.identifyScrollbar.identifyClearBottom.col-xs-12.ng-scope {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* TK disable esri maximize button on identify window */
+.esriPopup .titleButton.maximize {
+    visibility: hidden !important;
+}
+
+
+/* TK identify close button */
+.titleButton.close:hover, .close:hover, .close:focus {
+    color: white;
+    opacity: .6 !important;
+}
+
+.close {
+    color: white !important;
+    opacity: 1 !important;
+    /* float: right; */
+    position: absolute;
+    right: 5px; /* TK fix byproducts in identify of jason's nav integration */
+    top: 11px;
+}
+
+div.layout.content {
+    overflow: hidden !important;
+    background-color: #f1f1f1;
+}
+.infowindow .window .top .right .user .layout {
+    margin: 0px 0px 0px 0px;
+    padding-right: 0;
+    overflow: hidden;
+}
+
+#infowindow_content > div > div.scrtabs-tab-scroll-arrow.scrtabs-js-tab-scroll-arrow-right > span {
+    font-size: 16px;
+    position: relative;
+    top: 8px;
+    left: 6px;
+}
+#infowindow_content > div > div.scrtabs-tab-scroll-arrow.scrtabs-js-tab-scroll-arrow-left > span {
+    font-size: 16px;
+    position: relative;
+    top: 8px;
+    left: 6px;
+}
+
+
+/* this below may change for mobile and identify inside of modal-content */
+
+.esriPopup .pointer,
+.esriPopup .outerPointer {
+    background: rgba(255,255,255,1);
+    /*change this*/
+    display: none;
+    height: 16px;
+    position: absolute;
+    width: 16px;
+    z-index: 0;
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.esriPopup .pointer.topLeft, .esriPopup .pointer.topRight, .esriPopup .pointer.top {
+    background: $fsbrown;
+}
+
+
+
+.actionsPane {
+    background-color: transparent !important;
+}
+#tabContent1 > div {
+    overflow-y: auto;
+    position: absolute;
+    bottom: 0;
+    top: 35px;
+    width: 100%;
+    left: 0;
+}
+/*#map_root > div.esriPopup.esriPopupVisible > div.esriPopupWrapper > div.sizer.content {
+    width: 100% !important;
+}*/
+#map_root > div.esriPopup.esriPopupVisible > div.esriPopupWrapper > div.sizer.content > div {
+    /*    height: 365px;
+    padding: 0px 6px 0px 10px;*/
+    overflow: hidden;
+}
+
+/* fix scrollbar issue in dropdown */
+
+div.tab-content.ng-isolate-scope,
+div.tab-content.ng-isolate-scope > div.tab-content {
+    overflow-y: hidden !important;
+    /* margin-bottom: 40px; fix wrong comment style */
+}
+
+/* Tweaks to clean up explore due to apparent changes when moving over to angular version, also get rid of radio buttons in basmaps */
+
+
+.nav-tabs {
+    border-bottom: 0;
+    height: 34px;
+    /* temporary fix until dynamic tabs are implemented 110915 */
+    overflow: hidden;
+    /* temporary fix until dynamic tabs are implemented 110915 */
+}
+
+
+
+/* end tweaks  */
+
+i.tk-font-activity-icon {
+    font-size: 20px;
+    color: white;
+    background-color: #573922;
+    cursor: pointer;
+}
+div#triangleLeft {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 50px 25px 0;
+    border-color: transparent #eb770b transparent transparent;
+    position: absolute;
+    top: 392px;
+    left: 609px;
+}
+li#nav_explore {
+    position: relative;
+    left: -40px;
+}
+span.searchSliderButtonLabel {
+    position: relative;
+    top: 8px;
+    left: 22px;
+    font-size: .66em;
+}
+span.searchSliderButtonLabelOpen {
+    position: relative;
+    top: 8px;
+    left: 19px;
+    font-size: .66em;
+}
+span.legendSliderButtonLabel {
+    position: relative;
+    top: 8px;
+    left: 30px;
+    font-size: .66em;
+}
+span.legendSliderButtonLabelOpen {
+    position: relative;
+    top: 8px;
+    left: 24px;
+    font-size: .66em;
+}
+div.weatherForecast {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4);
+}
+.color-twitter {
+    background-color: #4099ff !important;
+    color: white;
+}
+.color-yonder {
+    background-color: #E34930 !important;
+    color: white;
+}
+.color-facebook {
+    background-color: #3b5998 !important;
+    color: white;
+}
+.color-google-plus {
+    background-color: #dd4b39 !important;
+    color: white;
+}
+img#exploreSplashHeader {
+    left: 40px;
+    position: relative;
+    top: -1px;
+}
+div#splashExploreTabPanel {
+    margin: 10px;
+    width: 260px;
+    position: relative;
+    left: 0px;
+    margin-top: 10px;
+}
+ul#splashExplore {
+    /* padding: 10px; */
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+    /* margin: 10px; */
+    /* margin-bottom: 10px; */
+    position: relative;
+    left: -30px;
+}
+input#searchFooter {
+    position: relative;
+    left: 10px;
+    width: 218px;
+    top: 10px;
+    /* bottom: 10px; */
+}
+input#navSearchFooter,
+input#navSearchFooter_nav {
+    position: relative;
+    left: 0px;
+    width: 218px;
+    top: 15px;
+    /* bottom: 10px; */
+}
+div#input-group-addon {
+    position: relative;
+    left: 6px;
+    top: 10px;
+    /* width: 44px; */
+    cursor: pointer;
+}
+div#nav-input-group-addon,
+div#nav-input-group-addon_nav {
+    position: relative;
+    left: 0px;
+    top: 15px;
+    /* width: 44px; */
+    cursor: pointer;
+}
+i#usfs-logo-splash {
+    font-size: 40px;
+    position: relative;
+    top: 10px;
+}
+ul#splashTabs {
+    position: relative;
+    left: 12px;
+    border-bottom: none;
+}
+ul#splashTabs_nav {
+    position: relative;
+    left: 12px;
+    border-bottom: none;
+}
+h4#myModalLabel {
+    font-size: 20px;
+    top: -8px;
+    /* left: 42px; */
+    color: white;
+    /* font-weight: bolder; */
+}
+h4#myModalLabelSplash {
+    font-size: 29px;
+    left: 8px;
+    position: relative;
+    font-weight: bold;
+    color: white;
+    top: -7px;
+    width: 20px;
+}
+div#splashScroller,
+div#splashScroller_nav {
+    height: 270px;
+    overflow: hidden;
+    /*padding-top: 10px; removed 081715*/
+    /* padding-bottom: 11px; */
+    /*padding-left: 5px;*/
+}
+
+#dot {
+    cursor: pointer;
+    position: fixed;
+    left: 453px;
+    top: 359px;
+}
+#dotInfo {
+    background-color: #f1f1f1;
+    width: 250px;
+    height: 55px;
+    position: relative;
+    z-index: 500;
+    border: 3px solid $fsbrown;
+    left: 20px;
+    top: -38px;
+}
+
+div.searchMarker {
+    width: 20px;
+    height: 20px;
+    background-color: $fsbrown;
+    text-align: center;
+    color: white;
+    position: absolute;
+    /* left: 9px; */
+    z-index: 100;
+    font-size: 13px;
+    /* top: 10px; */
+}
+.searchFooter {
+    top: -26px;
+    position: relative;
+    height: 0px;
+}
+span.resultsTitle {
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: bold;
+    top: -4px;
+    position: relative;
+    float: left;
+}
+span.resultsText {
+    font-size: 11px;
+    margin-left: 10px;
+    top: -4px;
+    position: relative;
+    float: left;
+}
+span.resultsLinks {
+    font-size: 10px;
+    margin-left: 10px;
+    top: -4px;
+    position: relative;
+    float: left;
+}
+div.mediaSearch {
+    height: 40px;
+    overflow: hidden;
+}
+.resultsWell {
+    margin-bottom: 0 !important;
+    overflow: hidden;
+    height: 50px;
+    padding: 5px;
+}
+img.resultsThumb {
+    height: 40px;
+    width: 60px;
+}
+
+
+i.blueIcon {
+    background-color: blue;
+    color: white;
+}
+i.featuredHighlightIcon {
+    position: relative;
+    top: -27px;
+    left: 43px;
+    /* width: 15px; */
+    /* height: 15px; */
+    font-size: 20px;
+    color: white;
+    background-color: $fsbrown;
+}
+.tk-forest {
+    font-size: 20px;
+    color: white;
+    background-color: #573922;
+    /* position: relative; */
+    /* top: 2px; */
+    padding-top: 5px;
+    /* line-height: 20px; */
+    width: 20px;
+    height: 10px;
+    margin-top: 2px;
+    padding-bottom: 0px;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+.tk-font-24 {
+    font-size: 24px;
+    position: relative;
+    top: 2px;
+}
+.tk-font-nav-tabs {
+    font-size: 40px;
+    position: relative;
+    /* top: 2px; */
+    left: -11px;
+    /* padding: 5px; */
+    top: -10px;
+}
+.tk-font-16 {
+    font-size: 16px;
+    position: relative;
+    top: 2px;
+}
+.tk-font-36 {
+    font-size: 36px;
+    position: relative;
+    top: 2px;
+}
+.tk-font-40 {
+    font-size: 40px;
+    position: relative;
+    top: 2px;
+}
+.tk-forest-40px {
+    font-size: 40px;
+    /*	color:white;
+	background-color: #573922;
+	position: relative;
+  	top: 8px;	*/
+}
+div.yonderMarker {
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 70px;
+    left: 88px;
+}
+img.yonderMarker {
+    height: 25px;
+    width: 25px;
+}
+img.yonderHighlight {
+    width: 25px;
+    height: 25px;
+    position: relative;
+    left: 150px;
+    top: -8px;
+}
+span.featuredNumber {}
+.fa18 {
+    font-size: 18px;
+}
+figure {
+    position: relative;
+    float: left;
+    margin-left: 60px;
+    width: 90px;
+    height: 90px;
+}
+figure:first-child {
+    margin-left: 0;
+}
+.three {
+    border-radius: 1000%;
+    background: lightgreen;
+    overflow-x: visible;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.three::before {
+    content: '';
+    position: absolute;
+    width: 110%;
+    height: 110%;
+    background: lightgreen;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 50% 80%;
+    border-bottom-left-radius: 90% 50%;
+    border-bottom-right-radius: 0%;
+}
+div.pad {
+/*    padding-left: 3px;
+    padding-right: 3px;
+    text-align: left;
+    margin-bottom: -2px;*/
+}
+li {
+    list-style-type: none;
+}
+img.navIcon {
+    width: 26px;
+    height: 26px;
+    margin-right: 5px;
+}
+div.legend {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 540px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 11px;
+}
+div#legend {
+    position: fixed;
+    height: 550px;
+    background: $fsbrown;
+    width: 250px;
+    top: 126px;
+    /* margin-left: 2px; */
+    z-index: 300;
+}
+
+img#stateForestTab,
+img#activityTab {
+    width: 18px;
+    height: 18px;
+    margin-left: -8px;
+    margin-right: 7px;
+}
+div#tabSearch {
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+div#tabSearch_nav {
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+}
+.modal-footer {
+    padding: 20px;
+    text-align: left; // 050216 trying to make modal layouts more consistent
+}
+div.modal-footer.explore {
+    border-top: none;
+}
+.nav-tabs-identify {
+    border-bottom: 1px solid #ddd;
+}
+.nav-tabs-identify > li {
+    float: left;
+    margin-bottom: -1px;
+}
+.nav-tabs-identify > li > a {
+    margin-right: 2px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+}
+.nav-tabs-identify > li > a:hover {
+    border-color: #eee #eee #ddd;
+}
+.nav-tabs-identify > li.active > a,
+.nav-tabs-identify > li.active > a:hover,
+.nav-tabs-identify > li.active > a:focus {
+    color: #555;
+    cursor: default;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+.nav-tabs-identify.nav-justified {
+    width: 100%;
+    border-bottom: 0;
+}
+.nav-tabs-identify.nav-justified > li {
+    float: none;
+}
+.nav-tabs-identify.nav-justified > li > a {
+    margin-bottom: 5px;
+    text-align: center;
+}
+.nav-tabs-identify.nav-justified > .dropdown .dropdown-menu {
+    top: auto;
+    left: auto;
+}
+ul.identifyTabs {
+    margin-top: 5px;
+    margin-left: 5px;
+}
+#infowindow_content > div > div.scrtabs-tab-scroll-arrow.scrtabs-js-tab-scroll-arrow-right > span {
+    font-size: 16px;
+    position: relative;
+    top: 8px;
+    left: 6px;
+}
+#infowindow_content > div > div.scrtabs-tab-scroll-arrow.scrtabs-js-tab-scroll-arrow-left > span {
+    font-size: 16px;
+    position: relative;
+    top: 8px;
+    left: 6px;
+}
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+    color: #000000;
+    background-color: #ffffff;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-color: $fsbrown;
+    cursor: default;
+    border-bottom-width: 2px;
+}
+.nav-tabs > li > a:hover{
+    //text-decoration: underline;
+}
+.nav-tabs > li > a {
+    font-size: 11px;
+    color: #333333;
+    background-color: #FFFFFF;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-color: transparent;
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.nav-tabs > li > a.identTab {
+    color: #573922;
+    width: 52px;
+    height: 50px;
+    padding-top: 15px;
+}
+.nav-tabs > li > a:hover {
+    border: none;
+}
+label.btn.btn-xs.btn-default {
+    background-color: transparent !important;
+    color: black;
+}
+label.btn.btn-xs.btn-default:hover {
+    /*background-color: $fsbrown !important;*/
+    color: #076727;
+}
+label.btn.btn-xs.btn-default,
+label.btn.btn-xs.btn-success {
+/*    width: 100%;
+    text-align: left;
+    font-size: 10px;
+    padding-left: 4px;
+    margin-left: -5px; 081715
+    max-width: 260px;*/
+}
+li.active {
+    background-color: transparent !important;
+}
+span.glyphicon.glyphicon-search {
+    position: relative;
+    top: -32px;
+    left: 170px;
+}
+.highlightTitle {
+    position: absolute;
+    /* bottom: -4px; */
+    /* font-size: 13px; */
+    /* font-weight: bold; */
+    /* padding-top: 5px; */
+    /* top: -38px; */
+    z-index: 200;
+    /* color: white; */
+    top: 100px;
+    /* padding-left: 5px; */
+    padding-right: 5px;
+    max-width: 100px;
+    /* text-shadow: 2px 2px 2px rgba(0, 0, 0, 1); */
+}
+#highlightsButton {
+    float: right;
+    margin-top: 3px;
+}
+span.highlights {
+    float: left;
+    /* height: 30px; */
+    margin-top: 4px;
+    /* font-weight: bold; */
+    color: white;
+    margin-bottom: 4px;
+}
+
+li.active {
+    background-color: $fsbrown;
+}
+
+.ivmExplore {
+    float: left;
+    position: relative;
+    color: white;
+    width: 40px;
+    height: 40px;
+}
+.ivmExplore:hover {
+    /*	top: 5px;
+*/
+    /*	width: 100px;
+*/
+    /*	border-radius: 5px;
+*/
+}
+div.dropdown.m-b {
+    top: 5px;
+    width: 100px;
+    float: left;
+    color: white;
+}
+div.dropdown.m-b:hover {
+    top: 5px;
+    width: 100px;
+    background-color: #2E1E12;
+    /*	border-radius: 5px;
+*/
+    float: left;
+    color: white;
+}
+
+.btn-primary {
+    color: #ffffff;
+    background-color: $fsbrown;
+    border-color: $fsbrown;
+}
+div#stateForest {
+    padding: 10px;
+    position: relative;
+    top: 0px;
+    left: 1px;
+}
+#inputActivitySearch {
+    width: 250px;
+}
+div#exploreTabContent {
+    background-color: white;
+    /* left: 1px; */
+    position: relative;
+    /* padding-left: 5px; */
+    border-radius: 5px;
+    /* padding-bottom: 10px; */
+    /* height: 290px; */
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /* padding: 10px; */
+}
+div#splashExploreTabPanel > .tab-content {
+    background-color: white;
+    /* left: 1px; */
+    position: relative;
+    /* padding-left: 5px; */
+    border-radius: 5px;
+    padding-bottom: 10px;
+    height: 280px;
+    overflow-x: hidden !important;
+    overflow-y: hidden !important;
+    /* changed from auto 081715 to eliminate scroll bars */
+    padding: 10px;
+    border-top-left-radius: 0;
+    /* fix after chaning to angular 100815 */
+}
+.tab-content {
+    /*    background-color: white;  fix bleed outside of mobile viewport in portrait mode? TK 12/17/15 */
+    position: relative;
+    //height: 333px;
+    overflow-x: hidden;
+    overflow-y: auto !important;
+    padding: 10px;
+    -webkit-overflow-scrolling: touch;
+    top: -5px;
+    border-top: 1px solid #ccc;
+    border-top-left-radius: 0;
+}
+
+div#activitySearch {
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-bottom: 30px;
+}
+#outer,
+#legend {
+    width: 100%;
+    /* Firefox */
+    display: -moz-box;
+    -moz-box-pack: center;
+    -moz-box-align: center;
+    /* Safari and Chrome */
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    /* W3C */
+    display: box;
+    box-pack: center;
+    box-align: center;
+}
+span#legendTitle {
+    margin-left: 15px;
+}
+ul.legendRecsites {
+    position: relative;
+    left: -38px;
+}
+img.legendIcon {
+    width: 30px;
+    margin-bottom: 3px;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+div#legendPanel {
+    height: 544px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-size: 11px;
+}
+div#legendPanel li {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+#searchSlider-button {
+    width: 50%;
+}
+.searchSlider {
+    position: fixed;
+    height: 577px;
+    background: $fsbrown;
+    width: 250px;
+    top: 20px;
+    z-index: 1;
+    margin-left: -285px;
+    overflow: hidden;
+    padding: 3px;
+}
+#searchSlider-button {
+    position: fixed;
+    width: 285px;
+    height: 35px;
+    background: $fsbrown;
+    margin-left: -250px;
+    color: white;
+    padding-top: 8px;
+    padding-left: 7px;
+    cursor: pointer;
+    top: 25px;
+    text-align: right;
+    padding-right: 4px;
+}
+#legendSlider-button {
+    width: 50%;
+}
+.legendSlider {
+    position: fixed;
+    height: 577px;
+    background: $fsbrown;
+    width: 250px;
+    top: 20px;
+    z-index: 1;
+    margin-left: -285px;
+    overflow: hidden;
+}
+#legendSlider-button {
+    position: fixed;
+    width: 285px;
+    height: 35px;
+    background: $fsbrown;
+    margin-left: -250px;
+    color: white;
+    padding-top: 8px;
+    padding-left: 7px;
+    cursor: pointer;
+    top: 65px;
+    text-align: right;
+    padding-right: 4px;
+}
+#pollSlider-button {
+    width: 50%;
+}
+div#centerHighlights {
+    text-align: center;
+    width: 100%;
+}
+.pollSlider {
+    position: fixed;
+    height: 577px;
+    background: $fsbrown;
+    width: 250px;
+    top: 20px;
+    /* margin-left: 2px; */
+    overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 1;
+    margin-left: -250px;
+}
+#pollSlider-button {
+    position: fixed;
+    width: 285px;
+    height: 35px;
+    background: $fsbrown;
+    margin-left: 0px;
+    color: white;
+    margin-left: -250px;
+    margin-right: auto;
+    padding-top: 8px;
+    padding-left: 7px;
+    cursor: pointer;
+    top: 92px;
+    text-align: right;
+    padding-right: 4px;
+}
+.media-body {
+    border: 0;
+    padding-right: 5px;
+}
+.media {
+    zoom: 1;
+    overflow: hidden;
+    border: 2px solid $fsbrown;
+    height: 85px;
+}
+div#identifyTitle {
+    /* float: left; */
+    clear: left;
+    width: 225px;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    top: -8px;
+}
+button#identifyClose {
+    width: 20px;
+    top: -30px;
+    position: relative;
+    -webkit-appearance: none;
+    padding: 0;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    left: 10px;
+}
+.identifyWindow td {
+    padding: 10px;
+}
+.arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 36px solid #fff;
+    position: relative;
+    top: 550px;
+    left: 595px;
+}
+div#identifyWindow {
+    top: 213px;
+    left: 659px;
+    width: 280px;
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-size: 11px;
+    position: absolute;
+    border: 2px solid $fsbrown;
+}
+
+/* Yonder Identify List  Styles 110615 */
+
+img.userImage {
+    width: 100%;
+}
+img.userAvatar {
+    width: 50px;
+    height: 50px;
+}
+/*#map_root > div.esriPopup.esriPopupVisible > div.esriPopupWrapper > div:nth-child(1) > div {
+    background-color: transparent;
+}
+#map_root > div.esriPopup.esriPopupVisible > div.esriPopupWrapper > div:nth-child(1) {
+    width: 100%
+}*/
+#identifyYonderContainer {
+    /*margin-top: -33px;*/
+}
+
+/* Yonder Identify Styles 101415 */
+
+.identifyClearBottom {
+    margin-bottom: 25px;
+}
+img.userImage {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: block; */
+    margin:0;
+    margin-bottom: -50px;
+}
+.userContainer {
+    position: relative;
+    /* top: 25px; */
+    background-color: rgba(230, 230, 230, 0.85);
+    width: 100%;
+    /* left: 17px; */
+    height: 50px;
+    overflow: hidden;
+}
+.userListUserContainer {
+    position: relative;
+    background-color: rgba(230, 230, 230, 0.85);
+    width: 100%;
+    height: 50px;
+    overflow: hidden;
+}
+.userAvatar {
+    height: 35px;
+    width: 35px;
+}
+.userName {
+    position: absolute;
+    top: 7px;
+    left: 60px;
+    font-weight: bold;
+}
+.userLocation {
+    position: absolute;
+    top: 25px;
+    left: 60px;
+    /* font-weight: bold; */
+    font-size: 10px;
+}
+.userCaption {
+    margin-top: 10px;
+    width: 100%;
+}
+.userDate {
+    margin-top: -5px;
+    margin-bottom: 5px; 
+}
+/* end Yonder Identify Styles 101415 */
+
+img.featuredInfoWindow {
+    /* height: 40px; */
+    /* margin: 5px; */
+    border: 2px solid $fsbrown;
+    width: 70px;
+    height: 70px;
+}
+div.featuredInfoWindowTitle {
+    position: relative;
+    top: 3px;
+    left: 3px;
+    font-weight: bold;
+    color: black;
+    font-size: 13px;
+    text-align: left;
+}
+div.featuredInfoWindowForest {
+    position: relative;
+    top: 3px;
+    left: 3px;
+    font-weight: normal;
+    color: black;
+    font-size: 10px;
+    text-align: left;
+    padding-top: 3px;
+}
+.featured {
+    width: 70px;
+    height: 70px;
+    /* background-color: $fsbrown; */
+    position: absolute;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+.featuredInfo {
+    /*	background-color: $fsbrown;
+  	width: 70px;
+  	height: 70px;
+  	position: fixed;
+  	z-index: 500;*/
+    background-color: $fsbrown;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    left: -25px;
+    z-index: 500;
+    top: -120px;
+}
+div#featuredOne {
+    left: 263px;
+    top: 164px;
+}
+div#featuredTwo {
+    left: 314px;
+    top: 417px;
+}
+div#featuredTwoInfo {
+    /*  left: 316px;
+  top: 419px;*/
+}
+div#featuredThree {
+    left: 450px;
+    top: 230px;
+}
+div#featuredThreeInfo {
+    /*	left: 452px;
+	top: 232px;*/
+}
+div#featuredFour {
+    left: 517px;
+    top: 431px;
+}
+div#featuredFourInfo {
+    /*	left: 519px;
+	top: 433px;*/
+}
+div#featuredFive {
+    left: 729px;
+    top: 169px;
+}
+div#featuredFiveInfo {
+    /*	left: 731px;
+	top: 171px;*/
+}
+div#featuredSix {
+    left: 759px;
+    top: 386px;
+}
+div#featuredSixInfo {
+    /*	left: 761px;
+	top: 388px;*/
+}
+div#featuredSeven {
+    left: 1020px;
+    top: 267px;
+}
+div#featuredSevenInfo {
+    /*	left: 1022px;
+	top: 269px;*/
+}
+div#featuredEight {
+    left: 840px;
+    top: 510px;
+}
+div#featuredEightInfo {
+    /*	left: 842px;
+	top: 512px;*/
+}
+div.featuredMarker {
+    width: 25px;
+    height: 25px;
+    background-color: $fsbrown;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 9px;
+    z-index: 100;
+    font-size: 18px;
+    top: 10px;
+}
+.footerWell {
+    margin-bottom: 0 !important;
+    overflow: hidden;
+    height: 136px;
+}
+.media-object {
+    float: left;
+    height: 85px;
+    max-width: 120px;
+}
+
+
+
+.featuredContent h4 {
+    font-size: 12px;
+    font-weight: bold;
+    /* padding-top: 5px; */
+}
+.featuredContent p {
+    font-size: 12px;
+}
+.featuredContent {
+    /*	bottom: 0;
+  position: absolute;*/
+    /* background-color: #333; */
+    /*  width: 100%;*/
+    /* height: 140px; */
+    padding: 2px;
+}
+
+.modal-footer a {
+    color: white;
+}
+.stylish-input-group .input-group-addon {
+    background: white !important;
+}
+.stylish-input-group .form-control {
+    border-right: 0;
+    box-shadow: 0 0 0;
+    border-color: #ccc;
+    width: 300px;
+}
+.stylish-input-group button {
+    border: 0;
+    background: transparent;
+}
+.modal-header {
+    padding: 3px;
+    border-bottom: 1px solid #e5e5e5;
+    /* min-height: 16.42857143px; */
+    background-color: $fsbrown;
+    color: white;
+    height: 30px;
+    position: relative;
+    width: 280px;
+    left: -6px;
+}
+.imgNavBasemap {
+    margin: 6px;
+}
+.topSpacing,
+.nameNumber {
+    clear: both;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+span.modalListText {
+    position: relative;
+    top: -5px;
+    left: 6px;
+}
+li.checkbox input,
+div.checkbox input {
+    margin-top: 10px;
+}
+.no-scroll {
+    overflow: hidden;
+}
+.modal-image {
+    width: 600px;
+    margin-left: -20px;
+    margin-top: -27px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+div.modal-body {
+    /*	margin-left: -40px; fix problems with explore showing up on right on ipad 
+*/
+    padding: 0;
+}
+
+table.esriLegendLayer td {
+    padding: 4px;
+}
+div#layersModal {
+    /*	left:10px;
+	position:relative;	*/
+}
+div.layersModal {
+    padding: 10px;
+    height: 157px;
+}
+.modalSocial {
+    list-style-type: none;
+    margin-left: -25px;
+    margin-right: 25px;
+    padding-top: 25px;
+}
+.modalSocial li {
+    list-style-type: none;
+}
+
+/* this conflicts with ESRI container .container {
+	max-width: 640px;
+}*/
+
+.advancedSearch {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    float: left;
+    position: relative;
+    top: 0;
+    left: 1px;
+}
+#searchButton {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    top: -5px;
+    left: 0px;
+    position: relative;
+    float: right;
+    margin-top: 3px;
+}
+#legendButton {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    top: -6px;
+    left: 3px;
+    position: relative;
+    float: right;
+    /* margin-top: 3px; */
+    font-size: 20px;
+}
+/*#searchDropdown {
+    top: 39px;
+    left: 15px;
+}*/
+.navbar-brand img {
+    position: relative;
+    top: -10px;
+}
+img.fsLogoHeader {
+    position: relative;
+    top: -7px;
+}
+span.menuText {
+    position: relative;
+    top: -5px;
+}
+
+/* lets see if the style below is really needed at some point? */
+div.forestFont,
+span.forestFont {
+    font-family: forest-ivm;
+    font-size: 25px;
+    color: red;
+    position: relative;
+    top: 0;
+    margin-left: 10px;
+}
+
+li.checkbox {}
+#categories-view {
+    height: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 50px;
+    -webkit-transition: left 250ms cubic-bezier(0, 0, 0.25, 1), right 250ms cubic-bezier(0, 0, 0.25, 1);
+    transition: left 250ms cubic-bezier(0, 0, 0.25, 1), right 250ms cubic-bezier(0, 0, 0.25, 1);
+    z-index: 1;
+}
+#categories ul {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    left: 0;
+    list-style: none;
+    margin: 0;
+    position: absolute;
+    top: 0;
+}
+#categories li:first-child {
+    border-left: none;
+}
+.more #categories ul {
+    left: auto;
+    right: 0;
+}
+#categories *[role='button'] {
+    background: #fff;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+#categories li {
+    -webkit-flex: 0 0 41px;
+    -ms-flex: 0 0 41px;
+    flex: 0 0 41px;
+    display: block;
+    position: relative;
+}
+#categories *[role='button'] {
+    background: #fff;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+  display:block;
+}

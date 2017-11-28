@@ -1,0 +1,302 @@
+/* BEGIN EXPLORE Document */
+
+
+#explorecontent > ul{
+    margin-bottom: 0;
+    position: relative;
+
+}
+.btn-exploreGo, .btn-default {
+    display: inline-block;
+    //padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border-radius: 0;
+    height: 36px;
+    border-style:solid;
+    border-width: 1px;
+    border-color: #cccccc;
+    color: #333333;
+    background-color: #e7e7e7;
+    padding: 0 10px 0 10px;
+}
+
+.btn-warning {
+    color: white;
+    background-color: #e99002;
+    /* border-color: #d08002; */
+    border-width: 1px;
+    /* padding: 6px 12px !important; */
+    border-style: solid;
+    border-color: gray;
+    border-radius: 0;
+    height: 36px;
+}
+
+.btn-success {
+    background-color: #43ac6a;
+    border-color: #43ac6a;
+    color: white;
+}
+
+//below gets rid of the modal slide down
+.modal.fade .modal-dialog 
+{
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    -webkit-transition: none !important;
+    transition: none !important;
+
+    -moz-transform: none !important;
+    -ms-transform: none !important;
+    -o-transform: none !important;
+    -webkit-transform: none !important;
+    transform: none !important;
+}
+
+//below controls the speed of the fades on modal windows
+.fade {
+    opacity: 0;
+    -webkit-transition: opacity .5s linear;
+    -o-transition: opacity .5s linear;
+    transition: opacity .5s linear;
+}
+
+@media (min-width: 768px) {
+.modal-dialog {
+    width: 360px;
+    margin: 0px auto;
+    position: relative;
+    top: 80px;
+    }
+}
+
+/* reposition state/forest to match the other items in explore */
+
+//.modal-backdrop.in, .modal-content {
+//    transition: all .5s linear;
+//}
+
+#explorecontent .btn-success {
+  color: $fsgreenColor;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+
+$tooltipbg:$fsbrownColor;
+$tooltipfont:#ffffff;
+.tooltip-inner {
+    padding: 10px;
+    background-color: $tooltipbg;
+    color: $tooltipfont;
+}
+.tooltip.top .tooltip-arrow {
+    border-top-color: $tooltipbg;
+}
+.tooltip.right .tooltip-arrow {
+    border-right-color: $tooltipbg;
+}
+.tooltip.bottom .tooltip-arrow {
+    border-bottom-color: $tooltipbg;
+}
+.tooltip.left .tooltip-arrow {
+    border-left-color: $tooltipbg;
+}
+.yamm-content,
+.tab-pane {
+    padding: 0px;
+}
+.stateforest {
+    padding: 15px;
+}
+
+.featurewidth {
+    margin: 0 auto;
+    padding: 1px 0;
+    overflow: hidden;
+    background: rgba(255, 255, 255, .9) url(../images/headerexplore.jpg) 0px 0px no-repeat;
+    clear: both;
+}
+.featurewidth:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.3);
+    transition: all .5s linear;
+}
+.featurewidth .tab-content {
+    background: white;
+}
+#activitywindow {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    width: 360px;
+    top: 70px
+}
+#activitywindow header {
+    height: 80px;
+}
+.infowindowclose {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background: rgba(255, 255, 255, 1);
+    padding: 1px 5px;
+    cursor: pointer;
+}
+.infowindowclose:hover {
+    background: rgba(255, 255, 255, .75);
+}
+.infowindowclose:before {
+    content: "X";
+    font-weight: bold;
+}
+
+li.activity {
+//    margin-top: 15px;
+    line-height: 1em;
+    text-align: center;
+    width: auto;
+    height: 75px;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+#splashModal > div > header {
+    height: 80px;
+}
+#splashModal > button > i {
+    top: 8px;
+    position: relative;
+}
+#explorecontent span.menuBox, #explorecontent span.menuBox:active {
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: -20px;
+}
+
+.explorecontent {
+    background: white;
+    position: relative;
+    overflow:hidden;
+}
+#explorecontent .btn {
+    -ms-touch-action: manipulation;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    width: 120px;
+    height: 70px;
+    left: 0;
+    position: relative;
+    border: none;
+    background: transparent;
+    overflow: hidden;
+    padding: 8px 0 0 8px;
+}
+
+.explore_btn {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 8px 12px;
+    font-size: 15px;
+    line-height: 1.4;
+    border-radius: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #333333;
+    background-color: #e7e7e7;
+    border-color: #cccccc;
+}
+/*
+// target accessible button in explore ONLY - yes this is a total pain but that's because the buttons in explore are all sligtly different.
+#explorecontent > ul > li:nth-child(1) > div > button {
+    width: 120px;
+    margin-left: -2px;
+}
+// target yonder button in explore ONLY - yes this is a total pain but that's because the buttons in explore are all sligtly different.
+#explorecontent > ul > li:nth-child(2) > div > button {
+    width: 120px;
+    margin-left: -1px;
+}
+// target state/forest button in explore ONLY - yes this is a total pain but that's because the buttons in explore are all sligtly different.
+#explorecontent > ul > li:nth-child(6) > div > button {
+    width: 122px;
+    margin-left: -1px;
+}
+// target twitter button in explore ONLY - yes this is a total pain but that's because the buttons in explore are all sligtly different.
+#explorecontent > ul > li:nth-child(3) > div > button {
+    width: 122px;
+    margin-left: 0;
+}
+*/
+.col-sm-6 {
+    width: 120px;
+    height: 75px;
+    padding: 0;
+}
+
+.list-inline > li {
+    padding-left: 0;
+    padding-right: 0;
+    float: left;
+}
+
+/*******************  MOBILE PORTRAIT ***************/
+@media only screen  and (min-device-width : 320px)  and (max-device-width : 767px)  and (orientation : portrait) {
+
+/* position explore modal for mobile portrait...  */
+  .modal.ng-isolate-scope.exploreModal.in > .modal-dialog {
+//      margin: 0;
+//      margin-top: 10px;
+  }
+    .modal-dialog {
+        margin: 0;
+        margin-top: 10px;
+    }
+    li.activity {
+        width: 33%;
+    }
+    #explorecontent .btn {
+        width: 100%;
+    }
+    .col-sm-6 {
+        width: auto;
+    }
+}
+
+/******************* BROWSER ONLY  ***************/
+@media only screen and (min-device-width : 360px) {
+    .featurewidth {
+        width: 360px;
+    }
+}
+

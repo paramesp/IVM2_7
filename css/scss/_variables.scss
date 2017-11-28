@@ -1,0 +1,50 @@
+/*vars*/
+
+/*default window styles*/
+
+$popupwrapperboxshadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+0 6px 6px rgba(0, 0, 0, 0.23);
+$popupwrapperpadding: 5px;
+
+/*colors*/
+
+$fontfamily: sans-serif;
+$fsbrown: rgba(46, 30, 18, 1);
+$fsgreen: #076727;
+$radius: 0px;
+$yonderColor: #E34930;
+$twitterColor: #4099FF;
+$accessibleColor: blue;
+$fsbrownColor: rgba(46, 30, 18, 1);
+$fsgreenColor: #076727;
+$mapnavbackground:rgba(255,255,255,.9);
+$tony_is_cool:rgba(69,69,99,.9);
+$facebookColor: #3b5998;
+.fsbrown {
+    color: $fsbrownColor;
+}
+.fsgreen {
+    color: $fsgreenColor;
+}
+.yonder {
+    color: $yonderColor;
+}
+.yonder:hover {
+    //color: $fsgreenColor;
+}
+.twitter {
+    color: $twitterColor;
+}
+.twitter:hover {
+   // color: $fsgreenColor;
+}
+.blueIcon {
+    color: $accessibleColor;
+}
+.blueIcon:hover {
+    //color: $fsgreenColor;
+}
+.facebook {
+    color: $facebookColor;
+}
+

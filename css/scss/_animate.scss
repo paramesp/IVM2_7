@@ -1,0 +1,61 @@
+.animate-slide {
+  background:red;
+  position:absolute;
+  width: 100%;
+  height:100%;
+  left: 0;
+  -webkit-transform: translate3d(0,0,0); /* Chrome, Safari, Opera seems to work in ie*/
+  transform: translate3d(0,0,0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000;
+  perspective: 1000;
+}
+
+.animate-slide.ng-hide-add,
+.animate-slide.ng-hide-remove {
+  display:block!important;
+}
+
+.animate-slide.ng-hide-remove.ng-hide-remove-active {
+  -webkit-animation:0.5s slide-up;
+  animation:0.5s slide-up;
+}
+
+.animate-slide.ng-hide-add.ng-hide-add-active {
+  -webkit-animation:0.5s slide-down;
+  animation:0.5s slide-down;
+}
+
+.animate-slide.ng-hide {
+  left:-280px;
+  display:block !important;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes slide-up
+{
+  0%   {left:-280px;}
+  100%  {left:0;}
+}
+
+/* Standard syntax */
+@keyframes slide-up
+{
+  0%   {left:-280px;}
+  100%  {left:0;}
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes slide-down
+{
+  0%  {left:0;}
+  100%   {left:-280px;}
+}
+
+/* Standard syntax */
+@keyframes slide-down
+{
+  0%  {left:0;}
+  100%   {left:-280px;}
+}

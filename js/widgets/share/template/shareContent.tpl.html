@@ -1,0 +1,35 @@
+<div class="shareURL">
+	<h3 class="shareHeader text-center">SHARE INTERACTIVE VISITOR MAP URL</h3>
+    <ul>          
+    	<li class="col-xs-4 text-center" ng-repeat="shareObj in shareData.shareListNormal">
+        	<a ng-href="#" href="" ng-click="doShare(shareObj.key, false)" alt="{{shareObj.text}}">
+           		<i class="{{shareObj.icon}}"></i><br>
+              	<span class="tools menuBox fsbrown">{{shareObj.text}}</span>         				      		
+          	</a>
+		</li>	         
+		<li class="col-xs-12 text-center">
+			<div class="shareInput">
+                <span class="tools menuBox fsbrown">Copy the following URL:</span>
+				<input id="urlNormal" type="text" class="form-control" value="{{shareData.urlObject.urlNormal}}" aria-describedby="basic-addon2">
+			</div>
+		</li>        
+	</ul>      		     		
+</div>
+
+<div class="shareExtent">
+	<h3 class="shareHeader text-center">SHARE CURRENT MAP AREA</h3>
+	<ul>          
+		<li class="col-xs-4 text-center" ng-repeat="shareObj in shareData.shareListExtent">
+			<a ng-href="#" href="" ng-click="doShare(shareObj.key, true)" alt="{{shareObj.text}}">
+				<i class="{{shareObj.icon}}"></i><br>
+				<span class="tools menuBox fsbrown">{{shareObj.text}}</span>         				      		
+ 			</a>
+		</li>	         
+		<li class="col-xs-12 text-center">
+ 			<div class="shareInput">
+                <span class="tools menuBox fsbrown">Copy the following URL:</span>
+				<input id="urlExtent" type="text" class="form-control" value="{{shareData.urlObject.urlExtentTextbox}}" aria-describedby="basic-addon2">
+			</div>
+ 		</li>        
+	</ul>      		     		
+</div>

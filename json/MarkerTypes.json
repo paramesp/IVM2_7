@@ -1,0 +1,214 @@
+[
+ {
+    "MARKERACTIVITY": "Backpacking",
+    "ICON":"images/backpacking-h.svg"
+ },
+  {   
+    "MARKERACTIVITY": "Beachcombing",
+    "ICON":"images/beachcombing-h.svg"
+   },
+  {   
+    "MARKERACTIVITY": "Birdwatching",
+    "ICON":"images/birdwatching-h.svg"
+   },
+  {   
+    "MARKERACTIVITY": "Boating - Motorized",
+    "ICON":"images/boating-motorized-h.svg"
+   },
+  {   
+    "MARKERACTIVITY": "Boating - Non-Motorized",
+    "ICON":"images/boating-non-motorized-h.svg"
+   },
+  {   
+    "MARKERACTIVITY": "Cabin Rentals",
+    "ICON":"images/cabin-rentals-h.svg"
+   },
+  {   
+    "MARKERACTIVITY": "Campground Camping",
+    "ICON":"images/camping-h.svg"
+   },
+  {   
+    "MARKERACTIVITY": "Caving",
+    "ICON":"images/caving-h.svg"
+   },
+  {  
+    "MARKERACTIVITY": "Day Hiking",
+    "ICON":"images/day-hiking-h.svg"
+   },
+  {   
+    "MARKERACTIVITY": "Dispersed Camping",
+    "ICON":"images/dispersed-camping-h.svg"
+   },  
+  {   
+    "MARKERACTIVITY": "Fishing",
+    "ICON":"images/fishing-h.svg"
+   },
+  {   
+    "MARKERACTIVITY": "Estuary Fishing",
+    "ICON":"images/fishing-h.svg"
+   }, 
+  {   
+    "MARKERACTIVITY": "Lake and Pond Fishing",
+    "ICON":"images/fishing-h.svg"
+   },    
+  {   
+    "MARKERACTIVITY": "River and Stream Fishing",
+    "ICON":"images/fishing-h.svg"
+   },       
+  {  
+    "MARKERACTIVITY": "General Purpose",
+    "ICON":"images/usfs-h.svg"
+   },
+  {  
+    "MARKERACTIVITY": "Gold Panning",
+    "ICON":"images/gold-panning-h.svg"
+   },
+  { 
+    "MARKERACTIVITY": "Group Camping",
+    "ICON":"images/group-camping-h.svg"
+   },
+  {   
+    "MARKERACTIVITY": "Group Picnicking",
+    "ICON":"images/group-picnicking-h.svg"
+   },
+  {  
+    "MARKERACTIVITY": "Hang Gliding",
+    "ICON":"images/hang-gliding-h.svg"
+   },
+  { 
+    "MARKERACTIVITY": "Horse Camping",
+    "ICON":"images/horse-riding-and-camping-h.svg"
+   },
+  {   
+    "MARKERACTIVITY": "Horse Riding",
+    "ICON":"images/horse-riding-h.svg"
+   },
+  {
+     "MARKERACTIVITY": "Hunting",
+     "ICON":"images/hunting-h.svg"
+   },
+  {
+     "MARKERACTIVITY": "Big Game Hunting",
+     "ICON":"images/hunting-h.svg"
+   },   
+  {
+    "MARKERACTIVITY": "Ice Fishing",
+    "ICON":"images/ice-fishing-h.svg"
+   },
+  {   
+    "MARKERACTIVITY": "Interpretive Areas",
+    "ICON":"images/interpretive-areas-h.svg"
+   },
+  {   
+    "MARKERACTIVITY": "Mountain Biking",
+    "ICON":"images/mountain-biking-h.svg"
+   },
+  {   
+    "MARKERACTIVITY": "Mountain Climbing",
+    "ICON":"images/mountain-climbing-h.svg"
+   },
+   {      
+    "MARKERACTIVITY": "Mushing",
+    "ICON":"images/mushing-h.svg"
+   },
+  {   
+    "MARKERACTIVITY": "OHV Camping",
+    "ICON":"images/ohv-riding-and-camping-h.svg"
+   },
+  {   
+    "MARKERACTIVITY": "OHV Open Area Riding",
+    "ICON":"images/ohv-riding-h.svg"
+   },
+  {   
+    "MARKERACTIVITY": "OHV Road Riding",
+    "ICON":"images/ohv-riding-h.svg"
+   },       
+  {   
+    "MARKERACTIVITY": "OHV Trail Riding",
+    "ICON":"images/ohv-riding-h.svg"
+   },   
+  {   
+    "MARKERACTIVITY": "Picnicking",
+    "ICON":"images/picnicking-h.svg"
+   },
+  {   
+    "MARKERACTIVITY": "Road Cycling",
+    "ICON":"images/road-cycling-h.svg"
+   },
+  {   
+    "MARKERACTIVITY": "Rock Climbing",
+    "ICON":"images/rock-climbing-h.svg"
+   },
+  {  
+    "MARKERACTIVITY": "Rockhounding",
+    "ICON":"images/rockhounding-h.svg"
+   },
+  {  
+    "MARKERACTIVITY": "RV Camping",
+    "ICON":"images/rv-camping-h.svg"
+   },
+  {  
+    "MARKERACTIVITY": "Sand Play",
+    "ICON":"images/sandplay-h.svg"
+   },
+  {   
+    "MARKERACTIVITY": "Scenic Driving",
+    "ICON":"images/scenic-driving-h.svg"
+   },
+  {   
+    "MARKERACTIVITY": "Skiing/Snowboarding",
+    "ICON":"images/skiing-snowboarding-h.svg"
+   },
+  {   
+    "MARKERACTIVITY": "Sledding/Tubing",
+    "ICON":"images/sledding-h.svg"
+   }, 
+  {   
+    "MARKERACTIVITY": "Snowmobiling",
+    "ICON":"images/snowmobiling-h.svg"
+   },
+  {   
+    "MARKERACTIVITY": "Swimming",
+    "ICON":"images/swimming-h.svg"
+   },
+  {  
+    "MARKERACTIVITY": "Target Shooting",
+    "ICON":"images/target-shooting-h.svg"
+   },
+  { 
+    "MARKERACTIVITY": "Tidepooling",
+    "ICON":"images/tidepooling-h.svg"
+   },
+  {
+    "MARKERACTIVITY": "Trailhead",
+    "ICON":"images/trailhead-h.svg"
+   }, 
+  {
+    "MARKERACTIVITY": "Viewing Plants",
+    "ICON":"images/viewing-plants-h.svg"
+   },
+  {
+    "MARKERACTIVITY": "Viewing Scenery",
+    "ICON":"images/viewing-scenery-h.svg"
+   },
+  {  
+    "MARKERACTIVITY": "Viewing Wildlife",
+    "ICON":"images/viewing-wildlife-h.svg"
+   },
+  {   
+    "MARKERACTIVITY": "Visitor Centers",
+    "ICON":"images/visitor-centers-h.svg"
+   },
+  {   
+    "MARKERACTIVITY": "Visitor Programs",
+    "ICON":"images/visitor-programs-h.svg"
+   },
+  {
+    "MARKERACTIVITY": "Windsurfing",
+    "ICON":"images/windsurfing-h.svg"
+   },
+  {
+    "MARKERACTIVITY": "XC skiing/Snowshoeing",
+    "ICON":"images/xc-skiing-h.svg"
+   }
+ ]

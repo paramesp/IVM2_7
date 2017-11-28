@@ -1,0 +1,22 @@
+<!-- Modal Base Map -->
+<div id="basemapsModal" class="text-center">
+	<header>
+        <h2 class="h3 text-center" aria-label="Base Map">Base Map</h2>
+	</header>
+    <button class="navClose" aria-role="button" title="Close the Base Map dialog" ng-click="cancel()">
+        <i class="tk-close-1"></i>
+        <span class="sr-only">Close the Base Map dialog</span>
+    </button>
+        	
+  	<div class="modal-body">
+    	<ul>	  
+	  		<li ng-repeat="layer in modalObject.basemapData.layers" class="basemapList col-xs-4" title="{{layer.ariaLabel}}">
+	  			<button class="btn btn-xs {{layer.layerClass}}" ng-click="handleClickEvent(layer.key)" aria-role="button">
+	  				<img class="imgNavBasemap" width="75" ng-src="{{layer.thumbnailSource}}" alt="{{layer.ariaLabel}}">
+            		<br />
+	  				<span class="menuBox" aria-hidden="true">{{layer.name}}</span>
+	  			</button>
+	  		</li>	
+  		</ul>
+  	</div>
+</div>

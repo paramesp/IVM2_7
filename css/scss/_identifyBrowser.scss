@@ -1,0 +1,234 @@
+/*ESRI POPUPWINDOW VARS AND MIXINS AND CLASSES*/
+
+@mixin esriPopupWrapper() {
+    box-shadow: $popupwrapperboxshadow;
+    width: 280px;
+    height: 400px;
+    background: white;
+    position: absolute;
+/*   TK removed two following lines 12-22-15 due to it breaking identify window placement  */
+    /*top: 10%;*/
+    /*left: 10%;*/
+    /* overflow: hidden;*/    
+    z-index: 1;
+}
+@mixin esriPopupTitlePane() {
+    background: $fsbrown;
+    color: rgb(255, 255, 255);
+    padding: 3px 8px 0;
+    line-height: 1em;
+    height: 45px;
+    border-radius: $radius;
+    font-family: $fontfamily;
+}
+
+/* close button */
+
+@mixin closeButton() {
+/*    color: white !important;
+    opacity: 1 !important;
+    text-shadow: none !important;
+    right: 12px;
+    top: -3px;
+    font-family: sans-serif;
+    content: "X";
+    font-weight: normal;*/
+    display: none;
+}
+
+
+//all thy styles
+//Classes
+
+//fix bug 5691 where text appears under close button
+.esriPopupWrapper h4.identHeaderTitle.ng-binding {
+    width: 240px;
+}
+
+
+//hide share URL portion of share in identify window
+#infowindow_content .shareURL, div#identifyMobile .shareURL {
+    display: none;
+}
+
+
+//prevent 3rd line of text in identify header - may not work in non-webkit TK
+h4.identHeaderTitle {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    line-height: 20px;
+    max-height: 50px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    font-size: 16px;
+    /* font-weight: bold; */
+    /* text-transform: uppercase; */
+}
+
+
+// set the width of the activity icons in identify.... again
+img.identActivityIcon {
+    width: 23px !important;
+    margin: 5px;
+}
+
+//next two classes resize videos for identify
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 25px;
+  height: 0; 
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important; 
+}
+// resize html5/youtube video - example: clearwater falls campground in Umpqua NF 
+iframe {
+  width: 100% !important;
+  height: 100% !important; 
+}
+// experimental: try to fix the small accessible icons embedded in some Custer Gallatin NF content
+img[src="http://www.fs.usda.gov/Internet/FSE_MEDIA/stelprdb5108460.png"] {
+    width: 17px !important;
+    margin-right: 100%;
+}
+
+#identifyMobile > div.identify-header  {
+    background: #2e1e12;
+    color: white;
+    padding: 3px 8px 0;
+    line-height: 1em;
+    height: 50px;
+    border-radius: 0px;
+    font-family: sans-serif;
+    overflow: hidden;
+    }
+
+@media (min-width:668px) {
+  
+    div.userAvatarContainer > img.userAvatar {
+        margin: 0; 
+        }
+    
+
+    div#infowindow_content {
+        width: 280px
+        }
+
+}
+
+
+#foo {
+	overflow-y: auto !important;
+    height: 318px;
+    //line below may be needed to get images wide enough
+    //width: 298px;
+}
+.identContentHeading {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgba(46, 30, 18, 1);
+  margin-top: 10px;
+}
+.identContentError {
+  font-weight: bold;
+  color: #FF0000;
+}
+// below is old css from IVM 1 which makes the image max at 40% wide. Should not be here in IVM2!
+//.identContentValue img {
+//  max-width: 40%;
+//  margin: 5px;
+//}
+
+/* Identify */
+#ivmIdentify {
+	/*overflow-y: auto; */
+	z-index: 50;
+}
+
+// 042716 - this chunk addresses bug #4397, image size and position goes out of identify window because of enclosing div may have inline styles setting a width larger than the identify container -TK
+div#foo div {
+    max-width: 100%;
+}
+
+// 042716 - attempt to debug why text is cut off in explore window on ipad
+
+
+//.esriPopup.esriPopupVisible .esriPopupWrapper {
+    /*box-shadow: 0 0 0.75em #777777;
+     -webkit-box-shadow: 0 0 0.75em #777777; 
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    background-color: #2e1e12;
+    z-index: 1;
+    border: 1px solid #2e1e12;
+    height: 400px;*/
+//}
+.esriPopup .contentPane {
+    position: relative;
+    overflow-x: hidden;
+    padding: 0;
+    color: #333333;
+    height: 355px;
+    border-radius: 0;
+    max-height: none !important;
+}
+.esriPopup .esriPopupWrapper {
+    @include esriPopupWrapper();
+}
+
+.esriPopupWrapper img {
+    width: 100%;
+    //margin: 5px;
+    margin-bottom: 10px;
+}
+.esriPopupWrapper .titlePane,
+.esriPopup .titlePane {
+    @include esriPopupTitlePane()
+}
+.esriPopup .titleButton:after {
+    @include closeButton()
+}
+///// HEADER CSS FOR THE identifyBrowser.scss ////
+
+.esriPopup .titleButton.close {
+    right: 24px !important;
+    top: 10px;
+    opacity: 1.0;
+}
+.esriPopup .identify-header{
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: flex-start;
+    height: 50px;
+    padding: 0;
+    margin: -4px 0 0 0;
+}
+.esriPopup .identify-header h4#identifyTitle {
+    font-size: 14px;
+    max-width: 245px;
+    line-height: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+}
+
+.esriPopup .content {
+    width: 100% !important;
+    overflow: auto;
+}
+.esriPopup .contentPane{
+    background: rgba(255,255,255,1);
+}

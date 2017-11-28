@@ -1,0 +1,25 @@
+<div id="legendDynamic" ng-if="navBarData.selItem.type == 'roadsQuery' && mapLevel > navBarData.selItem.mapLevel">
+	<header>ROAD AND TRAIL USES</header>
+	<img class="highlight" src="images/green-highlight.svg" ng-if="!navBarData.selItem.dontShowManagedInLegend"><span ng-if="!navBarData.selItem.dontShowManagedInLegend" >Trails Managed for {{navBarData.selItem.title}}</span>
+    <img class="highlight" src="images/yellow-highlight.svg"><span>Roads or Trails Open to {{navBarData.selItem.title}}</span>
+    <img class="highlight" src="images/red-highlight.svg"><span>Roads or Trails Closed to {{navBarData.selItem.title}}</span>
+</div>
+
+<div id="legendDynamic" ng-if="navBarData.selItem.type == 'trailsQuery' && mapLevel > navBarData.selItem.mapLevel">
+	<header>TRAIL USES</header>
+	<img class="highlight" src="images/green-highlight.svg"><span>Trails Managed for {{navBarData.selItem.title}}</span>
+    <img class="highlight" src="images/yellow-highlight.svg"><span>Trails Open to {{navBarData.selItem.title}}</span>
+    <img class="highlight" src="images/red-highlight.svg"><span>Trails Closed to {{navBarData.selItem.title}}</span>
+</div>
+
+<div id="legendDynamic" ng-if="navBarData.selItem.type == 'recSitesQuery' && navBarData.selItem.title == 'Accessible Info' && mapLevel > navBarData.selItem.mapLevel">
+	<header>TRAIL USES</header>
+    <img class="highlight" src="images/yellow-highlight.svg"><span>Trail Complies with Accessibility Guidelines</span>
+</div>
+
+<div id="legendDynamicSearch" ng-if="navBarData.searchData.searchText.length > 0 && mapLevel > navBarData.searchData.mapLevel">
+    <header>SEARCH</header>
+    <img class="highlightSearch" src="images/search-h.svg"><span>Search Results Containing '{{navBarData.searchData.searchText}}'</span>
+</div>
+
+<img src="images/legend-static-only.png" alt="Image of map legend showing cartographic representations of roads, trails, and map boundaries" title="Image of map legend showing cartographic representations of roads, trails, and map boundaries">

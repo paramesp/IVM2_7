@@ -1,0 +1,65 @@
+//basemaps sass
+#basemapsModal > header {
+    background-image: url(../images/header-basemap.jpg);
+    background-position: center;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+}
+#basemapsModal > div.modal-body > ul > li > label > input {
+    visibility: hidden;
+}
+#basemapsModal {
+    overflow-x:  hidden;
+    padding-bottom: 20px;
+    ul {
+        margin: 0;
+        padding: 0 0 0 10px;
+    }
+}
+/* basemaps 081715 */
+
+li.basemapList {
+    cursor: pointer;
+//    color: black;
+//    margin-left: 10px;
+//    margin-right: 10px;
+}
+li.basemapList:hover {
+      //background-color: #e9e9e9;
+//    color: white;
+//    margin-left: 10px;
+//    margin-right: 10px;
+}
+div#modal-content-basemaps {
+    overflow-x: hidden;
+}
+#basemapsModal > input {
+    display: none;
+}
+#basemapsModal .btn {
+    -ms-touch-action: manipulation;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    width: 118px;
+    height: 115px;
+    left: -19px;
+    position: relative;
+    border: none;
+    background: transparent;
+    overflow:hidden;
+    padding-top: 10px;
+}
+#basemapsModal span.menuBox, #basemapsModal span.menuBox:active {
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: 0px;
+}
+#basemapsModal .btn-success {
+  color: $fsgreenColor;
+  background-color: transparent;
+  border-color: transparent;
+}
+/* basemaps 081715 */

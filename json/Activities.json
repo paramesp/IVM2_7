@@ -1,0 +1,646 @@
+{
+  "Activities": {
+    "RecreationSiteActivities": [
+        {
+          "ActivityID": "-1",
+          "ActivityName": "Any Type",
+          "ParentActivityID": "-1",
+          "Type": "ALL",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_064.png"
+        },
+        {
+          "ActivityID": "18",
+          "ActivityName": "Beaches & Dunes",
+          "ParentActivityID": "18",
+          "Type": "Beach",
+          "ActivityType": "recQLayer",
+          "Icon": "images//sandplay-h.svg"
+        },
+        {
+          "ActivityID": "19",
+          "ActivityName": "Beachcombing",
+          "ParentActivityID": "18",
+          "Type": "Beach",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_001.png"
+        },
+        {
+          "ActivityID": "20",
+          "ActivityName": "Sand Play",
+          "ParentActivityID": "18",
+          "Type": "Beach",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_002.png"
+        },
+        {
+          "ActivityID": "21",
+          "ActivityName": "Dog Sledding",
+          "ParentActivityID": "18",
+          "Type": "Beach",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_003.png"
+        },
+        {
+          "ActivityID": "22",
+          "ActivityName": "Tidepooling",
+          "ParentActivityID": "18",
+          "Type": "Beach",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_004_new.png"
+        },
+        {
+          "ActivityID": "23",
+          "ActivityName": "Bicycling",
+          "ParentActivityID": "23",
+          "Type": "Other",
+          "ActivityType": "trailsQuery",
+          "Icon": "images//road-cycling-h.svg"
+        },
+        {
+          "ActivityID": "24",
+          "ActivityName": "Mountain Biking",
+          "ParentActivityID": "23",
+          "Type": "Other",
+          "ActivityType": "trailsQuery",
+          "Icon": "act_list_005_new.png"
+        },
+        {
+          "ActivityID": "26",
+          "ActivityName": "Road Cycling",
+          "ParentActivityID": "23",
+          "Type": "Other",
+          "ActivityType": "trailsQuery",
+          "Icon": "act_list_006.png"
+        },
+        {
+          "ActivityID": "28",
+          "ActivityName": "Camping & Cabins",
+          "ParentActivityID": "28",
+          "Type": "Camp",
+          "ActivityType": "recQLayer",
+          "Icon": "images//camping-h.svg"
+        },
+        {
+          "ActivityID": "29",
+          "ActivityName": "Campground Camping",
+          "ParentActivityID": "28",
+          "Type": "Campground",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_007.png"
+        },
+        {
+          "ActivityID": "30",
+          "ActivityName": "Horse Camping",
+          "ParentActivityID": "28",
+          "Type": "Campground",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_022_new.png"
+        },
+        {
+          "ActivityID": "31",
+          "ActivityName": "RV Camping",
+          "ParentActivityID": "28",
+          "Type": "Campground",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_008_new.png"
+        },
+        {
+          "ActivityID": "32",
+          "ActivityName": "OHV Camping",
+          "ParentActivityID": "28",
+          "Type": "Campground",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_034_new.png"
+        },
+        {
+          "ActivityID": "33",
+          "ActivityName": "Group Camping",
+          "ParentActivityID": "28",
+          "Type": "Campground",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_009_new.png"
+        },
+        {
+          "ActivityID": "34",
+          "ActivityName": "Dispersed Camping",
+          "ParentActivityID": "28",
+          "Type": "Camground",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_010_new.png"
+        },
+        {
+          "ActivityID": "36",
+          "ActivityName": "Climbing",
+          "ParentActivityID": "36",
+          "Type": "Climbing",
+          "ActivityType": "recQLayer",
+          "Icon": "images//mountain-climbing-h.svg"
+        },
+        {
+          "ActivityID": "37",
+          "ActivityName": "Rock Climbing",
+          "ParentActivityID": "36",
+          "Type": "Climbing",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_012_new.png"
+        },
+        {
+          "ActivityID": "38",
+          "ActivityName": "Mountain Climbing",
+          "ParentActivityID": "36",
+          "Type": "Climbing",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_013_new.png"
+        },
+        {
+          "ActivityID": "39",
+          "ActivityName": "Fishing",
+          "ParentActivityID": "39",
+          "Type": "Fishing",
+          "ActivityType": "recQLayer",
+          "Icon": "images//fishing-h.svg"
+        },
+        {
+          "ActivityID": "40",
+          "ActivityName": "Salt Water Fishing",
+          "ParentActivityID": "39",
+          "Type": "Fishing",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_014_new.png"
+        },
+        {
+          "ActivityID": "41",
+          "ActivityName": "Estuary Fishing",
+          "ParentActivityID": "39",
+          "Type": "Fishing",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_015_new.png"
+        },
+        {
+          "ActivityID": "42",
+          "ActivityName": "Lake and Pond Fishing",
+          "ParentActivityID": "39",
+          "Type": "Fishing",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_016_new.png"
+        },
+        {
+          "ActivityID": "43",
+          "ActivityName": "River and Stream Fishing",
+          "ParentActivityID": "39",
+          "Type": "Fishing",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_017_new.png"
+        },
+        {
+          "ActivityID": "44",
+          "ActivityName": "Ice Fishing",
+          "ParentActivityID": "39",
+          "Type": "Fishing",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_018.png"
+        },
+        {
+          "ActivityID": "47",
+          "ActivityName": "Hang Gliding",
+          "ParentActivityID": "116",
+          "Type": "Other",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_061.png"
+        },
+        {
+          "ActivityID": "49",
+          "ActivityName": "Hiking",
+          "ParentActivityID": "49",
+          "Type": "Trail",
+          "ActivityType": "trailsQuery",
+          "Icon": "images//trailhead-h.svg"
+        },       
+        {
+          "ActivityID": "50",
+          "ActivityName": "Day Hiking",
+          "ParentActivityID": "49",
+          "Type": "Trail",
+          "ActivityType": "trailsQuery",
+          "Icon": "act_list_019_new.png"
+        },
+        {
+          "ActivityID": "51",
+          "ActivityName": "Backpacking",
+          "ParentActivityID": "49",
+          "Type": "Trail",
+          "ActivityType": "trailsQuery",
+          "Icon": "act_list_020_new.png"
+        },
+        {
+          "ActivityID": "52",
+          "ActivityName": "Horse Riding & Camping",
+          "ParentActivityID": "52",
+          "Type": "Campground",
+          "ActivityType": "trailsQuery",
+          "Icon": "images//horse-riding-and-camping-h.svg"
+        },
+        {
+          "ActivityID": "53",
+          "ActivityName": "Hunting",
+          "ParentActivityID": "53",
+          "Type": "Other",
+          "ActivityType": "recQLayer",
+          "Icon": "images//hunting-h.svg"
+        },
+        {
+          "ActivityID": "54",
+          "ActivityName": "Big Game Hunting",
+          "ParentActivityID": "53",
+          "Type": "Other",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_023.png"
+        },
+        {
+          "ActivityID": "55",
+          "ActivityName": "Small Game Hunting",
+          "ParentActivityID": "53",
+          "Type": "Other",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_024.png"
+        },
+        {
+          "ActivityID": "56",
+          "ActivityName": "Game Bird/Waterfowl",
+          "ParentActivityID": "53",
+          "Type": "Other",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_025.png"
+        },
+        {
+          "ActivityID": "57",
+          "ActivityName": "Trapping",
+          "ParentActivityID": "53",
+          "Type": "Other",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_026.png"
+        },
+        {
+          "ActivityID": "59",
+          "ActivityName": "Gold Panning",
+          "ParentActivityID": "72",
+          "Type": "Other",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_041.png"
+        },
+        {
+          "ActivityID": "60",
+          "ActivityName": "Metal Detecting",
+          "ParentActivityID": "72",
+          "Type": "Other",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_042.png"
+        },
+        {
+          "ActivityID": "61",
+          "ActivityName": "Nature Viewing",
+          "ParentActivityID": "61",
+          "Type": "Site",
+          "ActivityType": "recQLayer",
+          "Icon": "images//viewing-wildlife-h.svg"
+        },
+        {
+          "ActivityID": "62",
+          "ActivityName": "Viewing Wildlife",
+          "ParentActivityID": "61",
+          "Type": "Site",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_027.png"
+        },
+        {
+          "ActivityID": "63",
+          "ActivityName": "Viewing Plants",
+          "ParentActivityID": "61",
+          "Type": "Site",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_028_new.png"
+        },
+        {
+          "ActivityID": "64",
+          "ActivityName": "Viewing Scenery",
+          "ParentActivityID": "61",
+          "Type": "Site",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_030_new.png"
+        },
+        {
+          "ActivityID": "65",
+          "ActivityName": "OHV Riding & Camping",
+          "ParentActivityID": "65",
+          "Type": "Campground",
+          "ActivityType": "roadsQuery",
+          "Icon": "images//ohv-riding-and-camping-h.svg"
+        },
+        {
+          "ActivityID": "68",
+          "ActivityName": "OHV Open Area Riding",
+          "ParentActivityID": "65",
+          "Type": "Trail",
+          "ActivityType": "roadsQuery",
+          "Icon": "act_list_033_new.png"
+        },
+        {
+          "ActivityID": "69",
+          "ActivityName": "Picnicking",
+          "ParentActivityID": "69",
+          "Type": "Picnic",
+          "ActivityType": "recQLayer",
+          "Icon": "images//picnicking-h.svg"
+        },
+        {
+          "ActivityID": "70",
+          "ActivityName": "Picnicking",
+          "ParentActivityID": "69",
+          "Type": "Picnic",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_038.png"
+        },
+        {
+          "ActivityID": "71",
+          "ActivityName": "Group Picnicking",
+          "ParentActivityID": "69",
+          "Type": "Picnic",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_039_new.png"
+        },
+        {
+          "ActivityID": "72",
+          "ActivityName": "Rocks & Minerals",
+          "ParentActivityID": "72",
+          "Type": "Other",
+          "ActivityType": "recQLayer",
+          "Icon": "images//rockhounding-h.svg"
+        },
+        {
+          "ActivityID": "73",
+          "ActivityName": "Rockhounding",
+          "ParentActivityID": "72",
+          "Type": "Other",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_043.png"
+        },
+        {
+          "ActivityID": "74",
+          "ActivityName": "Fossil Collecting",
+          "ParentActivityID": "72",
+          "Type": "Other",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_040.png"
+        },
+        {
+          "ActivityID": "75",
+          "ActivityName": "Scenic Driving",
+          "ParentActivityID": "75",
+          "Type": "Site",
+          "ActivityType": "roadsQuery",
+          "Icon": "images//scenic-driving-h.svg"
+        },
+        {
+          "ActivityID": "77",
+          "ActivityName": "Water Activities",
+          "ParentActivityID": "77",
+          "Type": "Boat",
+          "ActivityType": "recQLayer",
+          "Icon": "images//water-activities-h.svg"
+        },
+        {
+          "ActivityID": "78",
+          "ActivityName": "Boating - Motorized",
+          "ParentActivityID": "77",
+          "Type": "Boat",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_045_new.png"
+        },
+        {
+          "ActivityID": "79",
+          "ActivityName": "Boating - Non-Motorized",
+          "ParentActivityID": "77",
+          "Type": "Boat",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_046_new.png"
+        },
+        {
+          "ActivityID": "80",
+          "ActivityName": "Scuba Diving",
+          "ParentActivityID": "77",
+          "Type": "Boat",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_047.png"
+        },
+        {
+          "ActivityID": "81",
+          "ActivityName": "Surfing",
+          "ParentActivityID": "77",
+          "Type": "Beach",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_048.png"
+        },
+        {
+          "ActivityID": "82",
+          "ActivityName": "Swimming",
+          "ParentActivityID": "77",
+          "Type": "Beach",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_049.png"
+        },
+        {
+          "ActivityID": "83",
+          "ActivityName": "Tubing",
+          "ParentActivityID": "77",
+          "Type": "Other",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_050.png"
+        },
+        {
+          "ActivityID": "84",
+          "ActivityName": "Waterskiing",
+          "ParentActivityID": "77",
+          "Type": "Boat",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_051.png"
+        },
+        {
+          "ActivityID": "85",
+          "ActivityName": "Windsurfing",
+          "ParentActivityID": "77",
+          "Type": "Boat",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_052.png"
+        },
+        {
+          "ActivityID": "86",
+          "ActivityName": "Winter Sports",
+          "ParentActivityID": "86",
+          "Type": "Skiing",
+          "ActivityType": "recQLayer",
+          "Icon": "images//snowflake-h.svg"
+        },
+        {
+          "ActivityID": "87",
+          "ActivityName": "Ice Scating",
+          "ParentActivityID": "86",
+          "Type": "Other",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_053.png"
+        },
+        {
+          "ActivityID": "88",
+          "ActivityName": "Sledding/Tubing",
+          "ParentActivityID": "86",
+          "Type": "Other",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_054.png"
+        },
+        {
+          "ActivityID": "89",
+          "ActivityName": "Skiing/Snowboarding",
+          "ParentActivityID": "86",
+          "Type": "Skiing",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_055.png"
+        },
+        {
+          "ActivityID": "90",
+          "ActivityName": "Musing/Skijoring",
+          "ParentActivityID": "86",
+          "Type": "Other",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_056.png"
+        },
+        {
+          "ActivityID": "91",
+          "ActivityName": "XC Skiing/Snowshoeing",
+          "ParentActivityID": "86",
+          "Type": "Skiing",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_057.png"
+        },
+        {
+          "ActivityID": "92",
+          "ActivityName": "Snowmobiling",
+          "ParentActivityID": "86",
+          "Type": "Sno-Park",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_058.png"
+        },
+        {
+          "ActivityID": "93",
+          "ActivityName": "OHV Trail Riding",
+          "ParentActivityID": "65",
+          "Type": "Trail",
+          "ActivityType": "roadsQuery",
+          "Icon": "act_list_031_new.png"
+        },
+        {
+          "ActivityID": "94",
+          "ActivityName": "OHV Road Riding",
+          "ParentActivityID": "65",
+          "Type": "Trail",
+          "ActivityType": "roadsQuery",
+          "Icon": "act_list_032_new.png"
+        },
+        {
+          "ActivityID": "101",
+          "ActivityName": "Cabin Rentals",
+          "ParentActivityID": "28",
+          "Type": "Cabin",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_011.png"
+        },
+        {
+          "ActivityID": "102",
+          "ActivityName": "Caving",
+          "ParentActivityID": "116",
+          "Type": "Other",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_059_new.png"
+        },
+        {
+          "ActivityID": "103",
+          "ActivityName": "Geocaching & Letterboxing",
+          "ParentActivityID": "116",
+          "Type": "Other",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_062.png"
+        },
+        {
+          "ActivityID": "104",
+          "ActivityName": "Horse Riding",
+          "ParentActivityID": "52",
+          "Type": "Trail",
+          "ActivityType": "trailsQuery",
+          "Icon": "act_list_021.png"
+        },
+        {
+          "ActivityID": "105",
+          "ActivityName": "Scenic Driving",
+          "ParentActivityID": "75",
+          "Type": "Site",
+          "ActivityType": "roadsQuery",
+          "Icon": "act_list_044_new.png"
+        },
+        {
+          "ActivityID": "106",
+          "ActivityName": "Target Shooting",
+          "ParentActivityID": "116",
+          "Type": "Other",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_063.png"
+        },
+        {
+          "ActivityID": "116",
+          "ActivityName": "Other Activities",
+          "ParentActivityID": "116",
+          "Type": "Other",
+          "ActivityType": "recQLayer",
+          "Icon": "images//viewingplants-h.svg"
+        },
+        {
+          "ActivityID": "117",
+          "ActivityName": "Outdoor Learning",
+          "ParentActivityID": "117",
+          "Type": "Site",
+          "ActivityType": "recQLayer",
+          "Icon": "images//interpretive-areas-h.svg"
+        },
+        {
+          "ActivityID": "118",
+          "ActivityName": "Visitor Programs",
+          "ParentActivityID": "117",
+          "Type": "Site",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_035.png"
+        },
+        {
+          "ActivityID": "119",
+          "ActivityName": "Interpretive Areas",
+          "ParentActivityID": "117",
+          "Type": "Site",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_036.png"
+        },
+        {
+          "ActivityID": "120",
+          "ActivityName": "Visitor Centers",
+          "ParentActivityID": "117",
+          "Type": "Site",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_037.png"
+        },
+        {
+          "ActivityID": "121",
+          "ActivityName": "Disc Golf",
+          "ParentActivityID": "116",
+          "Type": "Other",
+          "ActivityType": "recQLayer",
+          "Icon": "act_list_060.png"
+        }       
+      ]
+  }
+}

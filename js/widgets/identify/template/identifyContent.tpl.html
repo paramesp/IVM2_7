@@ -1,0 +1,113 @@
+<!-- watch-tabs="identifyData.tabs" This breaks fire activity but fixes the scrollbar on mobile. -->
+<div scrolling-tabs-wrapper >
+    <!-- Standard Bootstrap ul.nav-tabs https://github.com/mikejacobson/angular-bootstrap-scrolling-tabs-->
+    <ul class="nav nav-tabs" role="tablist" >
+      <li ng-class="{ 'active': tab.active}" ng-repeat="tab in identifyData.tabs" ng-show="tab.visible" role="presentation">
+        <a ng-href="#" id="{{tab.key}}" role="tab" data-toggle="tab" ng-click="setIdentifyTabActive1($event)" >{{tab.heading}}</a>
+      </li>
+    </ul>
+</div>
+
+<!-- Tab panes -->
+<div id="foo" class="tab-content">
+	<!-- Tab panes for any graphics layers, and Feature Layers -->	
+	<div class="tab-pane" ng-repeat="tabObj in identifyData.tabs" ng-if="tabObj.graphicsData.length > 0 || (tabObj.dataObject && tabObj.dataObject.data.length > 0)" ng-class="{ 'active': tabObj.active }" id="{{tabObj.paneId}}">
+		<div id="{{tabObj.identifyContainer}}">
+			<div ng-repeat="graphicsObj in tabObj.graphicsData" ng-if="tabObj.isGraphics == true" >
+            	<div ng-if="tabObj.graphicsData.length == 1" class="identifyScrollbar">
+                	<div class="identify-col" ng-if="graphicsObj.thumbnail.length > 0">
+                    	<a href="{{graphicsObj.image}}" target="_blank">
+                        	<img class="userImage" ng-src="{{graphicsObj.thumbnail}}" alt="{{graphicsObj.title}} image - see caption text for description">
+                        </a> 
+                  </div> 
+                    <div class="{{graphicsObj.style}}">        					
+                    	<div class="userContainer" ng-if="graphicsObj.userName.length > 0">
+                        	<div class="userAvatarContainer" ng-if="graphicsObj.userURL.length > 0">
+                            	<img class="userAvatar" alt="{{graphicsObj.key}} user image" ng-src="{{graphicsObj.userURL}}">
+                            </div>
+                            <div class="userName">{{graphicsObj.userName}}</div>
+                            <div class="userLocation" ng-if="graphicsObj.geolocation.length > 0">{{graphicsObj.geolocation}}</div>
+                            <div class="userLocation" ng-if="graphicsObj.userHashTag.length > 0">
+                            	<a href="{{tabObj.hashTagPrefix}}{{graphicsObj.userHashTag}}" class="a" target="_blank">@{{graphicsObj.userHashTag}}</a>
+                            </div>
+                        </div>
+                        <div ng-if="graphicsObj.description.length > 0" class="userCaption" ng-bind-html="toTrusted(graphicsObj.description)"></div> 
+                        <br>
+                        <div ng-if="graphicsObj.date.length > 0" class="userCaption">{{graphicsObj.date}}</div>        				        				
+                	</div>        				
+            	</div>
+
+                <div ng-if="tabObj.graphicsData.length > 1" class="identifyScrollbar identifyClearBottom col-xs-12">
+                	<div class="identify-col" ng-if="graphicsObj.thumbnail.length > 0">
+                    	<a href="{{graphicsObj.image}}" target="_blank">
+                        	<img class="userImage" ng-src="{{graphicsObj.thumbnail}}" alt="{{graphicsObj.title}} image - see caption text for description">
+                        </a>        						      						
+                    </div>
+                    <div class="{{graphicsObj.style}}">
+                    	<div class="userListUserContainer" ng-if="graphicsObj.userName.length > 0">
+                        	<div class="userAvatarContainer" ng-if="graphicsObj.userURL.length > 0">
+                            	<img class="userAvatar" alt="{{graphicsObj.key}} user image" ng-src="{{graphicsObj.userURL}}">
+                            </div>                                          
+                            <div class="userName">{{graphicsObj.userName}}</div> 
+                            <div class="userLocation" ng-if="graphicsObj.geolocation.length > 0">{{graphicsObj.geolocation}}</div>
+                            <div class="userLocation" ng-if="graphicsObj.userHashTag.length > 0">
+                            	<a href="{{tabObj.hashTagPrefix}}{{graphicsObj.userHashTag}}" class="a" target="_blank">@{{graphicsObj.userHashTag}}</a>
+                            </div>
+                        </div>
+                        <div ng-if="graphicsObj.description.length > 0" class="userCaption" ng-bind-html="toTrusted(graphicsObj.description)"></div>  
+                        <br>
+                        <div ng-if="graphicsObj.date.length > 0" class="userDate">{{graphicsObj.date}}</div>    
+               		</div>		         			        			
+                </div>	            	           					
+			</div>
+
+			<!-- Loop each of the Layers inside Identify -->
+        	<div ng-repeat="dataObj in tabObj.dataObject.data track by $index" ng-if="tabObj.dataObject && tabObj.dataObject.data.length > 0">
+                          		
+        		<div ng-if="dataObj.label != ''" class="identContentHeading">{{dataObj.label}}</div>
+
+                <div class="identify-col" ng-if="dataObj.image && dataObj.image.length > 0">
+                    <img class="img-responsive" ng-src="{{dataObj.image}}" title="Picture of {{tabObj.dataObject.title}}">
+                </div>
+        		
+        		<div ng-switch-on="dataObj.isHomePage" ng-if="dataObj.value">
+        			<div ng-if="dataObj.isHomePage" class="identContentValue">
+         				<p>
+         					<a ng-if="tabObj.isWilderness" ng-href="{{dataObj.value}}" target="_blank" class="a" title="Visit the home page of {{tabObj.dataObject.title}} at Wilderness.net" >Visit {{tabObj.dataObject.title}} at Wilderness.net</a>
+         					<a ng-if="!tabObj.isWilderness && !dataObj.anchorObject" ng-href="{{dataObj.value}}" target="_blank" class="a" title="Visit the home page of {{tabObj.dataObject.title}}" >Visit {{tabObj.dataObject.title}}</a> 
+         					<a ng-if="!tabObj.isWilderness && dataObj.anchorObject" ng-href="{{dataObj.value}}" target="_blank" class="a" title="{{dataObj.anchorObject.title}}" >{{dataObj.anchorObject.text}}</a>         					        				
+        			</div>
+        			
+        			<div ng-if="!dataObj.isHomePage"  ng-switch on="dataObj.isHTML">
+        				<div ng-switch-when="true" class="identContentValue" ng-bind-html="toTrusted(dataObj.value)" ></div>
+        				<div ng-switch-when="false">
+        					<div ng-if="!dataObj.isActivities && dataObj.dataType != 'date'" class="identContentValue">{{dataObj.value}}</div>
+        					<div ng-if="!dataObj.isActivities && dataObj.dataType == 'date'" class="identContentValue">{{dataObj.value | date: 'medium'}}</div>
+        					
+        					<div ng-if="dataObj.isActivities && tabObj.dataObject.activities && tabObj.dataObject.activities.length > 0" class="identContentValue">
+								<img ng-src="{{activity.src}}" alt="{{activity.title}}" title="{{activity.title}}" class="identActivityIcon" ng-repeat="activity in tabObj.dataObject.activities">       						
+        					</div>
+        				</div>       		        				
+        			</div>
+        		</div>
+        		
+         		<p ng-if="tabObj.doExtentZoom && $index == tabObj.dataObject.numberValues-1"></p> <!--added at the end -->
+         		<div ng-if="tabObj.doExtentZoom && $index == tabObj.dataObject.numberValues-1" class="identContentHeading">ZOOM MAP:</div>
+         		<div class="identContentValue" ng-if="tabObj.doExtentZoom && $index == tabObj.dataObject.numberValues-1">
+         			<p>
+         				<a id="z_{{tabObj.key}}" ng-href="#" href="" class="a" title="Zoom to {{tabObj.dataObject.title}}"  ng-click="zoomToExtent($event)">Zoom To {{tabObj.dataObject.title}}</a>
+         			</p>
+         		</div>          		   
+          	</div> 
+         	        			
+		</div>
+	</div>
+	
+	<!-- Share in Identify (adds at end)... -->
+    <div class="tab-pane" ng-class="{ 'active': identifyData.tabs[identifyData.tabs.length-1].active }" id="{{identifyData.tabs[identifyData.tabs.length-1].paneId}}" aria-labelledBy="Identify Share Content" aria-hidden="{{!identifyData.tabs[identifyData.tabs.length-1].active}}">          	
+       <div id="home6" sharecontentctrl>
+                    
+       </div>          
+    </div>	
+	   
+</div>

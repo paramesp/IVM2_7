@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAQ,mCAAwB,CACxB,+BAAoB,CACpB,0BAAe,CACf,+BAAoB",
+"sources": ["ivmstyle.scss"],
+"names": [],
+"file": "ivmstyle.min.css"
+}

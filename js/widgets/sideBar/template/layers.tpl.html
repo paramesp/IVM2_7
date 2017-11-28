@@ -1,0 +1,11 @@
+<div id="{{'uc_' + dataObj.key}}" class="uc_box" title="Show/Hide {{dataObj.title}} - Override default {{dataObj.title}} display settings.  {{dataObj.notes}}" ng-repeat="dataObj in layersData.dataArray">	
+	<input tabindex="{{navBarData.modalOpenTabIndex}}" id="{{dataObj.key}}" class="uc_Input" name="{{dataObj.key}}" type="checkbox" value="{{dataObj.key}}" aria-label="{{dataObj.key}}" ng-checked="dataObj.isChecked" ng-disabled="dataObj.isDisabled" ng-click="setLayersContent($event)" ></input>
+
+	<i class="{{dataObj.icon}}" id="{{'uc_icon_' + dataObj.key}}" ng-if="dataObj.icon"></i>
+	<img ng-src="{{dataObj.image}}" id="{{'uc_img_' + dataObj.key}}" ng-if="dataObj.image"> 
+	
+	<span id="{{'uc_text_' + dataObj.key}}" class="uc_Text"  ng-bind-html="toTrusted(dataObj.title)" > </span>		
+</div>
+<div id="layersFooter">
+	<a ng-href="{{layersData.helpURL}}" target="_blank">More Info</a>
+</div>

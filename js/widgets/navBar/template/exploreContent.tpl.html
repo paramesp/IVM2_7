@@ -1,0 +1,30 @@
+<div id="explorecontent" class="explorecontent" >
+	<ul class="list-inline" role="menu">
+		<li class="fsbrown activity" ng-repeat="exploreD in modalObject.exploreData.explorePanelData.queryArray track by $index" >
+            <div class="col-sm-6 text-center pad btn-group" data-toggle="buttons" > 
+              	<button class="btn btn-xs" ng-model="exploreD.isChecked" btn-checkbox ng-change="handleChangeEvent('{{exploreD.key}}', $event)" title="{{exploreD.titleExplore}}">                          
+                	<i class="{{exploreD.iconClasses}}" ></i><br />
+                	<span class="menuBox" >{{exploreD.name}}</span>
+              	</button>
+            </div>				
+		</li>			          		
+    </ul>
+
+</div>         
+<div class="container-fluid" style="background-color: #FFCC33" ng-click="openSurvey('survey', 'window')"> 
+	<ul class="list-inline">		  
+		<li class="survey center-block">	
+			<div  class="col-sm-5">	
+				<!--img src="images/survey.svg" width="41" height="43" style="margin-left:5px"-->
+				<img src="images/survey.svg" width="37" height="33" style="margin-left:5px;margin-top:5px;">    				    							
+			</div>		
+		</li>
+		<li>		
+			<div class="text-left" style="margin-bottom: 4px;">
+				<span><p class="survey_text" style="font-size:20px;margin-bottom: -3px;"><strong>ENHANCE YOUR MAP</strong></p><p class="survey_text_plain" style="font-size:10px;margin:0">PROVIDE FEEDBACK IN A 1-MINUTE SURVEY</p></span>      
+			</div>	
+		</li>	   		
+	</ul>
+</div>
+ 
+

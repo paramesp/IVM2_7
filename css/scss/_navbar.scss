@@ -1,0 +1,475 @@
+/* BEGIN NAVBAR */
+
+//this class fixes some hover issues which would activate the menu when the mouse was outside of it.  Hope it doesn't screw up the mobile version LOL
+.tk-activity-menu:before {
+    content: "\e024";
+    position: relative;
+    top: -15px;
+}
+
+
+
+//the class below fixes dumb IE stuff, namely the gap between the dropdowns and the navbar. Don't ask me why. Just go with it.
+#miniNavContainer {
+    line-height: normal;
+    font-size: 10px;
+}
+
+// below targets the new wider activy menu button
+#miniNavContainer > div > div:nth-child(2),
+#miniNavContainer > div > div:nth-child(2) > button {
+    //width: 80px;
+}
+
+button[aria-expanded="true"], button[aria-expanded="true"]:hover, button[aria-expanded="false"]:hover {
+    border-bottom: solid 2px #2e1e12;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: 50px;
+    //width: 90px; // added to fix issue on android where the underscore is too small when menu is open but button is NOT focused  TK 050516
+	width:68px;
+}
+.ivmBranding:hover {
+    border-bottom: solid 2px #2e1e12;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    height: 50px;
+    //width: 90px; // added to fix issue on android where the underscore is too small when menu is open but button is NOT focused  TK 050516
+	width:55px;
+}
+
+@media (max-width: 360px){
+    
+    button[aria-expanded="false"]:hover {
+        border-bottom: none;
+
+    }
+    
+}
+
+#miniNavContainer > div > div:nth-child(5) > div > ul > form > fieldset > div > div > p {
+  top: 0;  
+}
+#miniNavContainer > div > div:nth-child(5) > div > ul > form > fieldset > div {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+
+
+.col-xs-4 {
+    width: 32.5%;
+}
+
+
+.ivmBranding {
+    float: left;
+    width: 55px;
+    //width: 90px;
+    height: 50px;
+    position: relative;
+    padding-top: 12px;
+    cursor: pointer;
+	//margin-right:10px;
+    /*
+    a {
+        outline: none;
+    }
+    */
+}
+
+//scale the new fs logo svg TK 051816
+div.ivmBranding img {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: -2px;
+    left: -2px;
+}
+.iayBranding {
+    position: absolute;
+    right: 0px;
+    top: 12px;
+    width: 107px;
+	&:hover{
+		border-bottom: solid 2px #2e1e12;
+		height: 38px;
+	}
+	img{
+		height:28px;
+	}
+}
+.accessible {
+  color: $accessibleColor;
+}
+#miniNavContainer .btn, #toolsDropdown a {
+    /* margin-bottom: 0; */
+    /* font-weight: normal; */
+    /* text-align: center; */
+    /* vertical-align: middle; */
+    -ms-touch-action: manipulation;
+    /* touch-action: manipulation; */
+    /* cursor: pointer; */
+    /* background-image: none; */
+    /* white-space: nowrap; */
+    /* font-size: 15px; */
+    /* border-radius: 0; */
+    /* -webkit-user-select: none; */
+    -moz-user-select: none;
+    -ms-user-select: none;
+    /* padding-bottom: 10px; */
+    /* padding-top: 10px; */
+    width: 118px;
+    height: 75px;
+    left: -11px;
+    position: relative;
+    border: none;
+    background: transparent;
+}
+
+
+
+
+/* The following adds animation to show and hide of divs. used in navBar */
+/* line 378, _navbar.scss */
+.animate-show.ng-hide-add, .animate-show.ng-hide-remove {
+  transition: all linear 0.3s;
+}
+
+/* line 381, _navbar.scss */
+.animate-show.ng-hide {
+  /* line-height: 0; */
+  opacity: 0;
+  /* padding: 0 10px; */
+}
+
+.dropdown-menu > li > a {
+  color: $fsbrown;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+.activity {
+    font-size: 32px;
+}
+.activity:hover {
+  //color: #076727;
+}
+
+
+.activity p, .stateforest p, .searchform .help-block, #miniNavContainer span.menuBox, #toolsDropdown span.menuBox{
+    font-size: 9.5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: -15px;
+    /*color: $fsbrown;*/
+}
+
+.activity p:hover, .stateforest p:hover, .searchform .help-block, #miniNavContainer span.menuBox:hover, #toolsDropdown span.menuBox:hover{
+    color: $fsgreen;
+}
+
+p#explore_select_state {
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: 0;
+}
+
+header h2.h3 {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding: 4px 8px;
+    background: rgba(46, 30, 18, 0.9);
+    display: inline-block;
+}
+/*#miniNavContainer > div > div:nth-child(2) > div > ul > header
+ {
+    background-image: url(../images/headerrecreation.jpg);
+    background-position: center;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+//    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+motorized dropdown header
+#miniNavContainer > div.miniNav > div:nth-child(3) > div > ul > header {
+    background-image: url(../images/headermoto.jpg);
+    background-position: center;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+nonmotorized dropdown header
+#miniNavContainer > div.miniNav > div:nth-child(4) > div > ul > header {
+    background-image: url(../images/headernonmotor.jpg);
+    background-position: center;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#miniNavContainer > div > div:nth-child(4) > div > ul > header {
+    background-image: url(../images/header-search.jpg);
+    background-position: center;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+//    background-size: 100%;
+    background-repeat: no-repeat;
+}
+#miniNavContainer > div > div:nth-child(5) > div > ul > header {
+    background-image: url(../images/headersettings.jpg);
+    background-position: center;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+//    background-size: 100%;
+    background-repeat: no-repeat;
+}
+*/
+
+#compassDropdown > ul > header {
+    background-image: url(../images/headerexplore.jpg);
+    background-position: center;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+}   
+#searchDropdown > ul > header {
+    background-image: url(../images/header-search.jpg);
+    background-position: center;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+}   
+#toolsDropdown > ul > header {
+    background-image: url(../images/headersettings.jpg);
+    background-position: center;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    background-repeat: no-repeat;
+}   
+
+
+.miniNav {
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4);
+    height: 50px;
+    margin: 0 auto;
+    overflow: visible;
+    position: relative;
+    width: 360px;
+    background: white;
+    z-index: 10;
+    top: 10px;
+    //padding-left:5px;
+}
+
+.miniNav a,
+li.dropdown-submenu {
+    color: #777777;
+}
+.miniNav a:hover,
+i.fa.fa-bars:hover {
+    color: $fsbrown;
+}
+.miniNavRecsymbol,
+.miniNavRecsymbol:active {
+    width: 40px;
+    border: none;
+    top: -1px;
+    position: relative;
+    /* margin-top: -4px; */
+    /* padding-top: 4px; */
+    padding: 5px;
+}
+.miniNavRecsymbol:hover {
+    background-color: $fsbrown !important;
+    border: none;
+}
+
+
+.btn-ivmMenu {
+    /* display: inline-block; */
+    /* font-weight: normal; */
+    /* text-align: center; */
+    /* vertical-align: middle; */
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 0px solid transparent;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    height: 50px;
+    width: 70px;
+    /* padding-top: 6px; */
+    overflow: hidden;
+}
+//.dropdown:hover, .dropdown:active, 
+.btn-ivmMenu:active, .btn-ivmMenu:hover {
+    
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 0px solid transparent;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    height: 50px;
+    width: 70px;
+    /* padding-top: 6px; */
+    overflow: hidden;
+}
+
+
+
+/* this controls the hover in tools dropdown */
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    text-decoration: none;
+    background-color: transparent;
+    cursor:pointer;
+}
+.dropdown-menu > .active > a,
+.dropdown-menu > .active > a:hover,
+.dropdown-menu > .active > a:focus {
+    text-decoration: none;
+    outline: 0;
+    background-color: transparent;
+    cursor:pointer;
+
+}
+
+/* end override */
+
+.dropdown-menu {
+    width: 360px;
+    //left: -60px;
+    top: -1px;
+    border: 0;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+.dropdown-explore {
+    height: 458px;
+}
+.dropdown-menu:hover {}
+.toolsDropdown {
+    left: -185px;
+    position: relative;
+}
+
+.searchDropdown {
+    left: -120px;
+    position: relative;
+}
+.exploreDropdown {
+    left: -55px;
+    position: relative;
+}
+.dropdown {
+    width: 65px;
+    height: 50px;
+    /*
+    a, button {
+        outline: none;
+    }
+    */
+}
+.compassDropdown {
+    left: -55px;
+    position: relative;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    position: relative;
+}
+.dropdown-menu:target {
+    -webkit-transition: opacity 2.0s ease-in;
+       -moz-transition: opacity 2.0s ease-in;
+         -o-transition: opacity 2.0s ease-in;
+                                      opacity: 1;
+}
+
+
+/* style each main navbar icon individually TK 021716 */
+.nav-recsites {
+    font-size: 68px;
+    position: absolute;
+    top: 1px;
+    left: 0px;
+    height: 50px;
+    overflow: hidden;
+    margin-top: 0px;
+}
+
+.nav-mag-glass {
+    font-size: 28px;
+    position: absolute;
+    top: 10px;
+    left: 22px;
+    color: black;
+}
+.nav-tools {
+    font-size: 30px;
+    position: absolute;
+    top: 9px;
+    left: 15px;
+}
+.nav-more {
+    font-size: 30px;
+    position: absolute;
+    top: 8px;
+    left: 29px;
+}
+
+/* Karen removed bit in next line:   button.btn.btn-xs.ng-valid.ng-dirty.btn-success.ng-touched */
+
+#explorecontent .btn:hover, #explorecontent .btn:active, #explorecontent .btn:focus, #explorecontent .btn:visited, #explorecontent .btn-success {
+//    background-color: #efefef !important;
+    outline: 0;
+    background-image: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: green !important;
+    text-shadow: 0px 0px 8px #FFFF52;
+    border: transparent;
+    padding-top: 8px;
+
+}
+
+#miniNavContainer .btn:hover, #miniNavContainer .btn:active, .btn.active, #miniNavContainer .btn:focus, #miniNavContainer .btn-success,
+#toolsDropdown a:hover, #toolsDropdown a:active, #toolsDropdown a:focus, #toolsDropdown a:visited {
+//    background-color: #efefef !important;
+    outline: 0;
+    background-image: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: green !important;
+    text-shadow: 0px 0px 8px #FFFF52;
+    border: transparent;
+        //padding-top: 8px;
+
+}
+
+
+/* END NAVBAR  */

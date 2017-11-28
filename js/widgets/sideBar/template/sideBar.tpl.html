@@ -1,0 +1,41 @@
+<button type="button" id="layersUCFlyout" ng-click="toggleLegendLayers(false)" tabindex="0" title="Show/Hide Layers" ng-show="!legendLayersObj.layersShowing" aria-hidden="{{legendLayersObj.layersShowing || legendLayersObj.legendShowing}}">
+	<i class="tk-layers-1"></i>
+	<span id="uc_text_layers">LAYERS</span>
+</button>
+<button type="button" id="legendUCFlyout" ng-click="toggleLegendLayers(true)" tabindex="0" title="Show/Hide Legend" ng-show="!legendLayersObj.legendShowing" aria-hidden="{{legendLayersObj.layersShowing || legendLayersObj.legendShowing}}">
+	<i class="tk-legend"></i>
+	<span id="uc_text_legend">LEGEND</span>
+</button>
+<button type="button" id="closeButton" ng-click="doClear()" tabindex="0" title="Clear items on map such as featured content, social networking items, weather, recreation sites, search results, etc..." aria-hidden="{{legendLayersObj.layersShowing || legendLayersObj.legendShowing}}">
+	<i class="tk-close-1"></i>
+	<span id="uc_text_clear"><p class="small">CLEAR</p><p class="small">MAP</p></span>
+</button>
+<button  type="button" id="surveyButton" ng-click="openTool('survey', 'window')" tabindex="0" title="Provide Feedback in a 5-minute survey" aria-hidden="{{legendLayersObj.layersShowing || legendLayersObj.legendShowing}}" >
+	<span><img src="images/survey.svg" width="30" height="27" style="padding-top: 5px"></span>
+	<span id="uc_text_clear"><p class="small"></p><p class="small" style="font-size:9px">ENHANCE</p></span>
+</button>      
+
+
+<div id="layersUC_outer" class="animate-slide" ng-show="legendLayersObj.layersShowing" ng-style="{'visibility': legendLayersObj.layersShowing ? 'visible':'hidden'}" aria-hidden="{{!legendLayersObj.layersShowing}}">
+	<div id="layersUCHeader" >
+		<i class="tk-layers-1"></i>
+		<h3>LAYERS</h3>
+		<button type="button" id="layersUC_close" ng-click="toggleLegendLayers(false)" title="Close Layers" ng-style="{'visibility': legendLayersObj.layersShowing ? 'visible':'hidden'}" aria-hidden="{{!legendLayersObj.layersShowing}}">
+			<i class="tk-caret-left" ></i>
+		</button>
+    </div>
+    
+	<div id="layersContainer" layersctrl ></div>
+</div>
+
+<div id="legendUC_outer" class="animate-slide" ng-show="legendLayersObj.legendShowing" ng-style="{'visibility': legendLayersObj.legendShowing ? 'visible':'hidden'}" aria-hidden="{{!legendLayersObj.legendShowing}}">
+	<div id="legendUCHeader" >
+		<i class="tk-legend"></i>
+		<h3>LEGEND</h3>
+		<button type="button" id="legendUC_close" ng-click="toggleLegendLayers(true)" title="Close Legend" ng-style="{'visibility': legendLayersObj.legendShowing ? 'visible':'hidden'}" aria-hidden="{{!legendLayersObj.legendShowing}}">
+			<i class="tk-caret-left" ></i>
+		</button>
+    </div>
+    
+    <div id="legendUCBody" role="alert" aria-label="Map Legend, showing the symbology for Forest System roads, trails, and boundaries" legendctrl ></div>
+</div>
